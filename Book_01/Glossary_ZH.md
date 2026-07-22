@@ -158,6 +158,25 @@
 | mean-variance optimization | 均值–方差优化 | Ch.7 | 现代投资组合理论 |
 | regularizing to the page | 正则化到那一页 | Ch.7 | 作者对达尔文的比喻 |
 | Goodhart's law | 古德哈特定律 | Ch.7（推断）| 与"数据崇拜"关联 |
+| constrained optimization | 约束优化 | Ch.8 | 运筹学标准译法 |
+| traveling salesman problem (TSP) | 旅行商问题（TSP）| Ch.8 | 标准译法；保留英文缩写 |
+| tractable / intractable | 可解的 / 难解的 | Ch.8 | 延续第 5 章译法 |
+| Cobham–Edmonds thesis | 科巴姆–埃德蒙兹论题 | Ch.8 | |
+| polynomial / exponential time | 多项式 / 指数时间 | Ch.8 | 计算复杂性标准译法 |
+| factorial time | 阶乘时间 | Ch.8 | O(n!)，延续第 3 章 |
+| NP-complete / P vs. NP | NP 完全 / P 对 NP | Ch.8 | 保留英文，标准记法 |
+| discrete / continuous optimization | 离散 / 连续优化 | Ch.8 | |
+| relaxation | 松弛 | Ch.8 | 运筹学标准译法；"放松/松弛"双关 |
+| Constraint Relaxation | 约束松弛 | Ch.8 | |
+| Continuous Relaxation | 连续松弛 | Ch.8 | 即 LP 松弛 |
+| Lagrangian Relaxation | 拉格朗日松弛 | Ch.8 | 标准译法 |
+| minimum spanning tree | 最小生成树 | Ch.8 | 图论标准译法 |
+| lower bound | 下界 | Ch.8 | |
+| approximation ratio | 近似比 | Ch.8 | 延续第 4 章"竞争比"体例 |
+| dominating set | 支配集 | Ch.8（提取者识别）| 书中未点名，仅描述 |
+| set cover | 集合覆盖 | Ch.8（提取者识别）| 书中未点名，仅描述 |
+| knapsack problem | 背包问题 | Ch.8 | 标准译法 |
+| randomized rounding | 随机化取整 | Ch.8（推断）| |
 | the turkey drop | 火鸡节分手 | Ch.1 | 美国校园俚语，指感恩节假期后分手；加译注 |
 | satisficing | 满意即可（satisficing） | Ch.1（审核） | Simon 术语，保留英文 |
 | outcome bias | 结果偏误 | Ch.1（审核） | 心理学标准译法 |
@@ -321,4 +340,20 @@
 | Jason Fried / David Heinemeier Hansson | — | Ch.7，企业家（粗马克笔）|
 | Henry Mintzberg | 亨利·明茨伯格 | Ch.7，麦吉尔大学 |
 | Annie Get Your Gun | 《安妮，拿起你的枪》 | Ch.7 题记 |
+| Meghan Bellows | — | Ch.8，普林斯顿化工博士 |
+| Abraham Lincoln | 亚伯拉罕·林肯 | Ch.8，"草原律师" |
+| Karl Menger | 卡尔·门格尔 | Ch.8，"邮差问题" |
+| Hassler Whitney | 哈斯勒·惠特尼 | Ch.8，1934 普林斯顿 |
+| Merrill Flood | 梅里尔·弗勒德 | Ch.8（亦见第 1 章），TSP 与秘书问题 |
+| Julia Robinson | 茱莉亚·罗宾逊 | Ch.8，1949 |
+| Jack Edmonds | 杰克·埃德蒙兹 | Ch.8，NIST |
+| Alan Cobham | 艾伦·科巴姆 | Ch.8，IBM |
+| Richard Karp | 理查德·卡普 | Ch.8，伯克利，1972 |
+| Jan Karel Lenstra | 扬·卡雷尔·伦斯特拉 | Ch.8（亦见第 5 章）|
+| Laura Albert McLay | — | Ch.8（亦见第 1、5 章），消防覆盖 |
+| Michael Trick / Sports Scheduling Group | — | Ch.8（亦见第 1、3 章），MLB/NCAA 赛程 |
+| Joseph-Louis Lagrange | 约瑟夫-路易·拉格朗日 | Ch.8，18 世纪法国数学家 |
+| Voltaire | 伏尔泰 | Ch.8 题记 |
+| The Princess Bride | 《公主新娘》 | Ch.8 题记 |
+| Christopher Booker | 克里斯托弗·布克 | Ch.8，英国专栏作家 |
 | *The High Cost of Free Parking* | 《免费停车的高昂代价》 | Ch.1，Shoup 著作 |
