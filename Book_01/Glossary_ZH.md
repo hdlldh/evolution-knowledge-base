@@ -137,6 +137,27 @@
 | German tank problem | 德国坦克问题 | Ch.6 | 统计学经典问题 |
 | protect your priors | 守护你的先验 | Ch.6 | 作者的处方 |
 | small data is big data in disguise | 小数据是伪装的大数据 | Ch.6 | 本章核心洞见 |
+| overfitting | 过拟合 | Ch.7 | 机器学习标准译法 |
+| underfitting | 欠拟合 | Ch.7 | 标准译法 |
+| generalize / generalization | 泛化 | Ch.7 | 机器学习标准译法 |
+| proxy metric | 代理指标 | Ch.7 | |
+| idolatry of data | 数据崇拜 | Ch.7 | 作者比喻，直译"对数据的偶像崇拜" |
+| cross-validation | 交叉验证 | Ch.7 | 机器学习标准译法 |
+| regularization | 正则化 | Ch.7 | 机器学习标准译法 |
+| the Lasso | 套索（Lasso）| Ch.7 | 保留英文；L1 正则化 |
+| Occam's razor | 奥卡姆剃刀 | Ch.7 | 标准译法 |
+| Tikhonov regularization | 吉洪诺夫正则化 | Ch.7 | 亦称岭回归/L2 |
+| complexity penalty | 复杂度惩罚 | Ch.7 | |
+| early stopping | 早停 | Ch.7 | 机器学习标准译法 |
+| heuristic | 启发式 | Ch.7 | 标准译法 |
+| less is more | 少即是多 | Ch.7 | Gigerenzer 效应 |
+| bias-variance tradeoff | 偏差–方差权衡 | Ch.7 | 机器学习标准译法 |
+| artificial neural network | 人工神经网络 | Ch.7 | 标准译法 |
+| training scar | 训练疤痕 | Ch.7 | 军警术语，直译 |
+| decussation | 神经交叉（decussation）| Ch.7 | 神经解剖学术语，首次保留英文 |
+| mean-variance optimization | 均值–方差优化 | Ch.7 | 现代投资组合理论 |
+| regularizing to the page | 正则化到那一页 | Ch.7 | 作者对达尔文的比喻 |
+| Goodhart's law | 古德哈特定律 | Ch.7（推断）| 与"数据崇拜"关联 |
 | the turkey drop | 火鸡节分手 | Ch.1 | 美国校园俚语，指感恩节假期后分手；加译注 |
 | satisficing | 满意即可（satisficing） | Ch.1（审核） | Simon 术语，保留英文 |
 | outcome bias | 结果偏误 | Ch.1（审核） | 心理学标准译法 |
@@ -283,4 +304,21 @@
 | Ludwig Wittgenstein | 路德维希·维特根斯坦 | Ch.6 题记 |
 | Kenny Rogers, "The Gambler" | 肯尼·罗杰斯《赌徒》 | Ch.6 |
 | Ben Lerner | 本·勒纳 | Ch.6 题记 |
+| Charles Darwin / Emma Wedgwood | 查尔斯·达尔文 / 埃玛·韦奇伍德 | Ch.7 |
+| Benjamin Franklin | 本杰明·富兰克林 | Ch.7，"道德代数" |
+| Daniel Gilbert | 丹尼尔·吉尔伯特 | Ch.7，哈佛，情感预测 |
+| Steve Jobs | 史蒂夫·乔布斯 | Ch.7 |
+| Sam Altman | 萨姆·奥尔特曼 | Ch.7，Y Combinator |
+| V. F. Ridgway | — | Ch.7，康奈尔，1950 年代绩效指标 |
+| Avinash Kaushik | — | Ch.7，谷歌数字营销 |
+| Dave Grossman | 戴夫·格罗斯曼 | Ch.7，前陆军游骑兵/西点心理学 |
+| Andrey Tikhonov | 安德烈·吉洪诺夫 | Ch.7，俄国数学家 |
+| Robert Tibshirani | 罗伯特·蒂布希拉尼 | Ch.7，生物统计学家，Lasso |
+| Harry Markowitz | 哈里·马科维茨 | Ch.7，1990 诺奖，投资组合理论 |
+| Gerd Gigerenzer / Henry Brighton | 格尔德·吉仁泽 / — | Ch.7，"少即是多" |
+| Samuel Revusky / Erwin Bedarf | — | Ch.7 题记 |
+| Larry Finkel / Vita Coco / Silk | — | Ch.7，饮料市场 |
+| Jason Fried / David Heinemeier Hansson | — | Ch.7，企业家（粗马克笔）|
+| Henry Mintzberg | 亨利·明茨伯格 | Ch.7，麦吉尔大学 |
+| Annie Get Your Gun | 《安妮，拿起你的枪》 | Ch.7 题记 |
 | *The High Cost of Free Parking* | 《免费停车的高昂代价》 | Ch.1，Shoup 著作 |
