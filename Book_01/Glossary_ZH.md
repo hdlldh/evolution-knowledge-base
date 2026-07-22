@@ -50,6 +50,93 @@
 | ECMO (extracorporeal membrane oxygenation) | 体外膜肺氧合（ECMO） | Ch.2 | 医学标准译法 |
 | socioemotional selectivity | 社会情绪选择性 | Ch.2 | Carstensen 理论，心理学标准译法 |
 | evolutionary mismatch | 进化失配 | Ch.2 | |
+| sorting | 排序 | Ch.3 | 计算机科学标准译法 |
+| diseconomies of scale | 规模不经济 | Ch.3 | 经济学标准译法；对应 economy of scale 规模经济 |
+| Big-O notation | 大 O 记号（Big-O） | Ch.3 | 保留英文；constant/linear/quadratic time 作 常数/线性/平方 时间 |
+| linearithmic time | 线性对数时间 | Ch.3 | O(n log n)；本书自造 "linearithmic"，取通行译法 |
+| factorial time | 阶乘时间 | Ch.3 | O(n!) |
+| worst-case analysis | 最坏情况分析 | Ch.3 | |
+| Bubble Sort | 冒泡排序 | Ch.3 | 标准译法 |
+| Insertion Sort | 插入排序 | Ch.3 | 标准译法 |
+| Mergesort | 归并排序 | Ch.3 | 标准译法 |
+| Bucket Sort | 桶排序 | Ch.3 | 标准译法；bucket 作"桶" |
+| Comparison Counting Sort | 比较计数排序 | Ch.3 | |
+| divide and conquer | 分治 | Ch.3 | 算法标准译法 |
+| search-sort tradeoff | 搜索–排序权衡 | Ch.3 | 与 explore/exploit 译法体例一致 |
+| noise / noisy comparator | 噪声 / 有噪比较器 | Ch.3 | |
+| robustness | 鲁棒性 | Ch.3 | 计算机科学标准译法 |
+| Single Elimination | 单败淘汰 | Ch.3 | 体育赛制标准译法 |
+| Round-Robin | 循环赛 | Ch.3 | 体育赛制标准译法 |
+| Ladder tournament | 阶梯赛 | Ch.3 | |
+| bracket tournament | 对阵表淘汰赛 | Ch.3 | March Madness 即此类 |
+| ordinal / cardinal | 序数 / 基数 | Ch.3 | 与第 1 章保持一致 |
+| dominance hierarchy | 支配等级 | Ch.3 | 动物行为学标准译法 |
+| pecking order | 啄食顺序 | Ch.3 | 标准译法 |
+| displacement | 位移（displacement） | Ch.3 | 动物行为学术语，指以等级认知避免冲突而让位；首次出现保留英文 |
+| agonistic behavior | 争斗行为 | Ch.3 | 动物行为学标准译法 |
+| benchmark | 基准 | Ch.3 | |
+| Law of Gross Tonnage | 总吨位法则 | Ch.3 | 意译，指大船优先 |
+| caching | 缓存 | Ch.4 | 计算机科学标准译法；cache 作"缓存" |
+| memory hierarchy | 存储层级 | Ch.4 | 标准译法 |
+| cache eviction / replacement | 缓存驱逐 / 替换 | Ch.4 | eviction policy 作"驱逐策略" |
+| cache miss / page fault | 缓存未命中 / 缺页 | Ch.4 | 标准译法 |
+| clairvoyant algorithm | 未卜先知算法 | Ch.4 | 意译，指依赖未来数据的算法 |
+| Bélády's Algorithm | 贝拉迪算法（Bélády's Algorithm） | Ch.4 | 最优驱逐；人名保留原文 |
+| LRU (Least Recently Used) | 最近最少使用（LRU） | Ch.4 | 保留英文缩写，标准译法 |
+| FIFO (First-In, First-Out) | 先进先出（FIFO） | Ch.4 | 保留英文缩写，标准译法 |
+| Random Eviction | 随机驱逐 | Ch.4 | |
+| temporal locality | 时间局部性 | Ch.4 | 计算机体系结构标准译法 |
+| memory wall | 内存墙 | Ch.4 | 标准译法 |
+| Moore's Law | 摩尔定律 | Ch.4 | 标准译法 |
+| self-organizing lists | 自组织列表 | Ch.4 | |
+| content distribution network (CDN) | 内容分发网络（CDN） | Ch.4 | 标准译法 |
+| the forgetting curve | 遗忘曲线 | Ch.4 | 艾宾浩斯遗忘曲线，标准译法 |
+| memory as organization not storage | 记忆是组织问题而非存储问题 | Ch.4 | Anderson 的核心重构 |
+| tip-of-the-tongue | 话到嘴边（想不起来） | Ch.4 | 心理学标准译法 |
+| competitive ratio | 竞争比 | Ch.4 | 在线算法理论标准译法 |
+| scheduling | 调度 | Ch.5 | 计算机科学标准译法；日常语境亦作"安排日程" |
+| single-machine scheduling | 单机调度 | Ch.5 | 标准译法；"单机"即"我们自己" |
+| metric | 指标 | Ch.5 | 本章核心：先选指标，再谈计划 |
+| maximum lateness | 最大延迟 | Ch.5 | |
+| Earliest Due Date (EDD) | 最早截止日期优先（EDD） | Ch.5 | 保留英文缩写 |
+| Moore's Algorithm | 摩尔算法 | Ch.5 | 最小化迟到项数量；与摩尔定律无关 |
+| Shortest Processing Time (SPT) | 最短处理时间优先（SPT） | Ch.5 | 保留英文缩写 |
+| sum of completion times | 完成时间之和 | Ch.5 | |
+| weight / weighted | 权重 / 加权 | Ch.5 | 任务重要性 |
+| density (weight ÷ duration) | 密度（权重 ÷ 时长）| Ch.5 | 作者用"密度"延续权重比喻 |
+| debt avalanche / debt snowball | 债务雪崩法 / 债务雪球法 | Ch.5 | 理财领域通行译法 |
+| precedence constraint | 优先约束 | Ch.5 | 调度理论标准译法 |
+| priority inversion | 优先级反转 | Ch.5 | 实时系统标准译法 |
+| priority inheritance | 优先级继承 | Ch.5 | 实时系统标准译法 |
+| intractable / intractability | 难解的 / 难解性 | Ch.5 | 计算复杂性标准译法（NP 难一类）|
+| preemption | 抢占 | Ch.5 | 操作系统标准译法 |
+| clairvoyance (as burden) | 未卜先知（作为负担）| Ch.5 | 延续第 4 章译法 |
+| context switch | 上下文切换 | Ch.5 | 操作系统标准译法 |
+| metawork | 元工作 | Ch.5 | 意译，指"关于工作的工作"、纯开销 |
+| thrashing | 抖动 / 颠簸（thrashing）| Ch.5 | 操作系统标准译法"抖动"；首次保留英文 |
+| working set | 工作集 | Ch.5 | 延续第 4 章缓存语境 |
+| responsiveness / throughput | 响应性 / 吞吐量 | Ch.5 | 系统标准译法 |
+| time slice / minimum slice | 时间片 / 最小时间片 | Ch.5 | 操作系统标准译法 |
+| timeboxing / pomodoro | 时间盒 / 番茄工作法 | Ch.5 | 通行译法 |
+| interrupt coalescing | 中断合并 | Ch.5 | 操作系统标准译法 |
+| batch processing | 批处理 | Ch.5 | 标准译法 |
+| Bayes's Rule | 贝叶斯法则 | Ch.6 | 标准译法 |
+| Bayesian inference | 贝叶斯推断 | Ch.6 | 标准译法 |
+| reasoning backward / forward | 逆向推理 / 正向推理 | Ch.6 | |
+| likelihood | 似然 | Ch.6 | 统计学标准译法 |
+| prior (probability) | 先验（概率） | Ch.6 | 贝叶斯标准译法；posterior 作"后验" |
+| Laplace's Law / rule of succession | 拉普拉斯法则 / 承袭规则 | Ch.6 | (w+1)/(n+2) |
+| uninformative / uniform prior | 无信息先验 / 均匀先验 | Ch.6 | |
+| Copernican Principle | 哥白尼原理 | Ch.6 | Gott 命名 |
+| normal / Gaussian distribution | 正态 / 高斯分布 | Ch.6 | 标准译法；bell curve 作"钟形曲线" |
+| power-law / scale-free distribution | 幂律 / 无标度分布 | Ch.6 | 标准译法 |
+| Erlang distribution | 埃尔朗分布 | Ch.6 | 排队论标准译法 |
+| memoryless | 无记忆（性） | Ch.6 | 概率论标准译法 |
+| preferential attachment | 优先连接 | Ch.6 | 网络科学标准译法；"富者愈富" |
+| Multiplicative / Average / Additive Rule | 乘法 / 平均 / 加法法则 | Ch.6 | 三条预测规则 |
+| German tank problem | 德国坦克问题 | Ch.6 | 统计学经典问题 |
+| protect your priors | 守护你的先验 | Ch.6 | 作者的处方 |
+| small data is big data in disguise | 小数据是伪装的大数据 | Ch.6 | 本章核心洞见 |
 | the turkey drop | 火鸡节分手 | Ch.1 | 美国校园俚语，指感恩节假期后分手；加译注 |
 | satisficing | 满意即可（satisficing） | Ch.1（审核） | Simon 术语，保留英文 |
 | outcome bias | 结果偏误 | Ch.1（审核） | 心理学标准译法 |
@@ -110,4 +197,90 @@
 | *Dead Poets Society* / Robin Williams | 《死亡诗社》/ 罗宾·威廉姆斯 | Ch.2 |
 | Tuskegee Syphilis Study | 塔斯基吉梅毒研究 | Ch.2 |
 | Belmont Report | 《贝尔蒙报告》 | Ch.2 |
+| Robert Cawdrey, *A Table Alphabeticall* | 罗伯特·考德里《字母表》 | Ch.3 题记，1604，首部英语词典 |
+| Danny Hillis / Thinking Machines / Connection Machine | 丹尼·希利斯 / 思维机器公司 / 连接机 | Ch.3 |
+| Ron Rivest | 罗恩·里维斯特 | Ch.3，图灵奖密码学家 |
+| J. C. Hosken | — | Ch.3，1955 首篇排序论文 |
+| Herman Hollerith / Hollerith Machine | 赫尔曼·霍尔瑞斯 / 霍尔瑞斯制表机 | Ch.3，IBM 前身 |
+| Zdeněk Bradáč | 兹德涅克·布拉达奇 | Ch.3，捷克魔术师 |
+| John von Neumann | 约翰·冯·诺依曼 | Ch.3 |
+| Eric Schmidt | 埃里克·施密特 | Ch.3，谷歌 CEO |
+| Steve Whittaker | — | Ch.3，IBM / UC 圣克鲁兹，邮件研究 |
+| Charles Lutwidge Dodgson / Lewis Carroll | 查尔斯·勒特威奇·道奇森 / 刘易斯·卡罗尔 | Ch.3，《爱丽丝梦游仙境》作者 |
+| Michael Trick | — | Ch.3（亦见第 1 章），MLB/NCAA 赛程编排者 |
+| Tom Murphy | — | Ch.3，UCSD 物理学家 |
+| Dave Ackley | — | Ch.3，新墨西哥大学，"人工生命" |
+| Isaac Haxton | — | Ch.3，顶级单挑扑克选手 |
+| Christof Neumann | — | Ch.3，纳沙泰尔大学，猕猴支配行为 |
+| Jessica Flack | — | Ch.3，UW–Madison 复杂性与集体计算中心 |
+| Jordan Ho | — | Ch.3，伯克利本科生，图书分拣能手 |
+| Preston Sort Center / King County Library System | 普雷斯顿分拣中心 / 金县图书馆系统 | Ch.3 |
+| Salvatore Magaddino / NYPL | — / 纽约公共图书馆 | Ch.3 |
+| Fortune 500 | 《财富》500 强 | Ch.3 |
+| William James | 威廉·詹姆斯 | Ch.4 题记 |
+| Lydia Davis | 莉迪亚·戴维斯 | Ch.4 题记（亦见第 2 章） |
+| Sherlock Holmes | 夏洛克·福尔摩斯 | Ch.4 题记 |
+| Lewis Carroll | 刘易斯·卡罗尔 | Ch.4 题记（亦见第 3 章 Dodgson） |
+| Callimachus | 卡利马科斯 | Ch.4 题记，亚历山大图书馆馆长 |
+| Steven Wright | 史蒂文·赖特 | Ch.4 题记 |
+| Arthur Burks / Herman Goldstine / John von Neumann | 亚瑟·伯克斯 / 赫尔曼·戈德斯坦 / 约翰·冯·诺依曼 | Ch.4，1946 存储层级提案 |
+| Atlas (supercomputer) | Atlas 超级计算机 | Ch.4，1962 曼彻斯特 |
+| Maurice Wilkes | 莫里斯·威尔克斯 | Ch.4，剑桥，缓存概念 |
+| Gordon Moore | 戈登·摩尔 | Ch.4，英特尔 |
+| László "Les" Bélády | 拉斯洛·贝拉迪 | Ch.4，IBM，缓存算法奠基人 |
+| Beth Dupuis | — | Ch.4，UC 伯克利图书馆 |
+| Akamai / Stephen Ludin | 阿卡迈 / — | Ch.4，CDN 公司 |
+| Micah Mertes | — | Ch.4，影评人，2011 Netflix 地图 |
+| John Hennessy | 约翰·亨尼西 | Ch.4，斯坦福校长，计算机架构师 |
+| Julie Morgenstern / William Jones | — | Ch.4，家庭整理/信息管理作者 |
+| Rik Belew | — | Ch.4，UC 圣地亚哥 |
+| Yukio Noguchi | 野口悠纪雄 | Ch.4，东京大学经济学家，"超"整理法 |
+| Daniel Sleator / Robert Tarjan | 丹尼尔·斯利托 / 罗伯特·塔扬 | Ch.4，1985 自组织列表 |
+| Hermann Ebbinghaus | 赫尔曼·艾宾浩斯 | Ch.4，柏林大学，遗忘曲线 |
+| John Anderson / Lael Schooler | 约翰·安德森 / — | Ch.4，卡内基梅隆，自适应记忆 |
+| Michael Ramscar | — | Ch.4，图宾根大学，认知老化与语言 |
+| Aza Raskin | — | Ch.4，Firefox 前创意负责人 |
+| Martha Stewart / Francine Jay / Andrew Mellen | 玛莎·斯图尔特 / — / — | Ch.4，家庭整理专家 |
+| Annie Dillard | 安妮·迪拉德 | Ch.5 题记（亦见第 2 章） |
+| Eugene "Gene" Lawler | 尤金·劳勒 | Ch.5，伯克利，优先约束专家 |
+| Aristotle / Lao Tzu | 亚里士多德 / 老子 | Ch.5 题记 |
+| Frederick Taylor | 弗雷德里克·泰勒 | Ch.5，科学管理 |
+| Henry Gantt | 亨利·甘特 | Ch.5，甘特图 |
+| Selmer Johnson | 塞尔默·约翰逊 | Ch.5，兰德公司，1954 |
+| Jan Karel Lenstra | 扬·卡雷尔·伦斯特拉 | Ch.5，调度理论家 |
+| Laura Albert McLay | — | Ch.5（亦见第 1 章），运筹学 |
+| David Rosenbaum | — | Ch.5，宾州州立，"预支延迟"研究 |
+| Glenn Reeves | — | Ch.5，Pathfinder 软件负责人 |
+| Mitch Hedberg | 米奇·赫德伯格 | Ch.5，喜剧演员 |
+| Peter Denning | 彼得·邓宁 | Ch.5，多任务/抖动 |
+| Peter Zijlstra | — | Ch.5，Linux 调度器开发者 |
+| Kirk Pruhs | — | Ch.5，匹兹堡大学 |
+| Jason Fried | — | Ch.5，商业作家/程序员 |
+| Peter Norvig | 彼得·诺维格 | Ch.5，谷歌研究总监 |
+| Donald Knuth | 高德纳（唐纳德·克努特）| Ch.5，批处理"守护圣人"，TeX 作者 |
+| Ellen Ullman | 埃伦·厄尔曼 | Ch.5 题记 |
+| Rudyard Kipling, "If—" | 鲁德亚德·吉卜林《如果》 | Ch.5，被作者反驳 |
+| Getting Things Done / Eat That Frog! / The Now Habit / Wait | 《搞定》/《吃掉那只青蛙》/《拖延心理学》/《慢决策》 | Ch.5，时间管理畅销书 |
+| Mars Pathfinder | 火星探路者号 | Ch.5，1997 |
+| Bertrand Russell | 伯特兰·罗素 | Ch.6 题记 |
+| J. Richard Gott III | J. 理查德·戈特三世 | Ch.6，普林斯顿天体物理学家 |
+| Thomas Bayes | 托马斯·贝叶斯 | Ch.6，长老会牧师 |
+| Richard Price | 理查德·普莱斯 | Ch.6，贝叶斯的朋友 |
+| David Hume | 大卫·休谟 | Ch.6 题记 |
+| Pierre-Simon Laplace | 皮埃尔-西蒙·拉普拉斯 | Ch.6 |
+| Bishop George Berkeley | 乔治·贝克莱主教 | Ch.6，攻击牛顿微积分 |
+| Nicolaus Copernicus | 尼古拉·哥白尼 | Ch.6 |
+| Harold Jeffreys | 哈罗德·杰弗里斯 | Ch.6，电车问题 |
+| Carl Friedrich Gauss | 卡尔·弗里德里希·高斯 | Ch.6，正态分布 |
+| Agner Krarup Erlang | 阿格纳·克拉鲁普·埃尔朗 | Ch.6，哥本哈根电话公司 |
+| Dean Young | 迪恩·扬 | Ch.6，诗人 |
+| Stephen Jay Gould | 斯蒂芬·杰伊·古尔德 | Ch.6，哈佛生物学家 |
+| Josh Tenenbaum | 乔什·特南鲍姆 | Ch.6，MIT |
+| Walter Mischel | 沃尔特·米歇尔 | Ch.6，棉花糖实验 |
+| Joe McGuire / Joe Kable | — | Ch.6，宾大 |
+| Barry Glassner | 巴里·格拉斯纳 | Ch.6，社会学家 |
+| Peter Norvig | 彼得·诺维格 | Ch.6（亦见第 5 章）|
+| Ludwig Wittgenstein | 路德维希·维特根斯坦 | Ch.6 题记 |
+| Kenny Rogers, "The Gambler" | 肯尼·罗杰斯《赌徒》 | Ch.6 |
+| Ben Lerner | 本·勒纳 | Ch.6 题记 |
 | *The High Cost of Free Parking* | 《免费停车的高昂代价》 | Ch.1，Shoup 著作 |
