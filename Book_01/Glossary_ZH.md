@@ -291,6 +291,16 @@
 | fundamental / technical investor | 基本面 / 技术面投资者 | Ch.11 | 金融标准译法 |
 | flash crash | 闪崩 | Ch.11 | 金融标准译法（2010-05-06）|
 | categorical imperative | 绝对命令 / 定言命令 | Ch.11 | 康德伦理学标准译法 |
+| computational kindness | 计算式善意 | 结论章 | 作者自创术语；此前第 1 章前瞻已暂定此译，正式确立 |
+| process vs. outcome | 过程对结果 | 结论章 | 区分决策过程与结果；对应"结果偏误"outcome bias |
+| computational Stoicism | 计算式斯多葛主义 | 结论章 | 作者自造，融合斯多葛"过程重于结果"与算法常失败 |
+| verification vs. search | 验证对搜索 | 结论章 | 识别好方案易、生成好方案难；P/NP 意味 |
+| spinning / blocking | 自旋 / 阻塞 | 结论章 | 操作系统标准译法；线程等待资源的两种方式 |
+| cognitive load | 认知负荷 | 结论章 | 心理学标准译法 |
+| cognitive subsidy | 认知补贴 | 结论章 | 作者自造，指减轻公众思考负担的设计 |
+| labor of thought | 思考的劳作 | 结论章 | 作者用语；好算法旨在将其最小化 |
+| scope insensitivity | 范围不敏感 | 结论章（提取者识别）| 心理学术语；企鹅/恐怖主义之例，书中未点名 |
+| change-making | 找零 | 结论章 | Shallit 18 美分硬币之例 |
 
 ## 人名与机构（保留原文，首次出现加注）
 
@@ -566,3 +576,6 @@
 | Jean-Paul Sartre | 让-保罗·萨特 | Ch.11，"他人即地狱" |
 | James Branch Cabell | 詹姆斯·布兰奇·卡贝尔 | Ch.11，"乐观者/悲观者"名言 |
 | Aalsmeer Flower Auction | 阿尔斯梅尔鲜花拍卖 | Ch.11，世界最大鲜花拍卖（荷兰）|
+| Merrill Flood | 梅里尔·弗勒德 | 结论章题记（亦见第 1、8 章）|
+| Bertrand Russell | 伯特兰·罗素 | 结论章（亦见第 6 章题记），"最智之举" |
+| Jeffrey Shallit | 杰弗里·沙利特 | 结论章，滑铁卢大学，18 美分硬币（2003）|
