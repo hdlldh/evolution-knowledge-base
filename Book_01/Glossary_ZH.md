@@ -183,6 +183,114 @@
 | risk of ruin | 破产风险 | Ch.1 | |
 | backward induction | 逆向归纳 | Ch.1 | 博弈论标准译法 |
 | computational kindness | 计算式善意 | 结论章（前瞻） | 作者自创术语，暂定译法 |
+| randomized algorithm | 随机化算法 | Ch.9 | 计算机科学标准译法；对应 deterministic algorithm 确定性算法 |
+| deterministic algorithm | 确定性算法 | Ch.9 | 标准译法 |
+| sampling | 抽样 / 采样 | Ch.9 | 统计学作"抽样"，计算语境亦作"采样" |
+| the Monte Carlo Method | 蒙特卡洛方法 | Ch.9 | 标准译法；得名于摩纳哥蒙特卡洛赌场 |
+| Buffon's needle | 布丰投针 | Ch.9 | 概率论经典问题，标准译法 |
+| combinatorial explosion | 组合爆炸 | Ch.9 | 标准译法 |
+| unvigintillion | 千的二十二次方（unvigintillion）| Ch.9 | 极大数词，保留英文并加注 |
+| branching process | 分支过程 | Ch.9 | 概率论标准译法 |
+| primality / primality testing | 素性 / 素性检验 | Ch.9 | 数论标准译法 |
+| the Sieve of Eratosthenes | 埃拉托斯特尼筛法 | Ch.9 | 标准译法 |
+| one-way function | 单向函数 | Ch.9 | 密码学标准译法 |
+| witness (to primality/novelty) | 见证（数）| Ch.9 | 算法理论中 witness 通译"见证"；文中兼指素性反例与新颖性证据 |
+| false positive | 假阳性 | Ch.9 | 统计学标准译法 |
+| Miller-Rabin primality test | 米勒–拉宾素性检验 | Ch.9 | 标准译法，人名保留 |
+| twin primes | 孪生素数 | Ch.9 | 数论标准译法（相差 2 的两个素数，如 5 和 7）|
+| AKS primality test | AKS 素性检验 | Ch.9 | 2002 年确定性算法；保留英文缩写 |
+| polynomial identity testing | 多项式恒等检验 | Ch.9 | 标准译法 |
+| veil of ignorance | 无知之幕 | Ch.9 | 罗尔斯政治哲学标准译法 |
+| liberty / equality | 自由 / 平等 | Ch.9 | |
+| error probability | 错误概率 | Ch.9 | 本章第三维权衡（时间/空间/确定性）|
+| Bloom filter | 布隆过滤器 | Ch.9 | 计算机科学标准译法，人名保留 |
+| probabilistic data structure | 概率数据结构 | Ch.9 | 标准译法 |
+| Negative Capability | 消极感受力 | Ch.9 | 济慈文学术语，标准译法 |
+| discrete optimization | 离散优化 | Ch.9 | 延续第 8 章 |
+| greedy algorithm / myopic algorithm | 贪心算法 / 短视算法 | Ch.9 | 贪心为标准译法；作者以"短视"作同义强调 |
+| Hill Climbing | 爬山法 | Ch.9 | 优化标准译法 |
+| local maximum / global maximum | 局部最大值 / 全局最大值 | Ch.9 | 数学标准译法 |
+| error landscape | 误差地形 | Ch.9 | 意译，指解空间的高低起伏 |
+| jitter | 抖动（jitter）| Ch.9 | 此处指主动加入的随机扰动；与第 5 章 thrashing 的"抖动"区分，首次保留英文 |
+| Random-Restart / Shotgun Hill Climbing | 随机重启 / 霰弹式爬山法 | Ch.9 | 作者别称"霰弹式"，保留形象 |
+| the Metropolis Algorithm | 大都会算法 | Ch.9 | 算法以人名 Metropolis 命名，标准译法 |
+| Simulated Annealing | 模拟退火 | Ch.9 | 优化标准译法 |
+| annealing | 退火 | Ch.9 | 材料学标准译法 |
+| cooling schedule | 冷却进度表 | Ch.9 | 模拟退火术语 |
+| temperature (as randomness) | 温度（作为随机度）| Ch.9 | 本章核心类比：物理温度即分子随机运动 |
+| blind variation and selective retention | 盲目变异与选择性保留 | Ch.9 | Campbell 术语，标准译法 |
+| serendipity | 意外发现 / 机缘巧合（serendipity）| Ch.9 | Walpole 1754 造词；首次保留英文 |
+| Oblique Strategies | 迂回策略（卡片）| Ch.9 | Eno 与 Schmidt 的创意卡片 |
+| networking | 网络（联网）| Ch.10 | 计算机科学标准译法 |
+| protocol | 协议 | Ch.10 | 计算机网络标准译法；希腊词根 protokollon"第一层胶" |
+| connection | 连接 | Ch.10 | |
+| packet switching | 分组交换 | Ch.10 | 计算机网络标准译法 |
+| circuit switching | 电路交换 | Ch.10 | 计算机网络标准译法 |
+| packet | 分组 / 数据包 | Ch.10 | 标准译法；文中比喻为"明信片" |
+| TCP (Transmission Control Protocol) | 传输控制协议（TCP）| Ch.10 | 保留英文缩写，标准译法 |
+| bandwidth | 带宽 | Ch.10 | 标准译法 |
+| robustness | 鲁棒性 | Ch.10 | 延续第 3 章译法 |
+| acknowledgment / ACK | 确认 / 确认包（ACK）| Ch.10 | 计算机网络标准译法，保留英文缩写 |
+| Byzantine generals problem | 拜占庭将军问题 | Ch.10 | 分布式系统标准译法 |
+| impossibility result | 不可能性结论 | Ch.10 | 理论计算机科学用语 |
+| triple handshake | 三次握手 | Ch.10 | 网络标准译法（通译"三次握手"）|
+| retransmission | 重传 | Ch.10 | 网络标准译法 |
+| end-to-end | 端到端 | Ch.10 | 网络标准译法 |
+| latency | 延迟（latency）| Ch.10 | 网络标准译法；本章与 bandwidth 对举 |
+| round-trip time | 往返时间 | Ch.10 | 网络标准译法 |
+| breaking symmetry | 打破对称 | Ch.10 | 意译；文中指冲突双方错开 |
+| Exponential Backoff | 指数退避 | Ch.10 | 网络标准译法 |
+| ALOHAnet | ALOHA 网 | Ch.10 | 早期无线分组网，保留原名 |
+| dictionary attack | 字典攻击 | Ch.10 | 网络安全标准译法 |
+| flow control | 流量控制 | Ch.10 | 网络标准译法 |
+| congestion avoidance / congestion control | 拥塞避免 / 拥塞控制 | Ch.10 | 网络标准译法 |
+| AIMD (Additive Increase, Multiplicative Decrease) | 加性增、乘性减（AIMD）| Ch.10 | 网络标准译法，保留缩写 |
+| TCP sawtooth | TCP 锯齿（波形）| Ch.10 | 形象命名，保留"锯齿" |
+| metacommunicate | 元沟通 | Ch.10 | 意译，呼应第 5 章"元工作" |
+| throughput | 吞吐量 | Ch.10 | 延续第 5 章译法 |
+| Peter Principle | 彼得原理 | Ch.10 | 管理学标准译法 |
+| up or out | 不升即走 | Ch.10 | 意译，人事制度 |
+| backchannel | 反馈信道 / 后信道（backchannel）| Ch.10 | 语言学术语；Yngve 1970 造词，首次保留英文 |
+| bufferbloat | 缓冲膨胀（bufferbloat）| Ch.10 | 网络术语，Gettys 命名；首次保留英文 |
+| buffer | 缓冲区 | Ch.10 | 计算机标准译法；队列比喻 |
+| Tail Drop | 尾丢弃（Tail Drop）| Ch.10 | 网络队列术语，首次保留英文 |
+| queue / queueing | 队列 / 排队 | Ch.10 | 标准译法 |
+| ECN (Explicit Congestion Notification) | 显式拥塞通知（ECN）| Ch.10 | 网络标准译法，保留缩写 |
+| always buffered | 永远在缓冲 | Ch.10 | 作者对"永远在线"(always connected)的重构 |
+| game theory | 博弈论 | Ch.11 | 标准译法 |
+| algorithmic game theory | 算法博弈论 | Ch.11 | 博弈论与计算机科学交叉领域 |
+| recursion | 递归 | Ch.11 | 计算机科学标准译法；本章指"揣摩他人揣摩" |
+| leveling | 层级揣摩（leveling）| Ch.11 | 扑克术语，Dan Smith 用语；首次保留英文 |
+| the halting problem | 停机问题 | Ch.11 | 计算理论标准译法 |
+| Turing machine | 图灵机 | Ch.11 | 标准译法 |
+| equilibrium | 均衡 | Ch.11 | 博弈论标准译法 |
+| Nash equilibrium | 纳什均衡 | Ch.11 | 博弈论标准译法 |
+| dominant strategy | 占优策略 | Ch.11 | 博弈论标准译法 |
+| mixed strategy | 混合策略 | Ch.11 | 博弈论标准译法（如石头剪刀布 1/3 均匀）|
+| the prisoner's dilemma | 囚徒困境 | Ch.11 | 博弈论标准译法 |
+| cooperate / defect | 合作 / 背叛 | Ch.11 | 囚徒困境标准译法 |
+| the price of anarchy | 无政府代价 | Ch.11 | 算法博弈论标准译法 |
+| selfish routing | 自私路由 | Ch.11 | 网络博弈论术语 |
+| the tragedy of the commons | 公地悲剧 | Ch.11 | 生态学/经济学标准译法（Hardin）|
+| the commons | 公地 | Ch.11 | |
+| race to the bottom | 逐底竞争 | Ch.11 | 经济学标准译法 |
+| mechanism design | 机制设计 | Ch.11 | 经济学标准译法；亦称"反向博弈论" |
+| reverse game theory | 反向博弈论 | Ch.11 | 机制设计别称 |
+| commitment problem / device | 承诺问题 / 承诺装置 | Ch.11 | 博弈论标准译法 |
+| information cascade | 信息级联 | Ch.11 | 信息经济学标准译法 |
+| auction | 拍卖 | Ch.11 | 标准译法 |
+| sealed-bid first-price auction | 密封第一价格拍卖 | Ch.11 | 拍卖理论标准译法 |
+| Dutch auction / descending auction | 荷兰式拍卖 / 降价拍卖 | Ch.11 | 拍卖理论标准译法 |
+| English auction / ascending auction | 英式拍卖 / 增价拍卖 | Ch.11 | 拍卖理论标准译法 |
+| bid-shading | 压价（bid-shading）| Ch.11 | 拍卖理论术语，指低于真实估值出价；首次保留英文 |
+| winner's curse | 赢者诅咒 | Ch.11（提取者识别）| 拍卖理论标准译法；书中描述未点名 |
+| Vickrey auction / second-price auction | 维克里拍卖 / 第二价格拍卖 | Ch.11 | 拍卖理论标准译法，人名保留 |
+| strategy-proof / truthful | 防策略 / 诚实（机制）| Ch.11 | 机制设计标准译法 |
+| revenue equivalence | 收益等价 | Ch.11 | 拍卖理论标准译法 |
+| the revelation principle | 显示原理 | Ch.11 | 机制设计标准译法（Myerson）|
+| fundamental / technical investor | 基本面 / 技术面投资者 | Ch.11 | 金融标准译法 |
+| flash crash | 闪崩 | Ch.11 | 金融标准译法（2010-05-06）|
+| categorical imperative | 绝对命令 / 定言命令 | Ch.11 | 康德伦理学标准译法 |
 
 ## 人名与机构（保留原文，首次出现加注）
 
@@ -357,3 +465,104 @@
 | The Princess Bride | 《公主新娘》 | Ch.8 题记 |
 | Christopher Booker | 克里斯托弗·布克 | Ch.8，英国专栏作家 |
 | *The High Cost of Free Parking* | 《免费停车的高昂代价》 | Ch.1，Shoup 著作 |
+| Michael Rabin | 迈克尔·拉宾 | Ch.9 题记，图灵奖得主，随机化算法先驱 |
+| Georges-Louis Leclerc, Comte de Buffon | 布丰伯爵（乔治-路易·勒克莱尔）| Ch.9，1777 投针实验 |
+| Pierre-Simon Laplace | 皮埃尔-西蒙·拉普拉斯 | Ch.9（亦见第 6 章），1812 提出抽样估计 π |
+| Mario Lazzarini | 马里奥·拉扎里尼 | Ch.9 脚注，1901 疑似造假的 π 估计 |
+| Stanislaw "Stan" Ulam | 斯坦尼斯瓦夫·乌拉姆 | Ch.9，曼哈顿计划数学家，蒙特卡洛方法 |
+| John von Neumann | 约翰·冯·诺依曼 | Ch.9（亦见第 3、4 章）|
+| Nicholas Metropolis | 尼古拉斯·梅特罗波利斯 | Ch.9，命名蒙特卡洛方法，大都会算法 |
+| F. Scott Fitzgerald | F. 斯科特·菲茨杰拉德 | Ch.9，被引"一流智力"名言 |
+| Gary Miller | 加里·米勒 | Ch.9，伯克利，素性检验方程 |
+| Vaughan Pratt | 沃恩·普拉特 | Ch.9，MIT，实现拉宾算法 |
+| Manindra Agrawal / Neeraj Kayal / Nitin Saxena | 曼因德拉·阿格拉瓦尔 / 尼拉杰·卡亚尔 / 尼廷·萨克塞纳 | Ch.9，2002 IIT，AKS 算法 |
+| G. H. Hardy | G. H. 哈代 | Ch.9，称素数研究"最无用的分支" |
+| John Rawls | 约翰·罗尔斯 | Ch.9，哈佛，《正义论》，无知之幕 |
+| Scott Aaronson | 斯科特·阿伦森 | Ch.9，MIT，复杂性理论与哲学 |
+| Ursula K. Le Guin | 厄休拉·勒古恩 | Ch.9，《离开奥梅拉斯的人》(Omelas) |
+| GiveDirectly / Rebecca Lange | GiveDirectly（直接给予）/ 丽贝卡·兰格 | Ch.9，无条件现金转移慈善 |
+| Michael Mitzenmacher | 迈克尔·米岑马赫 | Ch.9，哈佛，布隆过滤器 |
+| Burton H. Bloom | 伯顿·H. 布隆 | Ch.9，布隆过滤器发明者 |
+| John Keats | 约翰·济慈 | Ch.9 题记，"消极感受力" |
+| John Stuart Mill | 约翰·斯图尔特·密尔 | Ch.9 题记 |
+| Richard Kenney | 理查德·肯尼 | Ch.9 题记，诗人 |
+| Scott Kirkpatrick / Dan Gelatt | 斯科特·柯克帕特里克 / 丹·格拉特 | Ch.9，IBM，模拟退火 |
+| Salvador Luria | 萨尔瓦多·卢里亚 | Ch.9，诺奖得主，细菌突变实验 |
+| Horace Walpole | 霍勒斯·沃波尔 | Ch.9，1754 造词"serendipity" |
+| William James | 威廉·詹姆斯 | Ch.9（亦见第 4 章题记），1880 创造力理论 |
+| Donald Campbell | 唐纳德·坎贝尔 | Ch.9，1960"盲目变异与选择性保留" |
+| Ernst Mach / Henri Poincaré | 恩斯特·马赫 / 亨利·庞加莱 | Ch.9，被引论发现机制 |
+| Brian Eno / Peter Schmidt | 布莱恩·伊诺 / 彼得·施密特 | Ch.9，迂回策略卡片 |
+| Luke Rhinehart / George Cockcroft, *The Dice Man* | 卢克·莱因哈特 / 乔治·科克罗夫特《骰子人》 | Ch.9，1971 邪典小说 |
+| Vint Cerf / Bob Kahn | 温顿·瑟夫 / 鲍勃·卡恩 | Ch.10 题记，TCP 之父 |
+| E. M. Forster | E. M. 福斯特 | Ch.10 题记，"Only connect" |
+| Samuel F. B. Morse / Alfred Vail | 塞缪尔·莫尔斯 / 阿尔弗雷德·维尔 | Ch.10，1844 电报 |
+| Alexander Graham Bell / Watson | 亚历山大·格雷厄姆·贝尔 / 沃森 | Ch.10，1876 电话 |
+| Martin Cooper / Joel Engel | 马丁·库珀 / 乔尔·恩格尔 | Ch.10，1973 手机（摩托罗拉 / AT&T）|
+| Neil Papworth / Richard Jarvis | 尼尔·帕普沃思 / 理查德·贾维斯 | Ch.10，1992 首条短信 |
+| Charley Kline / Bill Duvall | 查理·克莱因 / 比尔·杜瓦尔 | Ch.10，1969 ARPANET 首条消息 |
+| Leonard Kleinrock | 伦纳德·克兰罗克 | Ch.10，UCLA，分组交换先驱 |
+| Van Jacobson | 范·雅各布森 | Ch.10，网络研究者，AIMD / bufferbloat |
+| Stuart Cheshire | 斯图尔特·切希尔 | Ch.10，苹果网络专家 |
+| Paul Baran / RAND Corporation | 保罗·巴兰 / 兰德公司 | Ch.10，抗核战网络设计 |
+| Tyler Treat | 泰勒·特里特 | Ch.10，软件博主 |
+| Norman Abramson | 诺曼·艾布拉姆森 | Ch.10，夏威夷大学，ALOHAnet |
+| T. H. Palmer | T. H. 帕尔默 | Ch.10 题记，"try, try again" |
+| Steven Alm | 史蒂文·阿尔姆 | Ch.10，夏威夷第一巡回法院法官，HOPE 项目 |
+| HOPE program | HOPE 缓刑项目 | Ch.10，火奴鲁鲁 |
+| Michael Karels | 迈克尔·卡雷尔斯 | Ch.10，UC 伯克利，AIMD |
+| Deborah Gordon / Balaji Prabhakar | 黛博拉·戈登 / 巴拉吉·普拉巴卡尔 | Ch.10，斯坦福，蚂蚁流量控制 |
+| Laurence J. Peter | 劳伦斯·J. 彼得 | Ch.10，彼得原理提出者 |
+| José Ortega y Gasset | 何塞·奥尔特加·伊·加塞特 | Ch.10，1910 西班牙哲学家 |
+| Cravath, Swaine & Moore | 凯威莱德律师事务所 | Ch.10，"Cravath 制度" |
+| Noam Chomsky | 诺姆·乔姆斯基 | Ch.10，语言学家 |
+| Victor Yngve | 维克托·英韦 | Ch.10，1970 造词"back channel" |
+| Janet Bavelas | 珍妮特·巴维拉斯 | Ch.10，维多利亚大学，反馈信道研究 |
+| Jackson Tolins / Jean Fox Tree | 杰克逊·托林斯 / 珍·福克斯·特里 | Ch.10，UC 圣克鲁兹，2014 |
+| Kathleen Nichols | 凯瑟琳·尼科尔斯 | Ch.10 题记，主动队列管理 |
+| Jim Gettys | 吉姆·盖蒂斯 | Ch.10，1999 HTTP 规范编辑，发现 bufferbloat |
+| Katy Perry | 凯蒂·佩里 | Ch.10，Twitter 缓冲之喻 |
+| Ray Tomlinson | 雷·汤姆林森 | Ch.10，电子邮件发明者 |
+| Aziz Ansari | 阿兹·安萨里 | Ch.10 题记，喜剧演员 |
+| The Zen of Python | 《Python 之禅》 | Ch.10 题记 |
+| Steve Jobs | 史蒂夫·乔布斯 | Ch.11 题记（亦见第 7 章）|
+| The Princess Bride | 《公主新娘》 | Ch.11 题记（亦见第 8 章）|
+| John Maynard Keynes | 约翰·梅纳德·凯恩斯 | Ch.11，选美博弈 |
+| Alan Turing | 阿兰·图灵 | Ch.11，停机问题（1936）|
+| James Bond / *Casino Royale* | 詹姆斯·邦德 /《皇家赌场》 | Ch.11 |
+| Dan Smith | 丹·史密斯 | Ch.11，顶级扑克选手 |
+| Tom Dwan / Sammy George | 汤姆·德万 / 萨米·乔治 | Ch.11，扑克诈唬 |
+| Vanessa Rousso | 凡妮莎·鲁索 | Ch.11，职业扑克选手 |
+| Hikaru Nakamura / Rybka | 中村光 / Rybka | Ch.11，2008 人机快棋 |
+| Rick Astley | 里克·阿斯特利 | Ch.11 题记 |
+| John Nash | 约翰·纳什 | Ch.11，纳什均衡（1951，1994 诺奖）|
+| *A Beautiful Mind* | 《美丽心灵》 | Ch.11，纳什传记书/电影 |
+| Roger Myerson | 罗杰·迈尔森 | Ch.11，诺奖，显示原理 |
+| Christos Papadimitriou | 赫里斯托斯·帕帕迪米特里乌 | Ch.11，UC 伯克利 |
+| Tim Roughgarden | 蒂姆·拉夫加登 | Ch.11，斯坦福 |
+| Scott Aaronson | 斯科特·阿伦森 | Ch.11（亦见第 9 章），MIT |
+| Kamal Jain | 卡马尔·贾恩 | Ch.11，eBay 前研究总监 |
+| Éva Tardos | 埃娃·塔多什 | Ch.11，康奈尔 |
+| Garrett Hardin | 加勒特·哈丁 | Ch.11，生态学家，公地悲剧（1968）|
+| Avrim Blum | 阿夫里姆·布卢姆 | Ch.11，卡内基梅隆，博弈论 |
+| Mathias Meyer / Travis CI | 马蒂亚斯·迈耶 / Travis CI | Ch.11，无限假期"逐底竞争" |
+| Ken Binmore | 肯·宾莫尔 | Ch.11，伦敦大学学院博弈论家 |
+| Ice-T | 冰-T | Ch.11 题记 |
+| Phil Libin / Evernote | 菲尔·利宾 / 印象笔记 | Ch.11，$1000 休假激励 |
+| Adam Smith, *The Theory of Moral Sentiments* | 亚当·斯密《道德情操论》 | Ch.11 题记 |
+| Blaise Pascal | 布莱兹·帕斯卡 | Ch.11 题记 |
+| Richard Dawkins | 理查德·道金斯 | Ch.11，红杉"空中草甸"比喻 |
+| Robert Frank | 罗伯特·弗兰克 | Ch.11，康奈尔经济学家，情感承诺 |
+| Friedrich Nietzsche | 弗里德里希·尼采 | Ch.11，"道德是个体中的从众本能" |
+| George Bernard Shaw | 萧伯纳 | Ch.11，"幸福即那把锁" |
+| Immanuel Kant | 伊曼努尔·康德 | Ch.11 脚注，绝对命令 |
+| Mark Twain | 马克·吐温 | Ch.11 题记 |
+| Sushil Bikhchandani / David Hirshleifer / Ivo Welch | 苏希尔·比赫昌达尼 / 大卫·赫舒拉发 / 伊沃·韦尔奇 | Ch.11，信息级联论文 |
+| Peter A. Lawrence, *The Making of a Fly* | 彼得·A. 劳伦斯《果蝇的形成》 | Ch.11，2011 亚马逊 $23.7M |
+| Jim Cramer | 吉姆·克莱默 | Ch.11，CNBC，闪崩 |
+| William Vickrey | 威廉·维克里 | Ch.11，诺奖，维克里拍卖 |
+| Noam Nisan | 诺姆·尼桑 | Ch.11，希伯来大学，算法博弈论 |
+| Paul Milgrom | 保罗·米尔格罗姆 | Ch.11，拍卖理论家 |
+| Jean-Paul Sartre | 让-保罗·萨特 | Ch.11，"他人即地狱" |
+| James Branch Cabell | 詹姆斯·布兰奇·卡贝尔 | Ch.11，"乐观者/悲观者"名言 |
+| Aalsmeer Flower Auction | 阿尔斯梅尔鲜花拍卖 | Ch.11，世界最大鲜花拍卖（荷兰）|
