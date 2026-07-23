@@ -726,173 +726,281 @@ Tags: computational-kindness, preferences, theory-of-mind
 
 ```
 Title Idea: The 37% Rule — the math of when to stop looking
+Application Domain: Everyday Life
+Hidden Principle: Optimization
 Core Question: When should you stop searching and commit?
-Concept: Optimal stopping
-Hook: There's a provably optimal moment to stop dating, apartment-hunting, or hiring — and it's exactly
-37% of the way through.
+Story Hook (Layer 1): There's a provably optimal moment to stop dating, apartment-hunting, or hiring — and
+it's exactly 37% of the way through.
+Principle Framework (Layer 2): Optimal stopping — spend a fixed fraction gathering a benchmark, then take
+the next option that beats everything seen so far; the failure rate is a property of the problem, not of
+you.
 Supporting Case: Kepler's courtships; Trick's age-26.1 proposal-and-rejection.
 Potential Conflict or Surprise: The optimal rule still fails 63% of the time — and works the same for 100
 or a million options.
+Character Perspective: Nova: Strategist
 Psychology Angle: Outcome bias; the anxiety of irreversible choice.
 Math Angle: The 1/e law; Look-Then-Leap vs. Threshold.
-Sports Angle: Judge the decision, not the result.
-AI Angle: Secretary/prophet problems in online algorithms.
+Sports Angle: Transfer windows as sequential irrevocable choice.
+Business Angle: Stop interviewing and make the offer once the field is calibrated.
+Investing Angle: Fix a "look" window, then commit to the first option that clears the bar.
+History Angle: Kepler and Trick as pre- and post-algorithm courtship case studies.
+AI Angle: Secretary / prophet problems in online algorithms.
+Transferability: High
 ```
 
 ```
 Title Idea: Why thinking harder gives you worse answers
+Application Domain: Everyday Life
+Hidden Principle: Signal vs. Noise
 Core Question: Can more data and more deliberation hurt?
-Concept: Overfitting and regularization
-Hook: A model with more factors fit the data perfectly — and predicted the future terribly.
+Story Hook (Layer 1): A model with more factors fit the data perfectly — and predicted the future
+terribly.
+Principle Framework (Layer 2): Overfitting — because data are noisy proxies, extra factors and extra
+thought fit the noise, not the signal, so simpler models (regularization) generalize better.
 Supporting Case: The nine-factor marriage model; Markowitz's 50/50 split; Darwin's pro/con page.
 Potential Conflict or Surprise: Your first instinct can be the rational choice; more information can be
 worse than less.
+Character Perspective: Insight: Interpreter
 Psychology Angle: Less-is-more; ecological rationality.
 Math Angle: Bias-variance; the Lasso; early stopping.
 Sports Angle: Overcoached teams; simple heuristics under pressure.
+Business Angle: Elaborate models that fit last quarter and miss next quarter.
+Investing Angle: Curve-fit backtests that blow up out of sample.
+History Angle: Why over-precise forecasts have a worse record than simple rules.
 AI Angle: Regularization, cross-validation — core ML.
+Transferability: High
 ```
 
 ```
 Title Idea: You're not always connected — you're always buffered
+Application Domain: Everyday Life
+Hidden Principle: Feedback Loops
 Core Question: Why does modern life feel like an infinite inbox?
-Concept: Bufferbloat, latency, Tail Drop
-Hook: A dad fixing his kids' slow wifi found a flaw in every device on Earth — and it explains your
-overwhelm.
+Story Hook (Layer 1): A dad fixing his kids' slow wifi found a flaw in every device on Earth — and it
+explains your overwhelm.
+Principle Framework (Layer 2): A buffer trades latency for throughput by making things wait; oversized,
+permanently-full buffers give "all the latency and none of the give," so the fix is Tail Drop — dropping
+balls on purpose.
 Supporting Case: Jim Gettys and bufferbloat; the 40-minute crêpe; Katy Perry's inbox.
 Potential Conflict or Surprise: A bigger buffer makes things worse; dropping balls on purpose is good
 management.
+Character Perspective: Echo: Observer
 Psychology Angle: Attention as a queue; the relief of Tail Drop.
 Math Angle: Queueing theory; latency vs. throughput.
 Sports Angle: Tactical fouling / conceding to protect the whole.
+Business Angle: Load-shedding a backlog instead of promising everyone "we'll get to it."
+Investing Angle: Cutting a bloated watchlist rather than monitoring everything at growing lag.
+History Angle: How cheap RAM quietly bloated the buffers of the entire Internet.
 AI Angle: Load-shedding and latency-vs-throughput in serving.
+Transferability: High
 ```
 
 ```
 Title Idea: The algorithm of forgiveness
+Application Domain: Everyday Life
+Hidden Principle: Decision Making
 Core Question: How do you keep giving someone chances without being a doormat?
-Concept: Exponential backoff
-Hook: The internet's trick for surviving failure is also the humane way to handle a flaky friend, an
-addicted relative, and a repeat offender.
+Story Hook (Layer 1): The internet's trick for surviving failure is also the humane way to handle a flaky
+friend, an addicted relative, and a repeat offender.
+Principle Framework (Layer 2): Exponential Backoff — after each failure, double the randomized wait before
+retrying — gives "finite patience and infinite mercy": effort falls toward zero without ever forcing a
+complete giving-up.
 Supporting Case: ALOHAnet's collapse; the HOPE probation program.
 Potential Conflict or Surprise: "Finite patience and infinite mercy" — you never fully give up, yet the
 retry rate falls to near zero.
-Psychology Angle: Forgiveness without martyrdom; behavior change by immediate escalation.
+Character Perspective: Insight: Interpreter
+Psychology Angle: Forgiveness without martyrdom; behaviour change by immediate escalation.
 Math Angle: Doubling delays; breaking symmetry with randomness.
 Sports Angle: Progressive overload; three-strikes reconsidered.
+Business Angle: Following up a non-responsive lead at widening intervals instead of quitting.
+Investing Angle: Averaging back in on a schedule after losses rather than capitulating.
+History Angle: HOPE probation (Judge Alm) as backoff reshaping criminal justice.
 AI Angle: Backoff-with-jitter in distributed systems.
+Transferability: High
 ```
 
 ```
 Title Idea: The math of why everyone's miserable (and how to fix it)
+Application Domain: Business
+Hidden Principle: Game Theory
 Core Question: Why do rational, well-meaning people arrive at outcomes terrible for everyone?
-Concept: Prisoner's dilemma, tragedy of the commons, mechanism design
-Hook: From unlimited vacation no one takes to a planet we're all torching — game theory explains the
-trap, and how to escape it.
+Story Hook (Layer 1): From unlimited vacation no one takes to a planet we're all torching — game theory
+explains the trap, and how to escape it.
+Principle Framework (Layer 2): A stable equilibrium of rational self-interest can be the worst outcome for
+all; you can't fix it from within, so change the game (mechanism design) — even worsening every payoff can
+make everyone better off.
 Supporting Case: The prisoner's dilemma + the Godfather; unlimited-vacation "race to the bottom."
 Potential Conflict or Surprise: Making every outcome worse can make everyone better off.
+Character Perspective: Sigma: Architect
 Psychology Angle: Social comparison; overwork.
 Math Angle: Dominant strategy; Nash equilibrium; price of anarchy.
 Sports Angle: Salary caps and anti-doping as mechanism design.
+Business Angle: Redesigning incentives (mandates, contracts) instead of exhorting people to behave.
+Investing Angle: Collective-action traps only regulation (a designer) can fix.
+History Angle: Sabbath laws and shop-hour rules as ancient mechanism design.
 AI Angle: Mechanism design for ad auctions and multi-agent systems.
+Transferability: High
 ```
 
 ```
 Title Idea: Why the smartest move is sometimes to roll the dice
+Application Domain: History
+Hidden Principle: Signal vs. Noise
 Core Question: Can randomness beat reasoning?
-Concept: Monte Carlo and randomized algorithms
-Hook: A mathematician stopped trying to solve his card game and just played it — inventing a pillar of
-modern science.
+Story Hook (Layer 1): A mathematician stopped trying to solve his card game and just played it — inventing
+a pillar of modern science.
+Principle Framework (Layer 2): When a problem is too complex to reason through, sampling beats analysis —
+run the process at random many times and read the signal off the results; chance is a deliberate tool.
 Supporting Case: Ulam's solitaire → Monte Carlo → the bomb; Miller-Rabin.
 Potential Conflict or Surprise: You can answer a strict yes/no question (is this prime?) by chance, faster
 than by proof.
+Character Perspective: Insight: Interpreter
 Psychology Angle: When analysis paralyzes and sampling frees.
 Math Angle: Monte Carlo; primality testing; simulated annealing.
 Sports Angle: Mixed strategies as unexploitable play.
+Business Angle: Simulating scenarios instead of deriving one exact forecast.
+Investing Angle: Monte Carlo risk/retirement simulations over closed-form models.
+History Angle: The Los Alamos origin of Monte Carlo and scientific computing.
 AI Angle: MCMC, MCTS, stochastic training.
+Transferability: High
 ```
 
 ```
 Title Idea: Your messy desk is mathematically optimal
+Application Domain: Everyday Life
+Hidden Principle: Optimization
 Core Question: Should you organize, or embrace the pile?
-Concept: Caching, LRU, self-organizing lists
-Hook: Computer science says the "just put it on top" pile is within 2× of a psychic's perfect filing.
+Story Hook (Layer 1): Computer science says the "just put it on top" pile is within 2× of a psychic's
+perfect filing.
+Principle Framework (Layer 2): A self-organizing list keeps recent items in front, so recency does the
+organizing for you; sorting only pays off to make future search cheaper, and past a point mess is optimal.
 Supporting Case: The Noguchi system; Sleator-Tarjan; "turn the library inside out."
 Potential Conflict or Surprise: "Cognitive decline" may just be learning — a slow lookup measures how much
 you know.
+Character Perspective: Insight: Interpreter
 Psychology Angle: Memory as organization; the forgetting curve; aging.
 Math Angle: Competitive ratios; temporal locality.
-Sports Angle: N/A core.
-AI Angle: Cache-eviction policies; retrieval.
+Sports Angle: None core.
+Business Angle: Elaborate filing/taxonomy projects that never repay their cost.
+Investing Angle: Leaving a "good enough" structure alone instead of constantly reorganizing.
+History Angle: Noguchi's "super" filing method as a real-world discovery of LRU.
+AI Angle: Cache-eviction policies; retrieval over foldering.
+Transferability: Medium
 ```
 
 ```
 Title Idea: The kindest thing you can say is "I'm NOT flexible"
+Application Domain: Everyday Life
+Hidden Principle: Decision Making
 Core Question: Is being accommodating actually cruel?
-Concept: Computational kindness
-Hook: "Oh, I'm flexible, whatever works" is one of the most inconsiderate things you can say — and
-computer science can prove it.
+Story Hook (Layer 1): "Oh, I'm flexible, whatever works" is one of the most inconsiderate things you can
+say — and computer science can prove it.
+Principle Framework (Layer 2): Computational kindness — interacting hands others hard problems (above all,
+simulating your mind), so minimize their labor of thought: assert a concrete option, because verification
+is easy and open-ended search is hard.
 Supporting Case: The scheduling paradox; the phantom-consensus bullfight; the 18-cent coin.
 Potential Conflict or Surprise: Politeness and kindness diverge; the optimal design can be the cruelest.
+Character Perspective: Insight: Interpreter
 Psychology Angle: Cognitive load; theory of mind; choice overload.
 Math Angle: Verification vs. search; change-making as TSP.
 Sports Angle: Simple play-calling to cut cognitive load.
+Business Angle: Proposing two options over "what do you all think?" to unblock a meeting.
+Investing Angle: Bringing a concrete recommendation, not an open menu, to a committee.
+History Angle: Etiquette "deference" reread as offloading cognitive cost.
 AI Angle: Kind interfaces — propose options, don't demand goals.
+Transferability: High
 ```
 
 ```
 Title Idea: Small data is big data in disguise
+Application Domain: History
+Hidden Principle: Bayesian Thinking
 Core Question: How can you predict from a single data point?
-Concept: Bayesian prediction and priors
-Hook: Tell me how long something's already lasted and I'll predict its future — if I know which of three
-"shapes" the world it lives in has.
+Story Hook (Layer 1): Tell me how long something's already lasted and I'll predict its future — if I know
+which of three "shapes" the world it lives in has.
+Principle Framework (Layer 2): Good prediction depends more on the right prior/distribution than on data
+volume; the shape (power-law / normal / Erlang) sets the rule (Multiplicative / Average / Additive), and a
+single point yields a real forecast.
 Supporting Case: Gould's cancer; the German tank problem; the Copernican Principle at the Berlin Wall.
 Potential Conflict or Surprise: Watching more news can make your predictions worse.
+Character Perspective: Nova: Strategist
 Psychology Angle: Humans as intuitive Bayesians; corrupted priors.
 Math Angle: Power-law/normal/Erlang; Multiplicative/Average/Additive rules.
 Sports Angle: Regression to the mean; distribution over average.
+Business Angle: Estimating a startup's runway or a trend's lifespan from one age reading.
+Investing Angle: Heavy-tailed returns — why average-based intuition mis-prices tail risk.
+History Angle: The German tank problem as wartime statistics that beat spy estimates.
 AI Angle: Priors, Bayesian ML, single-shot prediction.
+Transferability: High
 ```
 
 ```
 Title Idea: The seating chart no supercomputer can solve
+Application Domain: Everyday Life
+Hidden Principle: Optimization
 Core Question: What do you do when a problem is genuinely impossible to solve perfectly?
-Concept: Intractability and relaxation
-Hook: A bride used protein-folding software to seat her wedding — because the problem has more
-arrangements than atoms you'd care to count.
+Story Hook (Layer 1): A bride used protein-folding software to seat her wedding — because the problem has
+more arrangements than atoms you'd care to count.
+Principle Framework (Layer 2): Some problems are intractable (arrangements explode factorially), so relax
+them — solve an easier version for a bound and a fast "close enough" answer, and you can even know how
+close you are.
 Supporting Case: Bellows's wedding; the traveling salesman problem; the three relaxations.
 Potential Conflict or Surprise: The rational move is to "cheat" — consciously bend the rules.
+Character Perspective: Sigma: Architect
 Psychology Angle: Perfectionism vs. "the perfect is the enemy of the good."
 Math Angle: NP-hardness; lower bounds; Lagrangian relaxation.
 Sports Angle: League scheduling (Trick).
+Business Angle: Logistics, staffing, and routing that are formally unsolvable to perfection.
+Investing Angle: Simplify to a tractable model for a bound, then adjust for frictions.
+History Angle: The TSP's decades-long resistance to an exact solution.
 AI Angle: Approximation algorithms; constraint solvers.
+Transferability: Medium
 ```
 
 ```
 Title Idea: Even the best strategy fails most of the time (and that's fine)
+Application Domain: Everyday Life
+Hidden Principle: Decision Making
 Core Question: How should you judge a decision that turned out badly?
-Concept: Process over outcome — computational Stoicism
-Hook: The optimal way to find a partner fails 63% of the time — which means bad luck isn't your fault.
+Story Hook (Layer 1): The optimal way to find a partner fails 63% of the time — which means bad luck isn't
+your fault.
+Principle Framework (Layer 2): Judge the process, not the outcome ("computational Stoicism"): even optimal
+algorithms routinely fail, so following the best available process is all you can do — hope to be
+fortunate, strive to be wise.
 Supporting Case: The 37% Rule's failure rate; Russell's "wisest act"; LRU/UCB never guaranteeing success.
 Potential Conflict or Surprise: "Good enough" is the definition of rational, not a concession.
+Character Perspective: Nova: Strategist
 Psychology Angle: Outcome bias; self-compassion.
 Math Angle: Expected value vs. realized outcome.
 Sports Angle: Judge the +EV call, not the scoreboard.
+Business Angle: Rewarding good decisions that lost, not lucky bets that won.
+Investing Angle: Process-based evaluation over a single quarter's return.
+History Angle: Stoic process-focus meeting the modern math of unavoidable failure rates.
 AI Angle: Decision-quality vs. single-outcome evaluation.
+Transferability: High
 ```
 
 ```
 Title Idea: How to get unstuck (the lobster-trap trick)
+Application Domain: Everyday Life
+Hidden Principle: Optimization
 Core Question: Why do you get stuck in "good but not best," and how do you escape?
-Concept: Local maxima and simulated annealing
-Hook: A lobster dies in the trap because escaping means going deeper first — your career and code have the
-same trap.
+Story Hook (Layer 1): A lobster dies in the trap because escaping means going deeper first — your career
+and code have the same trap.
+Principle Framework (Layer 2): To leave a local maximum you must first accept a worse position; randomness
+— jitter, restarts, and simulated annealing (front-load, then cool) — is how you climb down to climb
+higher. Progress sometimes needs deliberate regress.
 Supporting Case: The lobster trap; the ten-city vacation; Kirkpatrick beating the IBM guru.
 Potential Conflict or Surprise: To improve you must sometimes deliberately get worse.
+Character Perspective: Blaze: Executor
 Psychology Angle: The courage to worsen before improving; escaping ruts.
 Math Angle: Hill climbing; Metropolis; cooling schedules.
 Sports Angle: Tearing up a good system to find a better one.
+Business Angle: Killing a profitable-but-plateaued product to reach a bigger peak.
+Investing Angle: Rotating out of a comfortable winner to escape a local optimum.
+History Angle: Kirkpatrick publishing annealing rather than hoarding it like the guru.
 AI Angle: SGD, random restarts, temperature/exploration schedules.
+Transferability: High
 ```
 
 ## 21. Book Fingerprint

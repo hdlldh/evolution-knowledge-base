@@ -1152,95 +1152,154 @@ computational-cognitive-science modeling of human priors.
 ## 17. Content Creation Opportunities
 
 ```
-Idea: How to predict the future from a single clue
+Idea Title: How to predict the future from a single clue
 Format: YouTube Long-form
-Core Concept: The Copernican Principle as Bayes with an uninformative prior.
-Hook: A physicist stood at the Berlin Wall and predicted how long it would last — from one number. The
-method also cracked how many tanks the Nazis were building, almost exactly.
-Best Supporting Case: Gott at the Berlin Wall; the German tank problem (245 vs. the math's 246).
+Application Domain: History
+Hidden Principle: Bayesian Thinking
+Story Hook (Layer 1): A physicist stood at the Berlin Wall and predicted how long it would last — from
+one number; the same method cracked how many tanks the Nazis were building, almost exactly.
+Principle Framework (Layer 2): The Copernican Principle is Bayes with an uninformative prior: absent other
+information, assume you're seeing something at a random moment in its life, and a single data point yields
+a real prediction. "No assumptions" is itself an assumption (a power-law prior).
+Best Supporting Case: Gott at the Berlin Wall; the German tank problem (the estimate of 245 vs. the true
+246).
+Character Application: Nova: Strategist
 Psychology Angle: Why single-point predictions feel absurd but aren't.
-Math Angle: Bayes's Rule; uninformative prior; the doubling rule.
+Math Angle: Bayes's Rule; the uninformative prior; the doubling rule.
 Sports Angle: Predicting a career's remaining length from its current length.
-AI Angle: Priors/inductive biases; why "no assumptions" is itself an assumption.
+Business Angle: Estimating a startup's remaining runway or a trend's lifespan from one age reading.
+Investing Angle: Using time-in-existence as a crude prior on how long a fund or fad will last.
+History Angle: The German tank problem as wartime statistics that beat spy estimates.
+AI Angle: Priors / inductive biases; why "no assumptions" is itself an assumption.
 ```
 
 ```
-Idea: One win doesn't mean 100% — the math of small samples
+Idea Title: One win doesn't mean 100% — the math of small samples
 Format: YouTube Short
-Core Concept: Laplace's Law, (w+1)/(n+2).
-Hook: If you try something once and it works, your real success rate isn't 100%. It's about two-thirds.
+Application Domain: Everyday Life
+Hidden Principle: Bayesian Thinking
+Story Hook (Layer 1): If you try something once and it works, your real success rate isn't 100% — it's
+about two-thirds.
+Principle Framework (Layer 2): Laplace's Law, (w+1)/(n+2), pulls tiny-sample estimates toward the prior,
+so "it worked once" is weak evidence; certainty should scale with how much data you actually have.
 Best Supporting Case: Laplace's Law; the losing-Powerball-ticket footnote.
+Character Application: Insight: Interpreter
 Psychology Angle: Over-reading tiny samples; the seduction of "it worked once."
 Math Angle: The rule of succession / additive smoothing.
 Sports Angle: A 3-for-3 hitter isn't a 100% hitter; regression to the mean.
+Business Angle: One successful pilot doesn't prove a repeatable process.
+Investing Angle: A single winning trade is not a track record.
+History Angle: Laplace's sunrise problem as the origin of the rule of succession.
 AI Angle: Laplace smoothing in naive Bayes and language models.
 ```
 
 ```
-Idea: Three kinds of things, three ways to predict them
+Idea Title: Three kinds of things, three ways to predict them
 Format: YouTube Long-form
-Core Concept: Normal / power-law / Erlang and the Multiplicative, Average, Additive rules.
-Hook: The longer a marriage lasts, the longer it'll last. The longer you've waited for a bus, the sooner
-it'll come. And some things you'll wait for exactly the same amount forever. Here's how to tell which is
-which.
-Best Supporting Case: Movie grosses (×1.4); lifespans (average); the blackjack "twenty more hands";
+Application Domain: Everyday Life
+Hidden Principle: Bayesian Thinking
+Story Hook (Layer 1): The longer a marriage lasts, the longer it'll last; the longer you've waited for a
+bus, the sooner it'll come; and some things you'll wait for the same amount forever — here's how to tell
+which is which.
+Principle Framework (Layer 2): The shape of the distribution dictates the prediction rule: power-law →
+Multiplicative (the longer it's lasted, the longer to go), normal → Average (things become "overdue"),
+Erlang → Additive (memoryless, always the same wait). Identify the shape first.
+Best Supporting Case: Movie grosses (×1.4); human lifespans (average); the blackjack "twenty more hands";
 Gould's cancer.
-Psychology Angle: Why institutional collapses always shock us (power-law surprise).
+Character Application: Sigma: Architect
+Psychology Angle: Why institutional collapses always shock us (the power-law surprise signature).
 Math Angle: Distribution shape dictates the prediction rule and the "surprise signature."
 Sports Angle: Hot-hand debates as a distribution-identification problem.
+Business Angle: Predicting a company's or product's remaining life by which distribution it lives in.
+Investing Angle: Heavy-tailed returns — why average-based intuition mis-prices tail risk.
+History Angle: Why dynasties and empires (power-law) shock everyone when they finally fall.
 AI Angle: Heavy-tailed data and why mean-based methods mislead.
 ```
 
 ```
-Idea: The marshmallow test was never really about willpower
+Idea Title: The marshmallow test was never really about willpower
 Format: YouTube Long-form
-Core Concept: Self-control as calibrated expectation.
-Hook: The famous marshmallow test predicted kids' success in life. But a follow-up suggests it wasn't
-measuring willpower at all — it was measuring whether they'd learned adults keep their promises.
-Best Supporting Case: Mischel's original; McGuire & Kable's power-law reinterpretation; the Rochester
-reliability study.
+Application Domain: Everyday Life
+Hidden Principle: Bayesian Thinking
+Story Hook (Layer 1): The famous marshmallow test predicted kids' success in life — but a follow-up
+suggests it wasn't measuring willpower at all, but whether they'd learned adults keep their promises.
+Principle Framework (Layer 2): Waiting is a rational bet on a prior about reliability: under a power-law
+of possible delays, giving up can be optimal, so "self-control" is really calibrated expectation about
+whether the reward will actually arrive.
+Best Supporting Case: Mischel's original test; McGuire & Kable's power-law reinterpretation; the Rochester
+reliability study (a broken promise first, then the marshmallow).
+Character Application: Insight: Interpreter
 Psychology Angle: Trust, environment, and delay of gratification.
-Math Angle: Power-law waits make "cutting losses" rational.
+Math Angle: Power-law waits make "cutting your losses" rational, not weak.
 Sports Angle: "We're due" as a memoryless fallacy.
-AI Angle: Inferring beliefs/objectives from behavior.
+Business Angle: Employees "waiting it out" only if they trust the org to deliver on promises.
+Investing Angle: Holding vs. cutting depends on your prior about whether the payoff will ever come.
+History Angle: How environments of broken promises rationally teach short time-horizons.
+AI Angle: Inferring beliefs / objectives from behaviour.
 ```
 
 ```
-Idea: Why you should watch less news to understand the world better
+Idea Title: Why you should watch less news to understand the world better
 Format: YouTube Short
-Core Concept: Protect your priors.
-Hook: You've seen about as many plane crashes as car crashes. One of those numbers is a lie your screen
-told you.
-Best Supporting Case: Planes vs. cars (Carnegie Hall / Wyoming); murder down 20% while news gun violence
-up 600%.
+Application Domain: Everyday Life
+Hidden Principle: Cognitive Bias
+Story Hook (Layer 1): You've seen about as many plane crashes as car crashes — and one of those numbers
+is a lie your screen told you.
+Principle Framework (Layer 2): Good prediction depends on priors calibrated to real frequencies, but media
+reports the rare, not the frequent, so heavy news consumption corrupts the very priors it feels like it's
+informing. Protect your priors.
+Best Supporting Case: Planes vs. cars (Carnegie Hall vs. Wyoming); murder down 20% while news gun-violence
+coverage rose 600%.
+Character Application: Echo: Observer
 Psychology Angle: The availability heuristic; media and fear.
 Math Angle: Priors, frequency, and calibration.
-Sports Angle: Highlight reels distorting how often the spectacular happens.
+Sports Angle: Highlight reels distorting how often the spectacular actually happens.
+Business Angle: Dashboards that surface exceptions distorting a team's sense of the baseline.
+Investing Angle: Financial media amplifying rare crashes and manias, warping risk priors.
+History Angle: How each era's media diet reshaped what people feared most.
 AI Angle: Training-data bias; skewed data → skewed priors.
 ```
 
 ```
-Idea: The sign that tells you when to walk away from a job
+Idea Title: The sign that tells you when to walk away from a job
 Format: YouTube Short
-Core Concept: The Copernican Principle in everyday signage.
-Hook: A construction site proudly displays "7 days since the last accident." A statistician reads that
-and quietly walks away.
-Best Supporting Case: The "7 days" example; the bus-stop "time since last bus" sign; the Berlin Wall.
-Psychology Angle: How a single number implies a whole timescale.
+Application Domain: Business
+Hidden Principle: Bayesian Thinking
+Story Hook (Layer 1): A construction site proudly displays "7 days since the last accident" — a
+statistician reads that and quietly walks away.
+Principle Framework (Layer 2): A single "time since last event" number, via Bayes with an uninformative
+prior, implies the whole timescale: a short count implies short intervals (frequent accidents). One
+figure can betray the base rate it was meant to reassure you about.
+Best Supporting Case: The "7 days since last accident" sign; the bus-stop "time since last bus" sign; the
+Berlin Wall.
+Character Application: Nova: Strategist
+Psychology Angle: How a single number implies a whole timescale we don't consciously compute.
 Math Angle: The doubling rule; Bayes with an uninformative prior.
 Sports Angle: "We're due" reasoning; predicting a streak's remaining length.
+Business Angle: Reading "days since last incident/outage" as a hidden base-rate signal.
+Investing Angle: Inferring a strategy's fragility from how recently it last blew up.
+History Angle: Safety-signage culture and what those tallies unintentionally reveal.
 AI Angle: Priors from one data point; why "no assumptions" is an assumption.
 ```
 
 ```
-Idea: Little orphan Annie was a great statistician
+Idea Title: Little orphan Annie was a great statistician
 Format: YouTube Short
-Core Concept: Laplace's Law and large-n certainty.
-Hook: "The sun'll come out tomorrow." A cheesy showtune — and a mathematically airtight prediction.
+Application Domain: Everyday Life
+Hidden Principle: Bayesian Thinking
+Story Hook (Layer 1): "The sun'll come out tomorrow" — a cheesy showtune, and a mathematically airtight
+prediction.
+Principle Framework (Layer 2): The flip side of small-sample humility: Laplace's Law, (w+1)/(n+2),
+approaches certainty as n grows enormous, so childlike confidence backed by a trillion confirmations is
+fully justified. Certainty should track your data.
 Best Supporting Case: The Annie epigraph; ~1.6 trillion sunrises → ~100%.
+Character Application: Insight: Interpreter
 Psychology Angle: When childlike certainty is actually justified.
 Math Angle: (w+1)/(n+2) as n grows huge.
 Sports Angle: Long track records vs. rookie small samples.
+Business Angle: A decades-proven process earns near-certainty a new one hasn't.
+Investing Angle: A long, deep track record vs. one hot quarter.
+History Angle: Laplace using the sunrise as his own worked example of the rule.
 AI Angle: Laplace smoothing; confidence with lots vs. little data.
 ```
 

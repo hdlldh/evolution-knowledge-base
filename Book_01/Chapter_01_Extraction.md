@@ -1295,97 +1295,161 @@ salesman problem (chapter 8), and game theory (chapter 11). No machine learning 
 ## 17. Content Creation Opportunities
 
 ```
-Idea: The 37% Rule — the mathematically optimal moment to stop looking
+Idea Title: The 37% Rule — the mathematically optimal moment to stop looking
 Format: YouTube Long-form
-Core Concept: Optimal stopping, the secretary problem, look-then-leap
-Hook: There is a mathematically proven answer to when you should stop looking and commit. It's 37%.
-And even if you follow it perfectly, you'll fail almost two-thirds of the time.
-Best Supporting Case: Michael Trick calculating age 26.1, proposing, and being turned down; then
-finding his wife in a bar in Germany by a route the algorithm never described.
-Psychology Angle: People leap too early in over 80% of trials — and that may be rational, not biased.
-Math Angle: 1/e, and the odd symmetry that the strategy and its success rate are the same number.
-Sports Angle: Transfer windows as sequential irrevocable choice.
+Application Domain: Everyday Life
+Hidden Principle: Optimization
+Story Hook (Layer 1): A mathematician calculated the exact age he should stop dating and propose
+(26.1), worked up the nerve, did it — and was turned down on the spot.
+Principle Framework (Layer 2): Optimal stopping — in any irreversible sequential search, spend a fixed
+fraction (37%) building a benchmark, then commit to the next option that beats everything seen so far;
+the high failure rate is a property of the problem, not a failure of yours.
+Best Supporting Case: Michael Trick calculating age 26.1, proposing, and being rejected; then finding
+his wife by a route the algorithm never described.
+Character Application: Nova: Strategist
+Psychology Angle: People leap too early in over 80% of trials — which may be rational once search costs
+are counted, not a bias.
+Math Angle: 1/e, and the odd symmetry that the strategy and its success rate are the same number (37%).
+Sports Angle: Transfer windows as sequential, irrevocable choice under a deadline.
+Business Angle: Hiring — stop interviewing and make the offer once the field is calibrated.
+Investing Angle: Deal sourcing — fix a "look" window, then commit to the first option that clears the
+bar.
+History Angle: Kepler's and Trick's real courtship decisions as pre- and post-algorithm case studies.
 AI Angle: Explore/exploit; early stopping; best-of-n sampling.
 ```
 
 ```
-Idea: Kepler vs. Trick — two ways the love algorithm breaks
+Idea Title: Kepler vs. Trick — two ways the love algorithm breaks
 Format: YouTube Long-form
-Core Concept: The rejection and recall variants of the secretary problem
-Hook: Two mathematicians used the same equation to find a wife. One was rejected on the spot. The
-other courted eleven women, hated himself for it, and it turned out he was doing it right.
+Application Domain: History
+Hidden Principle: Optimization
+Story Hook (Layer 1): Two mathematicians used the same equation to find a wife. One was rejected on the
+spot; the other courted eleven women, hated himself for it — and it turned out he was doing it right.
+Principle Framework (Layer 2): The same optimal-stopping rule bends with the rules of the game: if
+options can reject you, look less (37% → 25%); if you can revisit past options, look more (37% → 61%).
+Match the schedule to whether choices are one-way.
 Best Supporting Case: Kepler's eleven courtships and his own written self-reproach.
+Character Application: Insight: Interpreter
 Psychology Angle: Recasting restlessness and indecision as strategy rather than defect.
 Math Angle: 37% → 25% under rejection; 37% → 61% when you can go back.
-Sports Angle: None identified.
-AI Angle: Checkpointing gives you recall — which changes the optimal schedule.
+Sports Angle: A club that can re-approach a player it passed on plays a different search than one that
+can't.
+Business Angle: Negotiations where the counterparty can walk (look less) vs. options you can reopen
+(look more).
+Investing Angle: Exploding-offer term sheets (rejection variant) vs. deals you can circle back to
+(recall variant).
+History Angle: Kepler as a documented, self-aware case of the recall variant three centuries early.
+AI Angle: Checkpointing gives you recall — which changes the optimal stopping schedule.
 ```
 
 ```
-Idea: Why empty parking spots mean the city is working
+Idea Title: Why empty parking spots mean the city is working
 Format: YouTube Short
-Core Concept: Occupancy rate and search cost
-Hook: Going from 90% to 95% full lets in 5% more cars — and doubles how long everyone hunts.
-Best Supporting Case: Shoup, "the parking rock star," who rides a bike to work.
-Psychology Angle: Slack looks like waste; the sensation of a full curb is the sensation of an
-underpriced resource.
+Application Domain: Business
+Hidden Principle: Optimization
+Story Hook (Layer 1): The economist who fixed city parking rides a bike to work — and says a curb that
+looks "full" is a curb that's underpriced.
+Principle Framework (Layer 2): Near-total utilization is a trap: pushing a shared resource from 90% to
+95% full lets in 5% more users but can double everyone's search cost. Deliberate slack is efficiency,
+not waste.
+Best Supporting Case: Donald Shoup, "the parking rock star," and dynamic-priced curbs that keep a spot
+or two open.
+Character Application: Sigma: Architect
+Psychology Angle: Slack looks like waste; the feeling of a full curb is the feeling of an underpriced
+resource.
 Math Angle: The nonlinear relationship between occupancy and expected search length.
-Sports Angle: Squad rotation — a fully utilized roster can't absorb an injury.
+Sports Angle: Squad rotation — a 100%-utilized roster can't absorb an injury.
+Business Angle: Server/capacity planning and just-in-time inventory — running "hot" hides fragility.
+Investing Angle: Cash buffers and leverage — a fully deployed portfolio can't absorb a shock.
+History Angle: The rise of congestion pricing as a policy correction to over-utilization.
 AI Angle: Utilization vs. latency in scheduling and load balancing.
 ```
 
 ```
-Idea: The man who wrote the book on quitting — and didn't
+Idea Title: The man who wrote the book on quitting — and didn't
 Format: YouTube Long-form
-Core Concept: The burglar problem and knowing when to stop
-Hook: He literally wrote the only book on the mathematics of when to stop. Then he didn't.
-Best Supporting Case: Berezovsky — including the three hours on a dead outboard motor while everyone
-else was at the bonfire.
+Application Domain: Investing
+Hidden Principle: Decision Making
+Story Hook (Layer 1): He literally wrote the only book on the mathematics of when to stop. Then, in his
+own life, he didn't.
+Principle Framework (Layer 2): Knowing the optimal stopping rule is not the same as being disposed to
+follow it; with an absorbing "ruin" state, the right number of attempts scales with the odds of success
+over the odds of ruin — but temperament, not knowledge, decides whether you stop.
+Best Supporting Case: Boris Berezovsky — including the three hours spent on a dead outboard motor while
+everyone else was at the bonfire.
+Character Application: Blaze: Executor
 Psychology Angle: Expertise does not transfer to one's own life; disposition beats knowledge.
 Math Angle: Optimal attempts ≈ odds of success ÷ odds of ruin.
-Sports Angle: When to retire — each extra season adds reward and risk of a career-ending injury.
+Sports Angle: When to retire — each extra season adds reward and the risk of a career-ending injury.
+Business Angle: Founders who can't stop scaling past the point of ruin.
+Investing Angle: Position sizing and knowing when to cash out before a martingale wipes you out.
+History Angle: The oligarch era as a real-world laboratory of risk-of-ruin decisions.
 AI Angle: Episodic tasks with absorbing failure states.
 Note: Handle with care — a real person's death, and the authors' "he should have stopped sooner" is
 speculation.
 ```
 
 ```
-Idea: The game the math says to play until you lose everything
+Idea Title: The game the math says to play until you lose everything
 Format: YouTube Short
-Core Concept: Problems with no optimal stopping rule
-Hook: Every round, the math says keep playing. Follow the math, and you are guaranteed to end with
-nothing.
-Best Supporting Case: Triple or nothing — $1 → expected $1.50 → expected $4.50.
-Psychology Angle: Why "positive expected value" feels like it should be enough and isn't.
-Math Angle: Expected value versus almost-sure ruin.
-Sports Angle: Pushing everyone forward for the equalizer.
-AI Angle: Reward hacking — optimizing a metric that keeps rising while the outcome deteriorates.
+Application Domain: Investing
+Hidden Principle: Expected Value
+Story Hook (Layer 1): Every round, the math says keep playing. Follow the math, and you are guaranteed
+to end with nothing.
+Principle Framework (Layer 2): Positive expected value is not a stopping rule. When each bet risks total
+ruin, an ever-rising expectation coexists with almost-sure bankruptcy — you must optimize survival, not
+just the average.
+Best Supporting Case: Triple-or-nothing — $1 → expected $1.50 → expected $4.50 → … → $0.
+Character Application: Nova: Strategist
+Psychology Angle: Why "positive expected value" feels like it should be enough — and isn't.
+Math Angle: Expected value versus almost-sure ruin (the St. Petersburg family of paradoxes).
+Sports Angle: Pushing every player forward for the equalizer and conceding the game-ending goal.
+Business Angle: Betting the company repeatedly on "+EV" gambles until one loss ends it.
+Investing Angle: Martingale/all-in strategies; the Kelly criterion as the survival-aware correction.
+History Angle: Classic ruinous doubling schemes across gambling history.
+AI Angle: Reward hacking — optimizing a metric that keeps rising while the true outcome deteriorates.
 ```
 
 ```
-Idea: Stop gathering data — get a yardstick instead
+Idea Title: Stop gathering data — get a yardstick instead
 Format: Visual Explainer
-Core Concept: No-information vs. full-information games
-Hook: The reason you have to "look before you leap" isn't wisdom. It's that you don't have a
+Application Domain: Business
+Hidden Principle: Information Theory
+Story Hook (Layer 1): The reason you have to "look before you leap" isn't wisdom — it's that you have no
 measuring stick. Get one, and your odds jump from 37% to 58%.
+Principle Framework (Layer 2): The value of information depends on its type: with only rankings (ordinal
+info) you must waste a look phase; with a calibrated scale (cardinal info) you can commit immediately to
+anything above a computed threshold. Change the information, not just the effort.
 Best Supporting Case: The percentile typing test — hire the 95th-percentile applicant on the spot.
-Psychology Angle: "Do your research" as advice that misdiagnoses the actual problem.
+Character Application: Sigma: Architect
+Psychology Angle: "Do your research" as advice that misdiagnoses the real problem (missing yardstick,
+not missing data).
 Math Angle: Ordinal vs. cardinal information; backward-induction thresholds (50th, 69th, 78th…).
 Sports Angle: Scouting analytics converting recruitment into a full-information problem.
+Business Angle: Rubrics and benchmarks that let you hire the first candidate over the bar.
+Investing Angle: Absolute valuation models vs. "compare to the last deal we saw."
+History Angle: The spread of standardized testing and percentile scoring.
 AI Angle: Pairwise preference data vs. absolute reward scores in RLHF.
 ```
 
 ```
-Idea: The First Kiss Problem — when the math says look, and the person who didn't look was happy
+Idea Title: The First Kiss Problem — when the math says look, and the person who didn't was happy
 Format: YouTube Short
-Core Concept: Good process vs. good outcome; the 63% failure rate
-Hook: Barbara Bush married the first man she ever kissed. The math says she had almost no chance of
-finding her best possible match. It worked out anyway.
-Best Supporting Case: The Bush epigraph set against the Kepler and Trick stories.
+Application Domain: Everyday Life
+Hidden Principle: Cognitive Bias
+Story Hook (Layer 1): Barbara Bush married the first man she ever kissed. The math says she had almost
+no chance of finding her best possible match. It worked out anyway.
+Principle Framework (Layer 2): Judge the process, not the outcome. A strategy that fails 63% of the time
+still produces countless happy counterexamples — so a single good result is not evidence of a good
+decision.
+Best Supporting Case: The Barbara Bush epigraph set against the Kepler and Trick stories.
+Character Application: Echo: Observer
 Psychology Angle: Outcome bias — we grade decisions by how they happened to turn out.
-Math Angle: A strategy that fails 63% of the time necessarily produces a great many happy
-counterexamples.
-Sports Angle: Judging a manager's substitution by whether the shot went in.
+Math Angle: A strategy that fails 63% of the time necessarily produces many happy counterexamples.
+Sports Angle: Judging a manager's substitution purely by whether the shot went in.
+Business Angle: Rewarding a reckless bet that paid off; punishing a sound bet that lost.
+Investing Angle: Crediting a lucky trade as skill (results-orientation vs. decision quality).
+History Angle: Survivorship narratives — the happy first-marriage stories we remember.
 AI Angle: Evaluating a policy from a single rollout instead of expected return.
 ```
 

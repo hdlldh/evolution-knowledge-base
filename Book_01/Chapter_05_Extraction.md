@@ -1234,99 +1234,155 @@ material the chapter describes.
 ## 17. Content Creation Opportunities
 
 ```
-Idea: Procrastination is not laziness — it's the wrong math
+Idea Title: Procrastination is not laziness — it's the wrong math
 Format: YouTube Long-form
-Core Concept: Procrastination as an optimal solution to the wrong metric; choose a metric first.
-Hook: You're not a bad procrastinator. You're an excellent optimizer — of the wrong problem. And your
-phone's little red badges chose that problem for you.
+Application Domain: Everyday Life
+Hidden Principle: Optimization
+Story Hook (Layer 1): You're not a bad procrastinator — you're an excellent optimizer of the wrong
+problem, and your phone's little red badges chose that problem for you.
+Principle Framework (Layer 2): On a single machine, every ordering takes the same total time, so you must
+choose a metric before any schedule can be "best." Procrastination is often the optimal answer to a
+badly-chosen metric (like task count), not a character flaw.
 Best Supporting Case: App-badge logic; Rosenbaum's pre-crastination bucket study; the X-Files DoS
 vampire.
+Character Application: Insight: Interpreter
 Psychology Angle: Pre-crastination; goal-substitution; the moralization of productivity.
 Math Angle: Single-machine scheduling; unweighted SPT minimizes task count, not importance.
 Sports Angle: None core.
+Business Angle: Teams "busy" clearing small tickets while the strategic work slips.
+Investing Angle: Churning small trades (activity) instead of the few decisions that matter.
+History Angle: The productivity-metric fads that made "activity" look like progress.
 AI Angle: Reward misspecification / Goodhart — perfectly optimizing a bad objective.
 ```
 
 ```
-Idea: The Mars rover that procrastinated
+Idea Title: The Mars rover that procrastinated
 Format: YouTube Long-form
-Core Concept: Priority inversion and priority inheritance.
-Hook: A $150 million spacecraft crossed 300 million miles of space to reach Mars — and then started
-procrastinating, ignoring its most important job to do busywork. The fix reveals a deep truth about
-getting things done.
-Best Supporting Case: Mars Pathfinder 1997 (with the footnote irony that the bug itself was deemed
-"lower priority"); Hedberg's fire-exit joke; McLay's spoon.
+Application Domain: History
+Hidden Principle: Optimization
+Story Hook (Layer 1): A $150 million spacecraft crossed 300 million miles to reach Mars — and then
+started procrastinating, ignoring its most important job to do busywork.
+Principle Framework (Layer 2): Priority inversion: a high-priority task stalls waiting on a resource held
+by a low-priority one. The fix, priority inheritance, means a critical task lends its urgency to whatever
+is blocking it — clear the blocker, not the queue.
+Best Supporting Case: Mars Pathfinder (1997), with the footnote irony that the fix itself was first
+deemed "lower priority"; Hedberg's fire-exit joke; McLay's spoon.
+Character Application: Sigma: Architect
 Psychology Angle: Why "important things first" can look exactly like procrastination.
 Math Angle: Precedence constraints; priority inheritance.
 Sports Angle: Training-load ordering as precedence constraints.
-AI Angle: Resource contention and deadlock in multi-agent/real-time systems.
+Business Angle: A key project stalled behind a trivial approval nobody prioritized.
+Investing Angle: A big decision blocked by a small unresolved dependency.
+History Angle: The near-loss of Pathfinder as a landmark real-time-systems lesson.
+AI Angle: Resource contention and deadlock in multi-agent / real-time systems.
 ```
 
 ```
-Idea: Working full-tilt and getting nothing done — the science of thrashing
+Idea Title: Working full-tilt and getting nothing done — the science of thrashing
 Format: YouTube Long-form
-Core Concept: Thrashing; the context switch; interrupt coalescing.
-Hook: There's a specific state where you work as hard as you possibly can and accomplish literally
-nothing. Computers have a name for it, and a way out.
-Best Supporting Case: The over-loaded juggler; Denning's collapse; Knuth's no-email batch-processing
-life.
+Application Domain: Everyday Life
+Hidden Principle: Feedback Loops
+Story Hook (Layer 1): There's a specific state where you work as hard as you possibly can and accomplish
+literally nothing — computers have a name for it, and a way out.
+Principle Framework (Layer 2): Past a load threshold, the overhead of switching between tasks (the context
+switch) exceeds the work done, so throughput collapses to zero — a cliff, not a slope. The escape is a
+minimum time-slice: commit to one thing long enough to finish it.
+Best Supporting Case: The over-loaded juggler; Denning's multiprogramming collapse; Knuth's no-email
+batch-processing life.
+Character Application: Echo: Observer
 Psychology Angle: Overwhelm/burnout as a cliff, not a slope; the panic of being too busy to plan.
-Math Angle: O(n²) cost of prioritizing an overflowing inbox; minimum time-slice.
+Math Angle: The O(n²) cost of re-prioritizing an overflowing inbox; the minimum time-slice.
 Sports Angle: Fixture congestion collapsing a whole season at once.
+Business Angle: A team so overloaded that coordination consumes all its capacity.
+Investing Angle: Over-monitoring a portfolio until you trade on noise and net nothing.
+History Angle: The 1960s discovery of thrashing in multiprogramming systems.
 AI Angle: Over-parallelization collapsing multi-agent throughput.
 ```
 
 ```
-Idea: To get more done, be less responsive
+Idea Title: To get more done, be less responsive
 Format: YouTube Short
-Core Concept: Responsiveness vs. throughput; interrupt coalescing.
-Hook: The most productive thing you can do today is answer people slower. Computers figured this out
-decades ago.
-Best Supporting Case: The post office as free interrupt coalescing; bill-paying day; Knuth reviewing
-mail every three months.
+Application Domain: Business
+Hidden Principle: Optimization
+Story Hook (Layer 1): The most productive thing you can do today is answer people slower — computers
+figured this out decades ago.
+Principle Framework (Layer 2): Responsiveness and throughput trade off; batching interruptions ("interrupt
+coalescing") sacrifices instant replies to protect the long, uninterrupted blocks where real work
+happens.
+Best Supporting Case: The post office as free interrupt coalescing; a monthly bill-paying day; Knuth
+reviewing mail every three months.
+Character Application: Blaze: Executor
 Psychology Angle: The cult of responsiveness; deep work.
-Math Angle: Minimum slice; batching to protect throughput.
+Math Angle: The minimum slice; batching to protect throughput.
 Sports Angle: Rest-vs-rust as responsiveness vs. throughput.
+Business Angle: Office-hours and batched Slack over always-on availability.
+Investing Angle: Checking the market on a schedule instead of reacting tick-by-tick.
+History Angle: The pre-email cadence of letters and set correspondence days.
 AI Angle: Batch size in inference serving.
 ```
 
 ```
-Idea: The one question that ends every time-management argument
+Idea Title: The one question that ends every time-management argument
 Format: YouTube Short
-Core Concept: "Before you can have a plan, you must first choose a metric."
-Hook: Getting Things Done, Eat That Frog, The Now Habit — they all contradict each other. There's a
-reason, and it's not that some of them are wrong.
+Application Domain: Everyday Life
+Hidden Principle: Decision Making
+Story Hook (Layer 1): Getting Things Done, Eat That Frog, The Now Habit — they all contradict each other,
+and it's not because some of them are wrong.
+Principle Framework (Layer 2): "Before you can have a plan, you must first choose a metric." Each guru is
+optimal for a different objective (fewest late tasks vs. most tasks done vs. highest-weighted first), so
+the argument dissolves once you name what you're optimizing.
 Best Supporting Case: The conflicting self-help gospels; EDD vs. SPT vs. weighted SPT.
+Character Application: Nova: Strategist
 Psychology Angle: Goal definition before execution.
 Math Angle: Different metrics → different optimal algorithms.
 Sports Angle: Season-long throughput vs. next-match sharpness.
-AI Angle: You can't call a policy optimal without an objective function.
+Business Angle: OKRs that conflict because no one named the single metric that ranks them.
+Investing Angle: "Best strategy" is undefined until you fix the objective (return, drawdown, income).
+History Angle: The self-help industry's contradictory gospels, reconciled by one question.
+AI Angle: You can't call a policy optimal without first specifying an objective function.
 ```
 
 ```
-Idea: The expert who couldn't schedule his own book
+Idea Title: The expert who couldn't schedule his own book
 Format: YouTube Short
-Core Concept: Intractability; planning vs. doing; the planning fallacy.
-Hook: The single greatest expert on scheduling theory once said writing a book about it "shouldn't take
-much time." Fifteen years later it still wasn't finished.
-Best Supporting Case: The Lawler epigraph; the 84%-intractable survey.
-Psychology Angle: Planning fallacy; the gap between estimate and reality.
+Application Domain: Everyday Life
+Hidden Principle: Cognitive Bias
+Story Hook (Layer 1): The single greatest expert on scheduling theory once said writing a book about it
+"shouldn't take much time" — fifteen years later it still wasn't finished.
+Principle Framework (Layer 2): Most scheduling problems are intractable (no efficient optimal solution
+exists), and the planning fallacy is the human echo: estimates ignore the combinatorial explosion of
+dependencies, so plans systematically run long.
+Best Supporting Case: The Eugene Lawler epigraph; the survey finding 84% of scheduling problems
+intractable.
+Character Application: Insight: Interpreter
+Psychology Angle: The planning fallacy; the gap between estimate and reality.
 Math Angle: Why most scheduling problems have no efficient optimal solution.
 Sports Angle: None core.
+Business Angle: Why big projects overrun no matter how experienced the planner.
+Investing Angle: Underestimating how long a "simple" integration or turnaround will take.
+History Angle: Famous overruns as instances of the planning fallacy meeting intractability.
 AI Angle: Why "just plan it perfectly" fails for hard combinatorial problems.
 ```
 
 ```
-Idea: Your phone is a hypocrite
+Idea Title: Your phone is a hypocrite
 Format: YouTube Short
-Core Concept: Interrupt coalescing; notification design.
-Hook: Your computer would never let its own apps interrupt it the way its apps interrupt you. It
-batches everything internally — then throws pop-ups in your face.
-Best Supporting Case: The UI-hypocrisy footnote; app badges; the post office as free coalescing.
+Application Domain: Business
+Hidden Principle: Optimization
+Story Hook (Layer 1): Your computer would never let its own apps interrupt it the way its apps interrupt
+you — it batches everything internally, then throws pop-ups in your face.
+Principle Framework (Layer 2): Internally, systems coalesce interrupts to protect throughput; the notif-
+ication design pointed at you does the opposite, optimizing for engagement, not your productivity. The
+same principle, applied to two different objectives.
+Best Supporting Case: The UI-hypocrisy footnote; app badges; the post office as free interrupt coalescing.
+Character Application: Echo: Observer
 Psychology Angle: The cost of interruption; attention as a scarce resource.
-Math Angle: Responsiveness vs. throughput; minimum slice.
+Math Angle: Responsiveness vs. throughput; the minimum slice.
 Sports Angle: None core.
-AI Angle: Batching in inference serving; when to interrupt an agent.
+Business Angle: Engagement-optimized product design vs. the user's actual interests.
+Investing Angle: Trading apps engineered to trigger reactions, not returns.
+History Angle: The attention-economy turn in software design.
+AI Angle: Batching in inference serving; deciding when to interrupt an agent.
 ```
 
 ## 18. Chapter Knowledge Cards

@@ -993,72 +993,114 @@ applications, and chess engines (Rybka) appear directly.
 ## 17. Content Creation Opportunities
 
 ```
-Idea: The math of why everyone's miserable (and how to fix it)
+Idea Title: The math of why everyone's miserable (and how to fix it)
 Format: YouTube Long-form
-Core Concept: Prisoner's dilemma, tragedy of the commons, and mechanism design.
-Hook: Rational, well-meaning people keep arriving at outcomes that are terrible for everyone — from
-unlimited vacation that no one takes to a planet we're all torching. Game theory explains why, and how to
-escape.
-Best Supporting Case: The prisoner's dilemma; unlimited-vacation "race to the bottom"; the Godfather
-changing the game; compulsory vacation.
+Application Domain: Business
+Hidden Principle: Game Theory
+Story Hook (Layer 1): Rational, well-meaning people keep arriving at outcomes terrible for everyone — from
+unlimited vacation that no one takes to a planet we're all torching — and game theory explains both why
+and how to escape.
+Principle Framework (Layer 2): A stable equilibrium of rational self-interest can be the worst outcome for
+all (the prisoner's dilemma / tragedy of the commons). You can't fix it from within, so change the game
+(mechanism design) — even worsening every payoff can make everyone better off.
+Best Supporting Case: The prisoner's dilemma; the unlimited-vacation "race to the bottom"; the Godfather
+changing the payoffs; compulsory minimum vacation.
+Character Application: Sigma: Architect
 Psychology Angle: Social comparison; overwork; the "clean conscience" bad equilibrium.
-Math Angle: Dominant strategy; Nash equilibrium; price of anarchy.
+Math Angle: Dominant strategy; Nash equilibrium; the price of anarchy.
 Sports Angle: Salary caps and anti-doping as mechanism design.
+Business Angle: Redesigning incentives (mandates, contracts) instead of exhorting people to behave.
+Investing Angle: Collective-action traps in markets that only regulation (a designer) can fix.
+History Angle: Sabbath laws and shop-hour rules as ancient mechanism design against races to the bottom.
 AI Angle: Mechanism design for ad auctions and multi-agent systems.
 ```
 
 ```
-Idea: Why falling in love is a game-theory power move
+Idea Title: Why falling in love is a game-theory power move
 Format: YouTube Long-form
-Core Concept: Emotions as evolution's mechanism design; love as commitment device.
-Hook: The most "irrational" things you do — holding a grudge, tackling a thief, falling helplessly in
-love — are exactly what a cold game theorist would engineer on purpose.
+Application Domain: Everyday Life
+Hidden Principle: Game Theory
+Story Hook (Layer 1): The most "irrational" things you do — holding a grudge, tackling a thief, falling
+helplessly in love — are exactly what a cold game theorist would engineer on purpose.
+Principle Framework (Layer 2): Involuntary emotions are evolution's mechanism design: because you can't
+switch them off, they're self-enforcing commitments that change the payoffs so cooperation becomes the
+equilibrium. Love is like organized crime — happiness is the lock.
 Best Supporting Case: The vindictive reviewer; the wallet-tackling hero; "love is like organized crime";
 "happiness is the lock."
-Psychology Angle: Attachment; the rationality of the passions; trust and signaling.
+Character Application: Insight: Interpreter
+Psychology Angle: Attachment; the rationality of the passions; trust and signalling.
 Math Angle: Prisoner's dilemma; commitment problems; self-enforcing contracts.
 Sports Angle: None core.
+Business Angle: Reputation and credible commitment as substitutes for enforceable contracts.
+Investing Angle: Costly signalling (skin in the game) as a self-enforcing guarantee.
+History Angle: Honour cultures and vendettas as commitment devices before the rule of law.
 AI Angle: Incentive-compatible design; optimizing *for* agents.
 ```
 
 ```
-Idea: How a $23 million textbook explains every bubble
+Idea Title: How a $23 million textbook explains every bubble
 Format: YouTube Long-form
-Core Concept: Information cascades and the rational theory of crashes.
-Hook: In 2011 a used biology textbook hit $23.7 million on Amazon — no one was crazy, no one lied, and
-the exact same mechanism blew up the 2010 stock market in minutes.
-Best Supporting Case: The two pricing algorithms; the flash crash ("just go buy Procter"); the oil-tract
-auction; the mortgage crisis.
-Psychology Angle: Herd behavior; conformity; actions vs. beliefs.
+Application Domain: Investing
+Hidden Principle: Signal vs. Noise
+Story Hook (Layer 1): In 2011 a used biology textbook hit $23.7 million on Amazon — no one was crazy, no
+one lied, and the exact same mechanism blew up the stock market in minutes in 2010.
+Principle Framework (Layer 2): Information cascades: when you see others' actions but not their beliefs,
+rational people rationally follow predecessors until the public "consensus" unglues from reality. Public
+behaviour drowns out private signal, and catastrophe needs no villain.
+Best Supporting Case: The two Amazon pricing algorithms; the 2010 flash crash ("just go buy Procter"); the
+oil-tract auction; the 2007–2009 mortgage crisis.
+Character Application: Echo: Observer
+Psychology Angle: Herd behaviour; conformity; actions vs. beliefs.
 Math Angle: Cascades; public vs. private information; auctions.
-Sports Angle: Momentum/bandwagon effects in betting markets.
-AI Angle: Automated-pricing and recommender feedback loops.
+Sports Angle: Momentum / bandwagon effects in betting markets.
+Business Angle: Copycat strategy and "everyone's doing it" as a cascade, not diligence.
+Investing Angle: Bubbles and manias as rational cascades — why smart money still gets swept up.
+History Angle: Tulip mania to the mortgage crisis as recurring information cascades.
+AI Angle: Automated-pricing and recommender feedback loops that decouple from ground truth.
 ```
 
 ```
-Idea: The auction where lying can't help you
+Idea Title: The auction where lying can't help you
 Format: YouTube Short
-Core Concept: The Vickrey auction and the revelation principle.
-Hook: There's an auction where the smartest move is to tell the exact truth — and a theorem says *any*
-game can be rebuilt that way.
-Best Supporting Case: Second-price bidding; "the auction shades your bid for you"; FCC spectrum auctions.
+Application Domain: Business
+Hidden Principle: Game Theory
+Story Hook (Layer 1): There's an auction where the smartest move is to tell the exact truth — and a
+theorem says *any* game can be rebuilt that way.
+Principle Framework (Layer 2): In a Vickrey (second-price) auction you pay the runner-up's bid, so honest
+bidding is dominant — "the auction shades your bid for you." The revelation principle generalizes it: fold
+the optimal strategizing into the rules, and honesty becomes best. Optimize *for* people so they can't
+optimize against you.
+Best Supporting Case: Second-price bidding; revenue equivalence; FCC spectrum auctions.
+Character Application: Nova: Strategist
 Psychology Angle: The relief of not having to strategize.
-Math Angle: Strategy-proofness; revenue equivalence; revelation principle.
+Math Angle: Strategy-proofness; revenue equivalence; the revelation principle.
 Sports Angle: None core.
+Business Angle: Designing pay, procurement, or bidding so gaming it doesn't pay.
+Investing Angle: Truthful mechanisms in allocation and matching markets.
+History Angle: The spread of second-price and truthful auctions in spectrum and ad markets.
 AI Angle: Truthful mechanisms (VCG) in ad and data markets.
 ```
 
 ```
-Idea: How to beat a supercomputer at chess
+Idea Title: How to beat a supercomputer at chess
 Format: YouTube Short
-Core Concept: Recursion as a cost you can weaponize.
-Hook: A grandmaster beat a chess engine that saw millions of moves a second — by making the dumbest
-moves he could, on purpose.
-Best Supporting Case: Nakamura vs. Rybka; poker "leveling"; "play one level above your opponent."
+Application Domain: Sports
+Hidden Principle: Game Theory
+Story Hook (Layer 1): A grandmaster beat a chess engine that saw millions of moves a second — by making
+the dumbest moves he could, on purpose.
+Principle Framework (Layer 2): Modelling an opponent's mind spirals into recursion ("I know that you know
+that I know…"), bounded by the halting problem — so you can weaponize it: force a superior calculator to
+waste effort anticipating a plan that doesn't exist. Play one level above your opponent, not ten.
+Best Supporting Case: Nakamura vs. Rybka (gridlock and meaningless moves); poker "leveling"; "play one
+level above your opponent."
+Character Application: Blaze: Executor
 Psychology Angle: Theory of mind and its limits.
 Math Angle: Recursion; the halting problem.
-Sports Angle: Baiting opponents into over-thinking.
-AI Angle: Opponent modeling and adversarial search limits.
+Sports Angle: Baiting an opponent into over-thinking; the mind-game of penalties and pitch selection.
+Business Angle: Out-simple-ing an over-analytical competitor instead of out-thinking them.
+Investing Angle: Not out-guessing a market that's guessing back at you (the Keynesian beauty contest).
+History Angle: The 2008 Nakamura–Rybka blitz as a landmark human-vs-machine result.
+AI Angle: Opponent modelling and the limits of adversarial search.
 ```
 
 ## 18. Chapter Knowledge Cards

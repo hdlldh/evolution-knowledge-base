@@ -5,6 +5,16 @@
 
 本表跨全书维护。翻译新章节前先读本表；新增译法记入本表，不得静默更改已确立的译法。
 
+## 内容框架术语（Built By Evolution 模板 §17／§20，跨章统一）
+
+字段名：Application Domain 应用领域 · Hidden Principle 隐藏原理 · Story Hook (Layer 1) 故事钩子（第一层） · Principle Framework (Layer 2) 原理框架（第二层） · Character Application 角色应用 · Character Perspective 角色视角 · Transferability 可迁移性（High 高／Medium 中／Low 低）。
+
+应用领域枚举：Sports 体育 · Investing 投资 · Business 商业 · AI 人工智能 · History 历史 · Everyday Life 日常生活 · Other 其他。
+
+隐藏原理枚举：Decision Making 决策 · Bayesian Thinking 贝叶斯思维 · Expected Value 期望值 · Game Theory 博弈论 · Cognitive Bias 认知偏误 · Network Effects 网络效应 · Feedback Loops 反馈回路 · Information Theory 信息论 · Optimization 优化 · Evolution 演化 · Signal vs. Noise 信噪 · Other 其他。
+
+角色（保留英文名，附中文角色）：Echo 回声（Observer 观察者）· Insight 洞见（Interpreter 阐释者）· Sigma 西格玛（Architect 架构师）· Nova 新星（Strategist 策略家）· Blaze 烈焰（Executor 执行者）。
+
 | English | 中文 | 首次出现 | 备注 |
 |---|---|---|---|
 | optimal stopping | 最优停止 | Ch.1 | 数学标准译法 |

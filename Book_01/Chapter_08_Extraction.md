@@ -912,84 +912,137 @@ operations research.
 ## 17. Content Creation Opportunities
 
 ```
-Idea: The wedding seating chart no supercomputer can solve
+Idea Title: The wedding seating chart no supercomputer can solve
 Format: YouTube Long-form
-Core Concept: Intractability; constrained optimization; relaxation.
-Hook: A Princeton PhD tried to optimize her wedding seating with the same algorithm she used for protein
-design. Her lab supercomputer ran for 36 hours — and there are more possible seating plans than atoms in
-the universe.
-Best Supporting Case: Meghan Bellows's wedding; the ~11¹⁰⁷ combinatorial explosion; the minimum spanning
-tree bound.
-Psychology Angle: Perfectionism; "perfect is the enemy of the good."
+Application Domain: Everyday Life
+Hidden Principle: Optimization
+Story Hook (Layer 1): A Princeton PhD tried to optimize her wedding seating with the same software she
+used for protein design — her lab supercomputer ran for 36 hours, and there are more possible seating
+plans than atoms you'd care to count.
+Principle Framework (Layer 2): Some problems are intractable: the number of arrangements explodes
+factorially, so no computer can check them all. The rational response isn't to grind forever or give up,
+but to relax the problem — solve an easier version to get a bound and a "close enough" answer fast.
+Best Supporting Case: Meghan Bellows's wedding; the ~11¹⁰⁷ combinatorial explosion; the minimum-spanning-
+tree lower bound.
+Character Application: Sigma: Architect
+Psychology Angle: Perfectionism; "the perfect is the enemy of the good."
 Math Angle: Factorial time; the traveling salesman problem; intractability.
 Sports Angle: Michael Trick scheduling entire leagues.
-AI Angle: NP-hardness and why scaling compute can't solve everything.
+Business Angle: Logistics, staffing, and routing problems that are formally unsolvable to perfection.
+Investing Angle: Portfolio construction over huge asset universes as a hard combinatorial problem.
+History Angle: The traveling salesman problem's decades-long resistance to an exact solution.
+AI Angle: NP-hardness and why scaling compute alone can't solve everything.
 ```
 
 ```
-Idea: Technically, you don't have to do anything
+Idea Title: Technically, you don't have to do anything
 Format: YouTube Short
-Core Concept: Lagrangian Relaxation; constraints as choices with consequences.
-Hook: You don't have to do your homework. You don't have to obey the law. There are just consequences,
-and you get to decide whether to face them. That's not rebellion — it's a computer-science technique.
-Best Supporting Case: Brian's mother; Michael Trick softening league rules; the rock band past curfew.
+Application Domain: Everyday Life
+Hidden Principle: Decision Making
+Story Hook (Layer 1): You don't have to do your homework; you don't have to obey the law. There are just
+consequences, and you get to decide whether to face them — and that's not rebellion, it's a computer-
+science technique.
+Principle Framework (Layer 2): Lagrangian Relaxation turns a hard constraint ("you must") into a priced
+penalty ("or else what?"). Reframing rules as costs you can choose to pay restores agency and makes
+"impossible" problems merely expensive.
+Best Supporting Case: Brian's mother ("there are just consequences"); Michael Trick softening league
+rules; the rock band playing past curfew.
+Character Application: Blaze: Executor
 Psychology Angle: Agency and responsibility.
 Math Angle: Lagrangian Relaxation — turning the impossible into the costly.
 Sports Angle: Salary caps relaxed into luxury-tax penalties.
+Business Angle: "Ask forgiveness, not permission" as a priced constraint, not a hard wall.
+Investing Angle: Treating covenants and limits as costs to weigh, not absolute prohibitions.
+History Angle: Civil-disobedience traditions as consciously paying the penalty of a broken rule.
 AI Angle: Soft constraints, penalty terms, and RLHF's reward-vs-KL tradeoff.
 ```
 
 ```
-Idea: How to solve an impossible problem (relax it)
+Idea Title: How to solve an impossible problem (relax it)
 Format: YouTube Long-form
-Core Concept: The three relaxations.
-Hook: Some problems are mathematically impossible to solve perfectly — even for the best computers.
-Here's the trick computer scientists use instead: they cheat, on purpose, in three specific ways.
-Best Supporting Case: Minimum spanning tree (constraint); Arnold Palmer / fire trucks (continuous);
-Trick's schedules (Lagrangian).
+Application Domain: Business
+Hidden Principle: Optimization
+Story Hook (Layer 1): Some problems are mathematically impossible to solve perfectly — even for the best
+computers — so here's the trick computer scientists use instead: they cheat, on purpose, in three
+specific ways.
+Principle Framework (Layer 2): The three relaxations — Constraint (drop rules), Continuous (allow
+fractions, then round), and Lagrangian (turn constraints into penalties) — are "consciously driven
+wishful thinking" that yields a fast, bounded, close-enough answer to an intractable problem.
+Best Supporting Case: The minimum spanning tree (constraint); Arnold Palmer / fire-truck placement
+(continuous); Trick's league schedules (Lagrangian).
+Character Application: Nova: Strategist
 Psychology Angle: Reframing; consciously driven wishful thinking vs. self-deception.
 Math Angle: Constraint / Continuous / Lagrangian Relaxation; bounds and approximation ratios.
 Sports Angle: League scheduling and the knapsack roster problem.
+Business Angle: Solve the idealized version first to get a target, then add reality back in.
+Investing Angle: Simplify to a tractable model for a bound, then adjust for frictions.
+History Angle: Operations research's WWII origins in "good enough, fast" optimization.
 AI Angle: LP relaxation, randomized rounding, branch-and-bound.
 ```
 
 ```
-Idea: You can know how close you are to an answer you can't compute
+Idea Title: You can know how close you are to an answer you can't compute
 Format: YouTube Short
-Core Concept: Lower bounds via constraint relaxation.
-Hook: There's a way to prove your solution is within 10% of the perfect one — without ever finding the
-perfect one.
-Best Supporting Case: The minimum spanning tree bound; the Earth-scale TSP solved to within 0.05%.
+Application Domain: AI
+Hidden Principle: Optimization
+Story Hook (Layer 1): There's a way to prove your solution is within 10% of the perfect one — without ever
+finding the perfect one.
+Principle Framework (Layer 2): Relaxing constraints yields a lower bound: a provable "the best possible is
+at least this good," so you can quantify how close a good-enough answer is to an optimum you'll never
+compute. Certainty about the gap, without solving it.
+Best Supporting Case: The minimum-spanning-tree bound; the Earth-scale traveling salesman tour solved to
+within 0.05% of optimal.
+Character Application: Echo: Observer
 Psychology Angle: Managing expectations; good-enough over perfect.
 Math Angle: Lower bounds; approximation ratios.
 Sports Angle: "How close can you get?" as a mindset.
+Business Angle: Telling a client "this plan is provably within 5% of ideal" without the ideal.
+Investing Angle: Bounding how much a simpler strategy gives up versus the theoretical optimum.
+History Angle: The record TSP solutions proven near-optimal without brute force.
 AI Angle: Branch-and-bound and warm-starting search with relaxed bounds.
 ```
 
 ```
-Idea: "Inconceivable!" — the math of impossible problems
+Idea Title: "Inconceivable!" — the math of impossible problems
 Format: YouTube Short
-Core Concept: Lagrangian Relaxation reclassifies the impossible as merely costly.
-Hook: "You keep using that word. I do not think it means what you think it means." Computer scientists
-agree: most "impossible" constraints are really just expensive ones.
-Best Supporting Case: The Princess Bride epigraph; Brian's mother; playing past curfew.
+Application Domain: Everyday Life
+Hidden Principle: Optimization
+Story Hook (Layer 1): "You keep using that word. I do not think it means what you think it means" —
+computer scientists agree: most "impossible" constraints are really just expensive ones.
+Principle Framework (Layer 2): Lagrangian Relaxation reclassifies the impossible as merely costly by
+folding a hard constraint into the score as a penalty; "do it, or else!" becomes "or else what?", and the
+impassable wall becomes a price.
+Best Supporting Case: The Princess Bride epigraph; Brian's mother; the band playing past curfew.
+Character Application: Insight: Interpreter
 Psychology Angle: Reframing the impossible as a price.
 Math Angle: Lagrangian Relaxation; constraints into penalties.
 Sports Angle: Salary caps as relaxable penalties.
+Business Angle: "Non-negotiable" requirements that turn out to have a price tag.
+Investing Angle: Hard limits reframed as tradeable costs in a risk budget.
+History Angle: How "impossible" engineering constraints repeatedly became cost problems.
 AI Angle: Soft constraints and penalty terms in constrained optimization.
 ```
 
 ```
-Idea: The one mathematician behind computer science's two hardest problems
+Idea Title: The one mathematician behind computer science's two hardest problems
 Format: YouTube Short
-Core Concept: Merrill Flood's throughline (secretary problem + traveling salesman problem).
-Hook: One man circulated both the "when to stop dating" formula and the "shortest possible road trip"
-problem — and maybe coined the word "software."
-Best Supporting Case: Flood at RAND; the 37% Rule (ch. 1); the TSP (ch. 8).
-Psychology Angle: How ideas spread through a small community.
+Application Domain: History
+Hidden Principle: Network Effects
+Story Hook (Layer 1): One man circulated both the "when to stop dating" formula and the "shortest possible
+road trip" problem — and maybe coined the word "software."
+Principle Framework (Layer 2): Ideas spread through networks of people, not out of nowhere: a single
+well-connected node (Merrill Flood at RAND) can seed the two emblematic hard problems of a whole field,
+showing how a small community's connections shape what gets studied.
+Best Supporting Case: Flood at RAND; the 37% Rule / secretary problem (ch. 1); the traveling salesman
+problem (ch. 8).
+Character Application: Insight: Interpreter
+Psychology Angle: How ideas spread through a small, tightly-connected community.
 Math Angle: The secretary problem and the traveling salesman problem as the two emblematic hard problems.
 Sports Angle: None core.
-AI Angle: The mid-century roots of algorithmic thinking.
+Business Angle: How one connector can seed an entire field's agenda.
+Investing Angle: The outsized influence of a few nodes in a small research/industry network.
+History Angle: RAND and the mid-century roots of algorithmic thinking.
+AI Angle: The mid-century seeds of the problems modern optimization still wrestles with.
 ```
 
 ## 18. Chapter Knowledge Cards

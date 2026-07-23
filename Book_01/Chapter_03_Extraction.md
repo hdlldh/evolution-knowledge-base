@@ -1341,73 +1341,114 @@ robustness from biology; the chapter frames search engines as ranking/sorting sy
 ## 17. Content Creation Opportunities
 
 ```
-Idea: The silver medal is a lie
+Idea Title: The silver medal is a lie
 Format: YouTube Long-form
-Core Concept: Single Elimination reveals only the winner; noise makes even gold unreliable.
-Hook: The person who got second place at the Olympics probably wasn't the second-best. The math says
-the silver medal is a lie.
+Application Domain: Sports
+Hidden Principle: Signal vs. Noise
+Story Hook (Layer 1): The person who got second place at the Olympics probably wasn't the second-best —
+the math says the silver medal is a lie.
+Principle Framework (Layer 2): A tournament is a sorting algorithm, and Single Elimination reliably
+identifies only the winner; every other rank is corrupted by noise, so a ranking is a signal you should
+trust only as far as its structure allows.
 Best Supporting Case: Dodgson/Lewis Carroll's 1883 proof (16/31; 12-to-1) and Olympic bronze-medal
-matches as tacit admission.
+matches as a tacit admission the structure is unreliable.
+Character Application: Echo: Observer
 Psychology Angle: Outcome bias and how we over-read rankings.
 Math Angle: Tournament structures as sorting algorithms; 0.70⁶ < 12% for the true best team.
-Sports Angle: March Madness seeding; why a 16-seed never beats a 1-seed; best-of-seven vs. single games.
+Sports Angle: March Madness seeding; why a 16-seed almost never beats a 1-seed; best-of-seven vs. single
+games.
+Business Angle: Promotion tournaments crown a winner but say little about who's truly second-best.
+Investing Angle: Fund "league tables" over one period as mostly noise, not skill ranking.
+History Angle: The historical spread of knockout formats over round-robins for spectacle, not accuracy.
 AI Angle: Elo/arena rankings and noisy pairwise comparisons.
 ```
 
 ```
-Idea: Why you should stop organizing your stuff
+Idea Title: Why you should stop organizing your stuff
 Format: YouTube Long-form
-Core Concept: The search-sort tradeoff; err on the side of messiness.
-Hook: Cleaning up your inbox is, mathematically, a waste of your life — and there's a study titled
-exactly that.
+Application Domain: Everyday Life
+Hidden Principle: Optimization
+Story Hook (Layer 1): Cleaning up your inbox is, mathematically, a waste of your life — and there's a
+study titled almost exactly that.
+Principle Framework (Layer 2): The only reason to sort is to make future search cheaper, and sorting
+suffers diseconomies of scale — so past a point, "err on the side of messiness" is the optimization, not
+laziness.
 Best Supporting Case: Whittaker's "Am I Wasting My Time Organizing Email?" ("an emphatic Yes"); the
-bookshelf cost-benefit; Google as the opposite case.
-Psychology Angle: The moralization of tidiness; procrastination reframed as rational.
+bookshelf cost-benefit; Google's search-not-foldering as the opposite case.
+Character Application: Blaze: Executor
+Psychology Angle: The moralization of tidiness; procrastination reframed as sometimes rational.
 Math Angle: Diseconomies of scale; sort cost only justified by future search.
-Sports Angle: None identified.
+Sports Angle: None core.
+Business Angle: Over-processing and premature standardization as busywork that never pays for itself.
+Investing Angle: Over-optimizing a portfolio's structure vs. leaving it deliberately simple.
+History Angle: The pre-search-engine era of elaborate filing systems, undone by full-text search.
 AI Angle: Why search beats manual foldering; retrieval over organization.
 ```
 
 ```
-Idea: Why big groups fight more (and what chickens can teach us)
+Idea Title: Why big groups fight more (and what chickens can teach us)
 Format: YouTube Long-form
-Core Concept: Pecking orders as sorting; group size drives conflict.
-Hook: Debeaking chickens can make them *more* aggressive — because you've broken the algorithm they use
-to keep the peace.
-Best Supporting Case: Hen agonistic-behavior studies; feral flocks of 10–20; Neumann's displacing
+Application Domain: Business
+Hidden Principle: Network Effects
+Story Hook (Layer 1): Debeaking chickens can make them *more* aggressive — because you've broken the
+algorithm they use to keep the peace.
+Principle Framework (Layer 2): A pecking order is a sorting algorithm that replaces fights with remembered
+rank; because the cost of tracking everyone rises with group size, conflict scales up as the group grows
+— structure, not temperament, drives the peace.
+Best Supporting Case: Hen agonistic-behaviour studies; feral flocks of 10–20; Neumann's displacing
 macaques; Haxton's poker ladder.
+Character Application: Sigma: Architect
 Psychology Angle: Dominance hierarchies as information hierarchies; the cognitive cost of tracking rank.
 Math Angle: Confrontations grow at least logarithmically with group size.
-Sports Angle: None core, but poker seat-jockeying as human displacement.
+Sports Angle: Locker-room hierarchies and squad-size effects on friction.
+Business Angle: Why teams get political past a size threshold; the org-chart as a peace-keeping sort.
+Investing Angle: Governance friction rising with the number of decision-makers.
+History Angle: Dunbar-style limits and why institutions formalize rank as they scale.
 AI Angle: Decentralized coordination and the cost of consensus.
 ```
 
 ```
-Idea: The rat race is a race, not a fight — and that's why civilization works
+Idea Title: The rat race is a race, not a fight — and that's why civilization works
 Format: YouTube Long-form
-Core Concept: Ordinal→cardinal; a shared benchmark averts violence.
-Hook: A marathon ranks ten thousand runners in one afternoon. Making them fight it out pairwise would
-take a hundred million matches.
-Best Supporting Case: Marathon vs. round-robin; Law of Gross Tonnage; Fortune 500; GDP/G20 ("saves not
-only time but lives").
+Application Domain: History
+Hidden Principle: Game Theory
+Story Hook (Layer 1): A marathon ranks ten thousand runners in one afternoon; making them fight it out
+pairwise would take a hundred million matches.
+Principle Framework (Layer 2): Replacing pairwise ranking (ordinal) with a shared numerical benchmark
+(cardinal) turns fights into races — a violence-avoidance technology that lets large-scale society exist
+without constant conflict.
+Best Supporting Case: Marathon vs. round-robin; the Law of Gross Tonnage; the Fortune 500; GDP/G20
+("saves not only time but lives").
+Character Application: Insight: Interpreter
 Psychology Angle: Deference norms ("respect your elders") as violence-avoidance.
 Math Angle: Constant-time status from a cardinal measure vs. linearithmic pairwise fights.
 Sports Angle: Races vs. fights; why some sports scale to huge fields and others don't.
-AI Angle: Benchmarks/leaderboards as cardinal reduction and their Goodhart risk.
+Business Angle: Money and market cap as the cardinal benchmark that lets firms "compete" without brawling.
+Investing Angle: Price as the shared yardstick that clears a market without bilateral negotiation.
+History Angle: Currency, GDP, and standardized measures as civilization-scale peace technologies.
+AI Angle: Benchmarks/leaderboards as cardinal reduction — and their Goodhart risk.
 ```
 
 ```
-Idea: Bubble Sort's revenge
+Idea Title: Bubble Sort's revenge
 Format: YouTube Short
-Core Concept: Noise makes the "worst" algorithm the best.
-Hook: Obama publicly dunked on Bubble Sort. But in a noisy world, it beats the algorithm that runs the
-internet.
-Best Supporting Case: Obama at Google; Ackley's robustness research; the Mergesort-error/fluke-loss
+Application Domain: AI
+Hidden Principle: Signal vs. Noise
+Story Hook (Layer 1): Obama publicly dunked on Bubble Sort — but in a noisy world, it beats the algorithm
+that runs the internet.
+Principle Framework (Layer 2): When comparisons are unreliable, robustness beats raw speed: an algorithm
+that wastes effort double-checking (the "worst" one) degrades gracefully under noise, while the "optimal"
+one amplifies a single bad comparison.
+Best Supporting Case: Obama at Google; Ackley's robustness research; the Mergesort-error / fluke-loss
 analogy.
+Character Application: Nova: Strategist
 Psychology Angle: Reliability vs. speed as a values tradeoff.
 Math Angle: Robustness under noisy comparators; Comparison Counting Sort = round-robin.
-Sports Angle: Ladder losses cost one place; knockout losses are permanent.
-AI Angle: Redundant labels in noisy preference learning.
+Sports Angle: Ladder losses cost one place; a single knockout loss is permanent.
+Business Angle: Redundant checks and slack that make a process robust to bad inputs.
+Investing Angle: Diversification as the "inefficient but robust" choice under measurement noise.
+History Angle: Over-engineered, redundant systems that survive shocks the "optimal" ones don't.
+AI Angle: Redundant labels and majority-vote checks in noisy preference learning.
 ```
 
 ## 18. Chapter Knowledge Cards

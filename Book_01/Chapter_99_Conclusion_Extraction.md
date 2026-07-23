@@ -532,45 +532,69 @@ an explicit algorithm-design directive.
 ## 17. Content Creation Opportunities
 
 ```
-Idea: The kindest thing you can say is "I'm NOT flexible"
+Idea Title: The kindest thing you can say is "I'm NOT flexible"
 Format: YouTube Long-form
-Core Concept: Computational kindness — minimize the labor of thought you impose on others.
-Hook: The most "polite" thing you say — "Oh, I'm flexible, whatever works" — is secretly one of the
-cruelest, and computer science can prove it.
-Best Supporting Case: The interview-scheduling paradox; Brian's phantom-consensus bullfight; the 18-cent
-coin; the bus-stop "cognitive subsidy."
+Application Domain: Everyday Life
+Hidden Principle: Decision Making
+Story Hook (Layer 1): The most "polite" thing you say — "Oh, I'm flexible, whatever works" — is secretly
+one of the cruelest, and computer science can prove it.
+Principle Framework (Layer 2): Computational kindness: interacting with others hands them hard computa-
+tional problems (above all, simulating your mind), so minimizing their labor of thought is a real ethic.
+Assert a concrete option — verification is easy, open-ended search is hard.
+Best Supporting Case: The interview-scheduling paradox (a constrained request beats an open one); Brian's
+phantom-consensus bullfight; the 18-cent coin; the bus-stop "cognitive subsidy."
+Character Application: Insight: Interpreter
 Psychology Angle: Cognitive load; theory of mind; choice overload.
 Math Angle: Verification vs. search; change-making as a traveling-salesman problem.
 Sports Angle: Simple play-calling to cut players' in-the-moment load.
-AI Angle: Kind interface design — propose options, don't demand goals.
+Business Angle: Proposing two options over "what do you all think?" to unblock a meeting.
+Investing Angle: Bringing a concrete recommendation, not an open menu, to a decision committee.
+History Angle: Etiquette norms of "deference" reread as offloading cognitive cost onto others.
+AI Angle: Kind interface design — propose options, don't demand an underspecified goal.
 ```
 
 ```
-Idea: Even the best strategy fails most of the time (and that's fine)
+Idea Title: Even the best strategy fails most of the time (and that's fine)
 Format: YouTube Short
-Core Concept: Process over outcome — "computational Stoicism."
-Hook: The optimal way to find a partner or an apartment fails 63% of the time. Here's why that means you
-did everything right.
-Best Supporting Case: The 37% Rule's failure rate; Russell's "wisest act"; LRU and UCB never guaranteeing
-success.
+Application Domain: Everyday Life
+Hidden Principle: Decision Making
+Story Hook (Layer 1): The optimal way to find a partner or an apartment fails 63% of the time — and here's
+why that means you did everything right.
+Principle Framework (Layer 2): Judge the process, not the outcome ("computational Stoicism"): even optimal
+algorithms routinely fail, so following the best available process is all you can do — hope to be
+fortunate, but strive to be wise.
+Best Supporting Case: The 37% Rule's 63% failure rate; Russell's "wisest act"; LRU and UCB never
+guaranteeing success.
+Character Application: Nova: Strategist
 Psychology Angle: Outcome bias; self-compassion.
 Math Angle: Optimal stopping; expected value vs. realized outcome.
-Sports Angle: Judge the 4th-down decision, not the result.
-AI Angle: Decision-quality vs. single-outcome evaluation.
+Sports Angle: Judge the 4th-down decision, not whether the play worked.
+Business Angle: Rewarding good decisions that lost, not lucky bets that won.
+Investing Angle: Process-based evaluation over a single quarter's return.
+History Angle: Stoic process-focus meeting the modern math of unavoidable failure rates.
+AI Angle: Decision-quality vs. single-outcome (single-rollout) evaluation.
 ```
 
 ```
-Idea: Why the "perfect" coin would ruin your day
+Idea Title: Why the "perfect" coin would ruin your day
 Format: YouTube Short
-Core Concept: Computationally kind design — optimal ≠ usable.
-Hook: A mathematician found the perfect new coin to minimize change in your pocket. It would also turn
-every cash register into a traveling-salesman problem.
-Best Supporting Case: Shallit's 18-cent coin vs. a 2- or 3-cent piece; helix parking garages; countdown
-bus signs.
+Application Domain: Business
+Hidden Principle: Optimization
+Story Hook (Layer 1): A mathematician found the perfect new coin to minimize the change in your pocket —
+and it would also turn every cash register into a traveling-salesman problem.
+Principle Framework (Layer 2): The mathematically optimal design can be the cognitively cruelest; good
+design minimizes the user's computational load, not just materials or money. Optimize for usable, not
+just optimal.
+Best Supporting Case: Shallit's 18-cent coin vs. a 2- or 3-cent piece; single-helix parking garages;
+countdown bus signs as a "cognitive subsidy."
+Character Application: Sigma: Architect
 Psychology Angle: Cognitive load in everyday environments.
-Math Angle: Change-making, greedy algorithms, NP-hardness.
+Math Angle: Change-making; greedy algorithms; NP-hardness.
 Sports Angle: None core.
-AI Angle: Cost-of-computation as a design objective.
+Business Angle: UX and pricing that trade a little "optimality" for a lot of usability.
+Investing Angle: A simple, followable plan beating a theoretically optimal one no one executes.
+History Angle: Currency and standards designed (or not) for the humans who must compute with them.
+AI Angle: Cost-of-computation as a first-class design objective.
 ```
 
 ## 18. Chapter Knowledge Cards

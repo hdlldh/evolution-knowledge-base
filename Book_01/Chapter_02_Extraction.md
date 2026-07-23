@@ -1979,119 +1979,228 @@ significant fraction of the Internet itself."
 ## 17. Content Creation Opportunities
 
 ```
-Idea: Why a total unknown beats a sure thing
+Idea Title: Why a total unknown beats a sure thing
 Format: YouTube Long-form
-Core Concept: The Gittins index and the exploration bonus
-Hook: A slot machine you've never touched is mathematically more attractive than one you know pays out
-70% of the time. The math says the grass really is greener.
-Best Supporting Case: The Gittins table — 0–0 scores 0.7029 against an expected value of 0.5000 — and
-Unilever's drug question accidentally solving a problem a generation of mathematicians couldn't.
+Application Domain: Everyday Life
+Hidden Principle: Expected Value
+Story Hook (Layer 1): A slot machine you've never touched is mathematically more attractive than one you
+know pays out 70% of the time — the math says the grass really is greener.
+Principle Framework (Layer 2): The exploration bonus — an unknown option still holds upside that a known
+one has already spent, so uncertainty itself is worth something; "give it the benefit of the doubt" can
+be a correct expected-value calculation, not a bias.
+Best Supporting Case: The Gittins table (a 0–0 record scores 0.7029 against an expected value of 0.5000);
+Unilever's detergent-nozzle problem accidentally solving what a generation of mathematicians couldn't.
+Character Application: Insight: Interpreter
 Psychology Angle: Optimism as rational rather than biased; the benefit of the doubt, formalized.
 Math Angle: Index policies, geometric discounting, why 0.99 discounting pushes the unknown to 86.99%.
-Sports Angle: The untested rookie is worth more than the equally rated veteran, precisely because we
-know less.
+Sports Angle: The untested rookie is worth more than an equally rated veteran, precisely because we know
+less.
+Business Angle: Giving a new vendor or hire a shot as a rational bonus for the untried.
+Investing Angle: Venture bets — an unproven startup's optionality vs. a known, capped return.
+History Angle: The Unilever origin story that produced the Gittins index.
 AI Angle: Optimistic initialization; cold start in recommender systems.
 ```
 
 ```
-Idea: The interval — one number that decides whether to try something new
+Idea Title: The interval — one number that decides whether to try something new
 Format: YouTube Long-form
-Core Concept: "The interval makes the strategy"
-Hook: Whether you should try the new restaurant has almost nothing to do with the restaurant. It
-depends on how long you're staying in town.
-Best Supporting Case: Stucchio eating everywhere in Pune on arrival and returning to old favorites on
+Application Domain: Everyday Life
+Hidden Principle: Decision Making
+Story Hook (Layer 1): Whether you should try the new restaurant has almost nothing to do with the
+restaurant — it depends on how long you're staying in town.
+Principle Framework (Layer 2): "The interval makes the strategy": the value of exploring falls and the
+value of exploiting rises as your remaining time shrinks, so the same person should explore early and
+exploit late — match your novelty-seeking to your horizon, not your mood.
+Best Supporting Case: Stucchio eating everywhere in Pune on arrival and returning to old favourites on
 his way out — same person, same city, opposite strategy.
-Psychology Angle: Carstensen's older adults becoming indistinguishable from the young once they
-imagine twenty extra years.
-Math Angle: Exploration value monotonically falls, exploitation value monotonically rises.
-Sports Angle: A club out of contention should be handing out debuts; a club in a title race shouldn't.
+Character Application: Nova: Strategist
+Psychology Angle: Carstensen's older adults becoming indistinguishable from the young once they imagine
+twenty extra years.
+Math Angle: Exploration value falls monotonically; exploitation value rises monotonically.
+Sports Angle: A club out of contention should hand out debuts; a club in a title race shouldn't.
+Business Angle: A startup with runway explores; one months from bankruptcy exploits.
+Investing Angle: Time horizon sets the growth-vs-income allocation, not risk appetite alone.
+History Angle: Empires and firms shifting from expansion to consolidation as they sense the end.
 AI Angle: The discount factor γ as the effective horizon in reinforcement learning.
 ```
 
 ```
-Idea: Hollywood is telling you it thinks it's dying
+Idea Title: Hollywood is telling you it thinks it's dying
 Format: YouTube Short
-Core Concept: Inferring interval from observed strategy
-Hook: Sequels in the top ten: two in 1981, eight in 2011. That's not laziness. That's an industry
-betting it doesn't have long left.
-Best Supporting Case: The sequel counts, plus studio profits down 40% between 2007 and 2011.
+Application Domain: Business
+Hidden Principle: Signal vs. Noise
+Story Hook (Layer 1): Sequels in the top ten: two in 1981, eight in 2011 — that's not laziness, it's an
+industry betting it doesn't have long left.
+Principle Framework (Layer 2): You can read an actor's perceived interval off their behaviour: exploit-
+only choices (sequels, no risks) reveal a short horizon. Behaviour is a signal about beliefs, not just a
+character trait.
+Best Supporting Case: The rising sequel counts, plus studio profits down 40% between 2007 and 2011.
+Character Application: Echo: Observer
 Psychology Angle: Short-termism as a readable signal rather than a character flaw.
-Math Angle: Exploit-only behavior implies a short perceived interval.
+Math Angle: Exploit-only behaviour implies a short perceived interval.
 Sports Angle: A manager who stops rotating is telling you what he thinks of his job security.
+Business Angle: A firm harvesting instead of investing is signalling it expects decline.
+Investing Angle: Buybacks over R&D as a read on management's growth expectations.
+History Angle: Late-stage institutions ossifying into repetition before decline.
 AI Angle: Greedy policies as evidence of a low discount factor.
 ```
 
 ```
-Idea: Your toddler is running the correct algorithm
+Idea Title: Your toddler is running the correct algorithm
 Format: YouTube Long-form
-Core Concept: Childhood as a subsidized exploration phase
-Hook: Your kid can't tie their shoes, can't plan, can't focus — and is executing exactly the strategy
-a well-designed algorithm would.
-Best Supporting Case: Gopnik on caregivers absorbing the poor payoffs of exploration; the baby putting
-every object in the house in its mouth as "studiously pulling all the handles at the casino."
+Application Domain: Everyday Life
+Hidden Principle: Optimization
+Story Hook (Layer 1): Your kid can't tie their shoes, can't plan, can't focus — and is executing exactly
+the strategy a well-designed algorithm would.
+Principle Framework (Layer 2): With a long horizon, heavy exploration is optimal; childhood is a
+subsidized exploration phase in which caregivers absorb the poor payoffs so the child can sample widely.
+The "deficit" is the design.
+Best Supporting Case: Gopnik on caregivers absorbing exploration's costs; the baby mouthing every object
+in the house as "studiously pulling all the handles at the casino."
+Character Application: Insight: Interpreter
 Psychology Angle: The developmental deficit model, inverted.
 Math Angle: Bandit algorithms explore early and exploit late; a long interval justifies heavy
 exploration.
 Sports Angle: Academy years as the subsidized exploration phase of a career.
+Business Angle: R&D and "20% time" as an organization's subsidized exploration budget.
+Investing Angle: Early-career or early-fund years as the time to take wide, cheap bets.
+History Angle: Apprenticeship and the wander-years tradition as institutionalized exploration.
 AI Angle: Curriculum learning; broad low-stakes exploration before task-specific optimization.
 ```
 
 ```
-Idea: Grandpa is right about restaurants and wrong about tonight
+Idea Title: Grandpa is right about restaurants and wrong about tonight
 Format: YouTube Short
-Core Concept: Information transfers across intervals; strategy doesn't
-Hook: Take your grandfather's restaurant recommendations. Ignore his restaurant habits. Both are
-correct.
-Best Supporting Case: The chapter's own 5:00 p.m. regular.
+Application Domain: Everyday Life
+Hidden Principle: Decision Making
+Story Hook (Layer 1): Take your grandfather's restaurant recommendations; ignore his restaurant habits.
+Both are correct.
+Principle Framework (Layer 2): Information transfers across intervals; strategy doesn't. His accumulated
+data (which places are good) is valid for you, but his optimal policy (stick to favourites) is tuned to a
+short horizon that isn't yours — separate the data from the policy.
+Best Supporting Case: The chapter's 5:00 p.m. regular who never tries anywhere new.
+Character Application: Insight: Interpreter
 Psychology Angle: Why intergenerational advice conflicts are structural rather than personal.
-Math Angle: Optimal policy depends on interval; accumulated data does not.
+Math Angle: The optimal policy depends on the interval; accumulated data does not.
 Sports Angle: A veteran's read on opponents is transferable; his risk appetite isn't.
+Business Angle: Inherited "best practices" (data) vs. inherited caution (policy) from a mature firm.
+Investing Angle: An elder's asset knowledge transfers; their late-life conservatism shouldn't set a
+young investor's allocation.
+History Angle: Institutional memory worth keeping vs. institutional habits worth discarding.
 AI Angle: Transferring a learned value function without transferring the exploration schedule.
 ```
 
 ```
-Idea: You are not the gambler. You are the jackpot.
+Idea Title: You are not the gambler. You are the jackpot.
 Format: YouTube Long-form
-Core Concept: A/B testing and who bears the cost of exploration
-Hook: Every colour, price, and headline you saw online today was chosen by an algorithm running an
-experiment on you. Google once tested forty-one shades of blue.
-Best Supporting Case: The Obama DONATE button and its $57 million, against Hammerbacher's "the best
-minds of my generation are thinking about how to make people click ads."
+Application Domain: Business
+Hidden Principle: Optimization
+Story Hook (Layer 1): Every colour, price, and headline you saw online today was chosen by an algorithm
+running an experiment on you — Google once tested forty-one shades of blue.
+Principle Framework (Layer 2): Exploration always has a cost, and the question is who pays it. A/B testing
+turns users into the bandit's arms; the even-split test is a poor bandit algorithm because half your users
+get the worse option for the whole experiment.
+Best Supporting Case: The Obama DONATE button and its $57 million (a plain family photo beating the pros),
+against Hammerbacher's "the best minds of my generation are thinking about how to make people click ads."
+Character Application: Blaze: Executor
 Psychology Angle: The plain black-and-white family photo beating everything the professionals produced.
-Math Angle: Why the even-split A/B test is a bad bandit algorithm — half your users get the worse
-option for the whole test.
+Math Angle: Why the even-split A/B test is a bad bandit algorithm — half your users get the worse option
+for the whole test.
 Sports Angle: Testing a training protocol on half a squad all season has the same flaw.
+Business Angle: Multi-armed-bandit testing that shifts traffic to winners mid-experiment vs. fixed splits.
+Investing Angle: Paper-trading a strategy on part of the book while it underperforms.
+History Angle: From Mad Men intuition to Google's forty-one shades — the industrialization of persuasion.
 AI Angle: Live experimentation on users; consent norms far weaker than medicine's.
 ```
 
 ```
-Idea: The trial design that may have cost twenty-four babies
+Idea Title: The trial design that may have cost twenty-four babies
 Format: YouTube Long-form
-Core Concept: Adaptive clinical trials as bandit problems
-Hook: Eleven infants in a row got the experimental treatment and all eleven lived. The medical
-community's response was that the study was badly designed.
+Application Domain: Other
+Hidden Principle: Decision Making
+Story Hook (Layer 1): Eleven infants in a row got the experimental treatment and all eleven lived — and
+the medical community's response was that the study was badly designed.
+Principle Framework (Layer 2): Adaptive (bandit) trials shift subjects toward the winning treatment as
+evidence accrues, trading statistical cleanliness for lives; the ethics of exploration turn on who bears
+the cost of the losing arm.
 Best Supporting Case: The full ECMO sequence — Bartlett, Ware, Berry's published objection, and the UK
 study's 24 excess deaths in the conventional arm.
+Character Application: Sigma: Architect
 Psychology Angle: Why institutions defend procedures against outcomes, and what statistics did for
 medicine that made this rational.
 Math Angle: Play-the-winner urn schemes; the cost of clean evidence.
-Sports Angle: None identified.
+Sports Angle: None core.
+Business Angle: Rolling out an internal change you believe works while still A/B-proving it.
+Investing Angle: Committing more capital to a strategy as it wins vs. a fixed control allocation.
+History Angle: The rise of the randomized controlled trial as medicine's evidentiary gold standard.
 AI Angle: Deploying a model you believe is better while still collecting comparison data.
-Note: Handle carefully — real infant deaths, and the chapter genuinely reports expert disagreement
-rather than a settled verdict. The UK study found a smaller effect, which complicates the framing.
+Note: Handle carefully — real infant deaths, and the chapter genuinely reports expert disagreement rather
+than a settled verdict. The UK study found a smaller effect, which complicates the framing.
 ```
 
 ```
-Idea: You will never run out of regret — and that's the good news
+Idea Title: You will never run out of regret — and that's the good news
 Format: YouTube Short
-Core Concept: Logarithmic regret
-Hook: Math can't give you a life with no regrets. It can promise you fewer new ones every year than
-the year before.
-Best Supporting Case: Lai & Robbins 1985; Bezos projecting to age 80 before leaving D. E. Shaw.
-Psychology Angle: Replacing an unattainable goal with an attainable rate.
+Application Domain: Everyday Life
+Hidden Principle: Optimization
+Story Hook (Layer 1): Math can't give you a life with no regrets — but it can promise you fewer new ones
+every year than the year before.
+Principle Framework (Layer 2): The best strategies achieve logarithmic regret: mistakes never stop, but
+they accumulate ever more slowly, so the right goal is an attainable rate of error, not an impossible zero.
+Best Supporting Case: Lai & Robbins (1985); Bezos's "regret minimization framework," projecting to age 80
+before leaving D. E. Shaw.
+Character Application: Nova: Strategist
+Psychology Angle: Replacing an unattainable goal (no regrets) with an attainable rate.
 Math Angle: You make as many mistakes in your first ten pulls as in the next ninety.
 Sports Angle: Early-career errors as the bulk of a career's total.
-AI Angle: Cumulative regret as the standard yardstick for online learning algorithms.
+Business Angle: Judging a maturing process by its declining error rate, not by any single miss.
+Investing Angle: Expecting fewer new mistakes per year as your process compounds, not perfection.
+History Angle: Bezos's decision framing as a widely copied piece of business folklore.
+AI Angle: Cumulative regret as the standard yardstick for online-learning algorithms.
+```
+
+```
+Idea Title: "What's new?" vs. "What's best?" — the argument inside every recommendation feed
+Format: YouTube Long-form
+Application Domain: Everyday Life
+Hidden Principle: Optimization
+Story Hook (Layer 1): A famous philosopher said asking "what's new?" gives you nothing but "the silt of
+tomorrow." He was wrong — and the math shows why: every favourite you have was once merely new.
+Principle Framework (Layer 2): Pure exploitation starves itself, because you can only exploit what
+exploration first found; novelty-seeking isn't shallow — it's the pipeline that fills your library of
+favourites.
+Best Supporting Case: Pirsig's Zen and the Art of Motorcycle Maintenance set against Gittins's
+exploration bonus.
+Character Application: Insight: Interpreter
+Psychology Angle: Nostalgia and "it was better before" — the paradox that your classic canon was built
+by the very behaviour you now disdain.
+Math Angle: Pure exploitation starves — you can only exploit what exploration finds.
+Sports Angle: A club that never bloods youth eventually has no veterans worth exploiting.
+Business Angle: A firm that stops launching eventually has nothing left to milk.
+Investing Angle: A portfolio that never adds new positions decays into its aging winners.
+History Angle: The Pirsig-era romanticism of "quality" over novelty, answered by the math.
+AI Angle: A recommender collapsing into a filter bubble is exploiting a set that exploration built.
+```
+
+```
+Idea Title: "Seize the day" is bad advice — or rather, it's advice for one particular day
+Format: YouTube Short
+Application Domain: Everyday Life
+Hidden Principle: Decision Making
+Story Hook (Layer 1): "Seize the day" and "life is long, go learn an instrument" are opposite advice.
+Both are right — the math tells you which one applies to you today.
+Principle Framework (Layer 2): Inherited wisdom secretly encodes an interval; the same maxim motivates
+one person and misleads another because it assumes a horizon that may not be yours. Decode the interval
+before you take the advice.
+Best Supporting Case: The Dead Poets Society "carpe diem" scene against the authors' own counter-maxim.
+Character Application: Nova: Strategist
+Psychology Angle: Why the same piece of advice inspires one person and misleads another.
+Math Angle: Exploration's value falls with remaining time; exploitation's rises.
+Sports Angle: "Leave it all on the field" is right in a final, disastrous in preseason.
+Business Angle: "Move fast" suits a startup with runway; "consolidate" suits a firm near the end.
+Investing Angle: "Take the risk" vs. "protect capital" — the correct one is set by your horizon.
+History Angle: Carpe diem as a maxim whose fitness depends entirely on how long you have.
+AI Angle: Anneal the exploration schedule rather than fixing it.
 ```
 
 ## 18. Chapter Knowledge Cards

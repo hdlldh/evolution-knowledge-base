@@ -1071,70 +1071,113 @@ to AI, optimization, and ML.
 ## 17. Content Creation Opportunities
 
 ```
-Idea: Why the smartest move is sometimes to roll the dice
+Idea Title: Why the smartest move is sometimes to roll the dice
 Format: YouTube Long-form
-Core Concept: Randomness can beat the best reasoning; sampling, Monte Carlo.
-Hook: A mathematician recovering from brain surgery couldn't solve his card game — so he stopped
-thinking and just played. That "giving up" became one of the pillars of modern science.
-Best Supporting Case: Ulam's solitaire → Monte Carlo → the atom bomb; Rabin's "it works, but why is a
-mystery."
+Application Domain: History
+Hidden Principle: Signal vs. Noise
+Story Hook (Layer 1): A mathematician recovering from brain surgery couldn't solve his card game — so he
+stopped thinking and just played, and that "giving up" became one of the pillars of modern science.
+Principle Framework (Layer 2): When a problem is too complex to reason through, sampling beats analysis:
+run the process at random many times and read the signal off the results. Chance is a deliberate tool,
+not a last resort.
+Best Supporting Case: Ulam's solitaire → the Monte Carlo Method → the atom bomb; Rabin's "it works, but
+why is absolutely mysterious."
+Character Application: Insight: Interpreter
 Psychology Angle: When reasoning fails and sampling succeeds.
 Math Angle: Monte Carlo; combinatorial explosion; randomized algorithms.
-Sports Angle: Win-probability and bracket simulations as Monte Carlo.
+Sports Angle: Win-probability and tournament-bracket simulations as Monte Carlo.
+Business Angle: Simulating scenarios instead of trying to derive one exact forecast.
+Investing Angle: Monte Carlo retirement/risk simulations over closed-form models.
+History Angle: The Los Alamos origin of Monte Carlo and modern scientific computing.
 AI Angle: MCMC, Monte Carlo Tree Search, stochastic training.
 ```
 
 ```
-Idea: The number that's "probably prime" — and secures the whole internet
+Idea Title: The number that's "probably prime" — and secures the whole internet
 Format: YouTube Long-form
-Core Concept: Randomized primality testing; the certainty tradeoff.
-Hook: Every time you buy something online, your device bets your security on a number it's only
-"probably" sure is prime. Here's why that bet is safer than certainty.
-Best Supporting Case: Miller-Rabin; the midnight twin-primes call; error < 1 in 10²⁴ after 40 checks.
+Application Domain: Business
+Hidden Principle: Decision Making
+Story Hook (Layer 1): Every time you buy something online, your device bets your security on a number
+it's only "probably" sure is prime — here's why that bet is safer than certainty.
+Principle Framework (Layer 2): Certainty is a third resource you can trade against time and space: accept
+a vanishing error probability (under 1 in 10²⁴) and you get a "probably prime" answer far faster than a
+proof — good enough is a rigorous choice, not a compromise.
+Best Supporting Case: The Miller-Rabin test; the midnight twin-primes phone call; error < 1 in 10²⁴ after
+40 checks.
+Character Application: Nova: Strategist
 Psychology Angle: Negative Capability — comfort with "probably."
-Math Angle: One-way functions; (1/4)ᵏ error; Bloom filters.
+Math Angle: One-way functions; the (1/4)ᵏ error bound; Bloom filters.
 Sports Angle: None core.
+Business Angle: Accepting a tiny, bounded error rate to ship far faster and cheaper.
+Investing Angle: Pricing under "good-enough" confidence instead of waiting for certainty.
+History Angle: How randomized algorithms quietly came to underpin all online security.
 AI Angle: Probabilistic data structures; approximate computing.
 ```
 
 ```
-Idea: How to get unstuck (the lobster-trap trick)
+Idea Title: How to get unstuck (the lobster-trap trick)
 Format: YouTube Long-form
-Core Concept: Local maxima; escaping them with randomness; simulated annealing.
-Hook: A lobster dies in the trap not because it can't escape, but because escaping means going the
-"wrong" way first — deeper in. Your career, your code, and your creativity have the same trap.
-Best Supporting Case: The lobster trap; the ten-city vacation; Kirkpatrick beating the IBM guru.
+Application Domain: Everyday Life
+Hidden Principle: Optimization
+Story Hook (Layer 1): A lobster dies in the trap not because it can't escape, but because escaping means
+going the "wrong" way first — deeper in. Your career, your code, and your creativity have the same trap.
+Principle Framework (Layer 2): To leave a local maximum you must first accept a worse position;
+randomness — jitter, restarts, and simulated annealing (front-load it, then cool) — is how you climb down
+to climb higher. Progress sometimes requires deliberate regress.
+Best Supporting Case: The lobster trap; the ten-city vacation problem; Kirkpatrick's simulated annealing
+beating the IBM chip-layout "guru."
+Character Application: Blaze: Executor
 Psychology Angle: The courage to worsen before improving; getting unstuck.
-Math Angle: Hill climbing; Metropolis Algorithm; simulated annealing / cooling schedule.
+Math Angle: Hill climbing; the Metropolis Algorithm; simulated annealing / the cooling schedule.
 Sports Angle: Tearing up a good-not-great system to find a better one.
-AI Angle: SGD, random restarts, temperature/exploration schedules.
+Business Angle: Killing a profitable-but-plateaued product to reach a bigger peak.
+Investing Angle: Rotating out of a comfortable winner to escape a local optimum.
+History Angle: Kirkpatrick publishing annealing rather than hoarding it like the guru.
+AI Angle: SGD, random restarts, temperature / exploration schedules.
 ```
 
 ```
-Idea: The three rules for using luck in your life
+Idea Title: The three rules for using luck in your life
 Format: YouTube Short
-Core Concept: The three life-rules for randomness.
-Hook: Making every decision by coin flip ruins your life (there's a novel about it). But three simple
-rules turn randomness into a superpower.
-Best Supporting Case: The Dice Man; Cockcroft's happy ending; Oblique Strategies; Wikipedia Random
-Article.
+Application Domain: Everyday Life
+Hidden Principle: Decision Making
+Story Hook (Layer 1): Making every decision by coin flip ruins your life (there's a novel about it) — but
+three simple rules turn randomness into a superpower.
+Principle Framework (Layer 2): Tempered randomness beats both rigid planning and pure chance: (1) always
+act on good ideas; (2) follow a bad idea with probability inversely proportional to how bad it is; (3)
+front-load randomness and cool down over time. A cooling schedule for a life.
+Best Supporting Case: The Dice Man (Rhinehart/Cockcroft); Cockcroft's happy "local maximum" ending;
+Oblique Strategies; Wikipedia's Random Article.
+Character Application: Sigma: Architect
 Psychology Angle: Escaping ruts; adventurousness that should decline with age.
-Math Angle: Hill Climbing + Metropolis + Simulated Annealing as a temperament.
-Sports Angle: Bold in preseason, settled in-season.
+Math Angle: Hill Climbing + Metropolis + Simulated Annealing distilled into a temperament.
+Sports Angle: Bold experimentation in preseason, settled system in-season.
+Business Angle: A startup exploring wildly early and converging as it matures.
+Investing Angle: Wide, cheap bets early; concentration and caution later.
+History Angle: Cockcroft's own dicing years and eventual settling as a lived case.
 AI Angle: Exploration decay; temperature schedules.
 ```
 
 ```
-Idea: Stop trusting the story and the statistic — sample instead
+Idea Title: Stop trusting the story and the statistic — sample instead
 Format: YouTube Short
-Core Concept: Sampling beats cherry-picked anecdotes and thin aggregates.
-Hook: Politicians give you one heartbreaking story or one giant number. A computer scientist would throw
-both out and pick people at random.
-Best Supporting Case: The Rawls/policy complexity argument; GiveDirectly's random verbatim interviews.
+Application Domain: Business
+Hidden Principle: Signal vs. Noise
+Story Hook (Layer 1): Politicians give you one heartbreaking story or one giant number — a computer
+scientist would throw both out and pick people at random.
+Principle Framework (Layer 2): A cherry-picked anecdote is unrepresentative and an aggregate statistic
+hides heterogeneity, but a close look at random samples cuts through both — the honest window on a system
+too complex to grasp whole is neither the story nor the average.
+Best Supporting Case: The Rawls veil-of-ignorance complexity argument; GiveDirectly's random verbatim
+recipient interviews.
+Character Application: Echo: Observer
 Psychology Angle: Representativeness; how anecdotes and averages both mislead.
 Math Angle: Monte Carlo sampling; heterogeneity hidden by aggregates.
-Sports Angle: Distribution over average in scouting.
-AI Angle: Sampling for inference on intractable spaces.
+Sports Angle: Distribution-over-average thinking in scouting.
+Business Angle: Random customer deep-dives over the flattering case study or the KPI mean.
+Investing Angle: Sampling actual holdings/loans instead of trusting a headline ratio.
+History Angle: GiveDirectly's random-interview transparency as a corrective to charity success stories.
+AI Angle: Sampling for inference over intractable spaces.
 ```
 
 ## 18. Chapter Knowledge Cards

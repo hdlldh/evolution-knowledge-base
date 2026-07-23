@@ -1140,98 +1140,156 @@ metabolism-as-regularizer link, not an inferred one.
 ## 17. Content Creation Opportunities
 
 ```
-Idea: Why thinking harder gives you worse answers
+Idea Title: Why thinking harder gives you worse answers
 Format: YouTube Long-form
-Core Concept: Overfitting; more factors can make predictions dramatically worse.
-Hook: There's a mathematical reason your most carefully reasoned decisions can be your worst — and it's
-the same reason the tastiest food is the worst for you.
-Best Supporting Case: The nine-factor marriage model; taste as an overfittable proxy; Darwin
-regularizing to the page.
+Application Domain: Everyday Life
+Hidden Principle: Signal vs. Noise
+Story Hook (Layer 1): There's a mathematical reason your most carefully reasoned decisions can be your
+worst — and it's the same reason the tastiest food is the worst for you.
+Principle Framework (Layer 2): Overfitting: a model (or mind) tuned too finely to the data you happen to
+have fits it perfectly but generalizes terribly. Because data are noisy proxies, more factors and more
+thought can fit the noise, not the signal.
+Best Supporting Case: The nine-factor marriage model; taste as an overfittable proxy for nutrition;
+Darwin "regularizing to the page."
+Character Application: Insight: Interpreter
 Psychology Angle: Overthinking and analysis paralysis, formalized.
 Math Angle: Fit vs. generalization; the bias–variance tradeoff.
 Sports Angle: Over-coaching and overtraining a single move.
+Business Angle: Elaborate models that fit last quarter and miss next quarter.
+Investing Angle: Curve-fit backtests that blow up out of sample.
+History Angle: Why over-precise forecasts have a worse track record than simple rules.
 AI Angle: Overfitting, regularization, early stopping.
 ```
 
 ```
-Idea: A Nobel Prize winner's dumb-looking investment
+Idea Title: A Nobel Prize winner's dumb-looking investment
 Format: YouTube Short
-Core Concept: "Less is more"; regularization as rationality.
-Hook: The man who won the Nobel Prize for the math of optimal investing put his own money in the
-dumbest possible split: 50/50. And he was right.
-Best Supporting Case: Markowitz; a 50/50 split can't overfit unreliable estimates.
+Application Domain: Investing
+Hidden Principle: Signal vs. Noise
+Story Hook (Layer 1): The man who won the Nobel Prize for the math of optimal investing put his own money
+in the dumbest possible split — 50/50 — and he was right.
+Principle Framework (Layer 2): When your inputs are unreliable estimates, a simple rule that can't overfit
+them beats the "optimal" model that does; naive diversification is regularization — deliberately refusing
+to trust noisy precision.
+Best Supporting Case: Harry Markowitz splitting 50/50; why a fixed split can't overfit unreliable
+estimates.
+Character Application: Nova: Strategist
 Psychology Angle: Regret minimization; when ignoring information is smart.
-Math Angle: Estimation error; naive diversification beating optimization.
+Math Angle: Estimation error; naive diversification beating mean-variance optimization.
 Sports Angle: Simple game plans beating over-engineered ones.
+Business Angle: A blunt, robust policy over a finely-tuned one built on shaky forecasts.
+Investing Angle: 1/N allocation vs. optimizers that overfit historical covariances.
+History Angle: The gap between elegant theory and what its own author did with his money.
 AI Angle: When a simpler model generalizes better than a tuned one.
 ```
 
 ```
-Idea: The metric that's quietly ruining your company
+Idea Title: The metric that's quietly ruining your company
 Format: YouTube Long-form
-Core Concept: Idolatry of data; Goodhart's law.
-Hook: "The company will build whatever the CEO decides to measure." Pick the wrong number and you'll
-optimize your business straight into the ground.
-Best Supporting Case: Ridgway's 1950s catalog; Kaushik's "Friends don't let friends measure Page
-Views"; Altman and Jobs.
+Application Domain: Business
+Hidden Principle: Feedback Loops
+Story Hook (Layer 1): "The company will build whatever the CEO decides to measure" — pick the wrong number
+and you'll optimize your business straight into the ground.
+Principle Framework (Layer 2): Goodhart's law / idolatry of data: ruthlessly optimizing a proxy metric
+corrupts the real goal, because the measure and what matters diverge and the incentive loop chases the
+measure. Cross-validate any metric against an independent read of the true objective.
+Best Supporting Case: Ridgway's 1950s catalog of metric dysfunctions; Kaushik's "Friends don't let
+friends measure Page Views"; Altman and Jobs.
+Character Application: Sigma: Architect
 Psychology Angle: Incentive design; optimizing the proxy over the goal.
 Math Angle: Proxy metrics; cross-validating a metric against an independent measure.
 Sports Angle: Gaming a scoring system instead of winning the real contest.
+Business Angle: KPIs and OKRs that get hit while the business gets worse.
+Investing Angle: Managing to a benchmark's quirks instead of real risk-adjusted return.
+History Angle: Ridgway's 1956 "Dysfunctional Consequences of Performance Measurements" as the founding
+warning.
 AI Angle: Reward hacking and benchmark overfitting in AI.
 ```
 
 ```
-Idea: Training that gets you killed
+Idea Title: Training that gets you killed
 Format: YouTube Short
-Core Concept: You can overfit your own preparation ("training scars").
-Hook: Police officers have been found dead in gunfights with their spent shell casings neatly in their
-pockets — because that's what they'd practiced on the range.
-Best Supporting Case: Grossman's training scars; the FBI's two-shot holstering; the disarm-and-hand-back
-officer.
-Psychology Angle: Overlearning; stress-induced reversion to drilled behavior.
+Application Domain: Everyday Life
+Hidden Principle: Signal vs. Noise
+Story Hook (Layer 1): Police officers have been found dead in gunfights with their spent shell casings
+neatly in their pockets — because that's what they'd practiced on the range.
+Principle Framework (Layer 2): You can overfit your own preparation ("training scars"): drilling an
+incidental detail until stress makes you execute it automatically, even when it's fatal. Practise the
+signal (the goal), not the noise (the range routine).
+Best Supporting Case: Grossman's training scars; the FBI's two-shot-then-holster habit; the officer who
+disarmed an assailant and handed the gun back.
+Character Application: Blaze: Executor
+Psychology Angle: Overlearning; stress-induced reversion to drilled behaviour.
 Math Angle: Overfitting; cross-training as cross-validation.
 Sports Angle: Drilling one pattern until an opponent exploits it.
+Business Angle: Process trained so rigidly it fails the moment reality differs from the manual.
+Investing Angle: A strategy drilled for one regime that executes on autopilot into a different one.
+History Angle: Military and police training reforms after fatal "training scar" incidents.
 AI Angle: Models that fail on any input unlike their training data.
 ```
 
 ```
-Idea: Why old, imperfect designs survive — and should
+Idea Title: Why old, imperfect designs survive — and should
 Format: YouTube Long-form
-Core Concept: Constraint and tradition as anti-overfitting robustness.
-Hook: Your brain is cross-wired and the bones in your ear used to be a reptile's jaw. These "flaws" are
-exactly why you're robust — and why blindly chasing the latest trend is dangerous.
-Best Supporting Case: Decussation; the ear's jawbones; food fads (kale, coconut water); "jump toward the
-bandwagon, not on it."
+Application Domain: History
+Hidden Principle: Evolution
+Story Hook (Layer 1): Your brain is cross-wired and the bones in your ear used to be a reptile's jaw —
+and these "flaws" are exactly why you're robust.
+Principle Framework (Layer 2): Constraints, baggage, and tradition are regularization: they penalize
+complexity and damp overreaction to a transient present, so evolved and inherited "imperfections" protect
+against overfitting the current moment. Jump toward the bandwagon, not on it.
+Best Supporting Case: Decussation (the cross-wired brain); the ear's former jawbones; food fads (kale,
+coconut water).
+Character Application: Insight: Interpreter
 Psychology Angle: Conservatism and the fear of missing out.
 Math Angle: Robustness vs. optimality; damped updating / learning rates.
-Sports Angle: Tactical conservatism vs. fad formations.
+Sports Angle: Tactical conservatism vs. chasing fad formations.
+Business Angle: Legacy constraints and "the way we've always done it" as accidental robustness.
+Investing Angle: Boring, time-tested allocations vs. the newest hot strategy.
+History Angle: Institutions and traditions as slow, robust regularizers against fads.
 AI Angle: Inductive bias; why constraints improve generalization.
 ```
 
 ```
-Idea: The past is a filter — why old things that survive are worth trusting
+Idea Title: The past is a filter — why old things that survive are worth trusting
 Format: YouTube Short
-Core Concept: Survivorship and the weight of history.
-Hook: "Every food a rat has eaten hasn't killed it." That one sentence explains why tradition beats the
-latest fad more often than you'd think.
+Application Domain: Everyday Life
+Hidden Principle: Evolution
+Story Hook (Layer 1): "Every food a rat has eaten hasn't killed it" — that one sentence explains why
+tradition beats the latest fad more often than you'd think.
+Principle Framework (Layer 2): Age is evidence: something that has survived a long exposure has already
+passed a filter the newest option hasn't, so the weight of history is a rational prior (the Lindy
+effect), not mere nostalgia.
 Best Supporting Case: The Revusky & Bedarf epigraph; food fads (kale, coconut water); decussation.
+Character Application: Echo: Observer
 Psychology Angle: Survivorship bias — and its rational flip side.
 Math Angle: The past as a filter / prior; damped updating.
 Sports Angle: Time-tested tactics vs. fad formations.
+Business Angle: Long-lived products and practices as pre-filtered by survival.
+Investing Angle: The Lindy effect — how long something's lasted as a prior on how long it will.
+History Angle: Why customs that survive centuries usually encode something worth keeping.
 AI Angle: Inductive bias; why constraints improve generalization.
 ```
 
 ```
-Idea: Ben Franklin invented an algorithm — and it was wrong
+Idea Title: Ben Franklin invented an algorithm — and it was wrong
 Format: YouTube Short
-Core Concept: The pro/con list as overfitting.
-Hook: Ben Franklin's famous decision-making method — list every pro and con, weigh them all — is exactly
-the thing machine learning warns you not to do.
-Best Supporting Case: Franklin's cancellation algebra; the nine-factor marriage model; Darwin
-regularizing to the page.
+Application Domain: History
+Hidden Principle: Signal vs. Noise
+Story Hook (Layer 1): Ben Franklin's famous method — list every pro and con and weigh them all — is
+exactly the thing machine learning warns you not to do.
+Principle Framework (Layer 2): A long weighted pro/con list overfits: adding marginal factors fits the
+noise and swamps the few that matter. Regularization (à la the Lasso, which zeroes out weak terms) says
+decide on the handful of dominant reasons.
+Best Supporting Case: Franklin's "moral algebra" of cancelling pros and cons; the nine-factor marriage
+model; Darwin regularizing to the page.
+Character Application: Nova: Strategist
 Psychology Angle: Overthinking; when more factors hurt.
 Math Angle: Overfitting; regularization; the Lasso's zeroing of terms.
 Sports Angle: Over-analysis in game planning.
+Business Angle: Decision matrices with twenty weighted criteria that obscure the two that decide it.
+Investing Angle: A thesis with a dozen bullet points vs. the one or two that actually drive it.
+History Angle: Franklin's 1772 "moral algebra" letter as a beloved but flawed decision heuristic.
 AI Angle: Feature selection and complexity penalties.
 ```
 

@@ -599,158 +599,255 @@ Tags: computational-kindness, preferences, theory-of-mind
 
 ```
 Title Idea: 37% 法则——何时停止寻找的数学
+Application Domain: 日常生活（Everyday Life）
+Hidden Principle: 优化（Optimization）
 Core Question: 你该何时停止搜索并做出承诺？
-Concept: 最优停止
-Hook: 停止约会、租房或招聘有一个可证最优的时刻——它恰好在过程的 37% 处。
+Story Hook (Layer 1): 停止约会、租房或招聘有一个可证最优的时刻——它恰好在过程的 37% 处。
+Principle Framework (Layer 2): 最优停止——用固定比例建立基准，再对下一个胜过此前所有的选项出手；高失败率是问
+题的属性、而非你的失败。
 Supporting Case: 开普勒的求爱；特里克 26.1 岁的求婚与被拒。
 Potential Conflict or Surprise: 最优规则仍有 63% 的时候失败——而无论 100 还是一百万个选项，它都一样有效。
+Character Perspective: Nova：策略家（Strategist）
 Psychology Angle: 结果偏误；不可逆选择的焦虑。
 Math Angle: 1/e 律；先看后跳对阈值。
-Sports Angle: 评判决策，而非结果。
+Sports Angle: 转会窗口作为序贯、不可撤回的选择。
+Business Angle: 一旦对候选池校准完毕，就停止面试、发出录用。
+Investing Angle: 固定一个"看"的窗口，再对第一个越过门槛的机会出手。
+History Angle: 开普勒与特里克作为算法问世前后的求爱案例。
 AI Angle: 在线算法中的秘书/先知问题。
+Transferability: 高（High）
 ```
 
 ```
 Title Idea: 为什么想得越用力答案越差
+Application Domain: 日常生活（Everyday Life）
+Hidden Principle: 信噪（Signal vs. Noise）
 Core Question: 更多数据与更多斟酌会伤害吗？
-Concept: 过拟合与正则化
-Hook: 一个因素更多的模型完美拟合了数据——却把未来预测得糟糕透顶。
+Story Hook (Layer 1): 一个因素更多的模型完美拟合了数据——却把未来预测得糟糕透顶。
+Principle Framework (Layer 2): 过拟合——因为数据是带噪的代理，额外的因子与额外的思考拟合了噪声、而非信号，故
+更简单的模型（正则化）泛化得更好。
 Supporting Case: 九因素婚姻模型；马科维茨 50/50；达尔文的利弊页。
 Potential Conflict or Surprise: 你的第一直觉可以是理性选择；更多信息可能不如更少。
+Character Perspective: Insight：阐释者（Interpreter）
 Psychology Angle: 少即是多；生态理性。
 Math Angle: 偏差–方差；Lasso；早停。
 Sports Angle: 被过度执教的球队；压力下的简单启发式。
+Business Angle: 拟合了上一季、却错过下一季的精细模型。
+Investing Angle: 曲线拟合的回测在样本外炸掉。
+History Angle: 为何过度精确的预测记录反而不如简单规则。
 AI Angle: 正则化、交叉验证——ML 核心。
+Transferability: 高（High）
 ```
 
 ```
 Title Idea: 你不是永远在线——你是永远在缓冲
+Application Domain: 日常生活（Everyday Life）
+Hidden Principle: 反馈回路（Feedback Loops）
 Core Question: 为什么现代生活感觉像一个无穷的收件箱？
-Concept: 缓冲膨胀、延迟、尾丢弃
-Hook: 一位修孩子慢 wifi 的爸爸，在地球上每台设备里找到了一个缺陷——它解释了你的压垮感。
+Story Hook (Layer 1): 一位修孩子慢 wifi 的爸爸，在地球上每台设备里找到了一个缺陷——它解释了你的压垮感。
+Principle Framework (Layer 2): 缓冲区靠让东西等待来以延迟换吞吐量；过大、长期满载的缓冲区给你"全是延迟、毫无
+余地"，故解药是尾丢弃——故意丢球。
 Supporting Case: 吉姆·盖蒂斯与缓冲膨胀；40 分钟的可丽饼；凯蒂·佩里的收件箱。
 Potential Conflict or Surprise: 更大的缓冲反而更糟；故意丢球是好的管理。
+Character Perspective: Echo：观察者（Observer）
 Psychology Angle: 注意力作为队列；尾丢弃的解脱。
 Math Angle: 排队论；延迟对吞吐量。
 Sports Angle: 战术犯规/舍弃以保全局。
+Business Angle: 对积压降载，而非向所有人承诺"我们会处理"。
+Investing Angle: 砍掉一个臃肿的观察清单，而非以越来越大的滞后监控一切。
+History Angle: 廉价 RAM 如何悄然撑大了整个互联网的缓冲区。
 AI Angle: 服务中的降载与延迟对吞吐量。
+Transferability: 高（High）
 ```
 
 ```
 Title Idea: 宽恕的算法
+Application Domain: 日常生活（Everyday Life）
+Hidden Principle: 决策（Decision Making）
 Core Question: 你如何持续给人机会却不当受气包？
-Concept: 指数退避
-Hook: 互联网从失败中存活的招数，也是处理爱放鸽子的朋友、成瘾的亲人与惯犯的人道之法。
+Story Hook (Layer 1): 互联网从失败中存活的招数，也是处理爱放鸽子的朋友、成瘾的亲人与惯犯的人道之法。
+Principle Framework (Layer 2): 指数退避——每次失败后把随机化的重试等待翻倍——给你"有限的耐心与无限的仁慈"：付
+出趋向零，却永不强制彻底放弃。
 Supporting Case: ALOHAnet 的崩溃；HOPE 缓刑项目。
 Potential Conflict or Surprise: "有限的耐心与无限的仁慈"——你永不彻底放弃，但重试频率降到近零。
+Character Perspective: Insight：阐释者（Interpreter）
 Psychology Angle: 不做烈士的宽恕；靠立即递增改变行为。
 Math Angle: 翻倍延迟；用随机打破对称。
 Sports Angle: 渐进超负荷；重审三振出局。
+Business Angle: 以逐渐拉长的间隔跟进一个无回应的线索，而非放弃。
+Investing Angle: 亏损后按日程分批加回，而非投降。
+History Angle: HOPE 缓刑（阿尔姆法官）作为退避重塑刑事司法。
 AI Angle: 分布式系统中的带抖动退避。
+Transferability: 高（High）
 ```
 
 ```
 Title Idea: 为什么人人都痛苦（以及如何修复）的数学
+Application Domain: 商业（Business）
+Hidden Principle: 博弈论（Game Theory）
 Core Question: 为什么理性、善意的人抵达对所有人都糟糕的结果？
-Concept: 囚徒困境、公地悲剧、机制设计
-Hook: 从没人休的无限假期，到我们一起点燃的星球——博弈论解释了陷阱，以及如何逃脱。
+Story Hook (Layer 1): 从没人休的无限假期，到我们一起点燃的星球——博弈论解释了陷阱，以及如何逃脱。
+Principle Framework (Layer 2): 理性自利的稳定均衡，可以是对所有人都最糟的结果；你无法从内部修好它，故要改变博
+弈（机制设计）——甚至恶化每一项收益，反能让所有人更好。
 Supporting Case: 囚徒困境 + 教父；无限假期"逐底竞争"。
 Potential Conflict or Surprise: 让每个结果都变糟反能让所有人更好。
+Character Perspective: Sigma：架构师（Architect）
 Psychology Angle: 社会比较；过劳。
 Math Angle: 占优策略；纳什均衡；无政府代价。
 Sports Angle: 薪资帽与反兴奋剂作为机制设计。
+Business Angle: 重新设计激励（强制、合同），而非劝人守规矩。
+Investing Angle: 只有监管（一个设计者）才能修好的集体行动陷阱。
+History Angle: 安息日法与营业时间规则作为古老的机制设计。
 AI Angle: 广告拍卖与多智能体系统的机制设计。
+Transferability: 高（High）
 ```
 
 ```
 Title Idea: 为什么最聪明的一招有时是掷骰子
+Application Domain: 历史（History）
+Hidden Principle: 信噪（Signal vs. Noise）
 Core Question: 随机能胜过推理吗？
-Concept: 蒙特卡洛与随机化算法
-Hook: 一位数学家不再试图解他的纸牌游戏、只是去玩——发明了现代科学的一块支柱。
+Story Hook (Layer 1): 一位数学家不再试图解他的纸牌游戏、只是去玩——发明了现代科学的一块支柱。
+Principle Framework (Layer 2): 当一个问题复杂到无法推理时，抽样胜过分析——把过程随机跑很多次、从结果里读出信
+号；机遇是一件刻意的工具。
 Supporting Case: 乌拉姆的接龙 → 蒙特卡洛 → 原子弹；米勒–拉宾。
 Potential Conflict or Surprise: 你能靠机遇回答一个严格的是/否问题（这是素数吗？），比证明更快。
+Character Perspective: Insight：阐释者（Interpreter）
 Psychology Angle: 当分析瘫痪、抽样释放之时。
 Math Angle: 蒙特卡洛；素性检验；模拟退火。
 Sports Angle: 混合策略作为不可被利用的打法。
+Business Angle: 模拟各种情景，而非推导一个精确预测。
+Investing Angle: 蒙特卡洛风险/退休模拟胜过闭式模型。
+History Angle: 蒙特卡洛与科学计算在洛斯阿拉莫斯的起源。
 AI Angle: MCMC、MCTS、随机训练。
+Transferability: 高（High）
 ```
 
 ```
 Title Idea: 你的乱桌在数学上是最优的
+Application Domain: 日常生活（Everyday Life）
+Hidden Principle: 优化（Optimization）
 Core Question: 你该整理，还是拥抱那堆？
-Concept: 缓存、LRU、自组织列表
-Hook: 计算机科学说"就放最上面"的一堆，在通灵者完美归档的 2 倍以内。
+Story Hook (Layer 1): 计算机科学说"就放最上面"的一堆，在通灵者完美归档的 2 倍以内。
+Principle Framework (Layer 2): 自组织列表把近期用过的保持在前，故近期性替你做了整理；排序只为让日后搜索更便宜
+才划算，过了某个点乱就是最优。
 Supporting Case: 野口系统；Sleator-Tarjan；"把图书馆翻个底朝天"。
 Potential Conflict or Surprise: "认知衰退"也许只是学习——更慢的查找度量你知道得多。
+Character Perspective: Insight：阐释者（Interpreter）
 Psychology Angle: 记忆即组织；遗忘曲线；老化。
 Math Angle: 竞争比；时间局部性。
 Sports Angle: 无核心。
-AI Angle: 缓存驱逐策略；检索。
+Business Angle: 那些永远回不了本的精细归档/分类工程。
+Investing Angle: 让一个"够好"的结构保持不动，而非不断重组。
+History Angle: 野口的"超"整理法作为对 LRU 的真实世界发现。
+AI Angle: 缓存驱逐策略；检索优先于归档。
+Transferability: 中（Medium）
 ```
 
 ```
 Title Idea: 你能说的最善意的话是"我不随便"
+Application Domain: 日常生活（Everyday Life）
+Hidden Principle: 决策（Decision Making）
 Core Question: 迁就其实是残忍吗？
-Concept: 计算式善意
-Hook: "哦，我随便，怎样都行"是你能说的最不体贴的话之一——而计算机科学能证明。
+Story Hook (Layer 1): "哦，我随便，怎样都行"是你能说的最不体贴的话之一——而计算机科学能证明。
+Principle Framework (Layer 2): 计算式善意——与他人交往会把困难的问题（首要是模拟你的心智）抛给他们，故把他们
+思考的劳作最小化：主张一个具体选项，因为验证容易、开放式搜索难。
 Supporting Case: 排期悖论；幻影共识斗牛；18 美分硬币。
 Potential Conflict or Surprise: 礼貌与善意相背；最优的设计可以是最残忍的。
+Character Perspective: Insight：阐释者（Interpreter）
 Psychology Angle: 认知负荷；心智理论；选择过载。
 Math Angle: 验证对搜索；找零作为 TSP。
 Sports Angle: 简单的战术呼叫以削减认知负荷。
+Business Angle: 提出两个选项、而非"你们都怎么看？"，以打通一场会议。
+Investing Angle: 给委员会带来一个具体建议、而非一份开放菜单。
+History Angle: 把"谦让"的礼节，重读为把认知成本转嫁给他人。
 AI Angle: 善意的界面——提供选项，别索要目标。
+Transferability: 高（High）
 ```
 
 ```
 Title Idea: 小数据是伪装的大数据
+Application Domain: 历史（History）
+Hidden Principle: 贝叶斯思维（Bayesian Thinking）
 Core Question: 你如何从单一数据点预测？
-Concept: 贝叶斯预测与先验
-Hook: 告诉我某事已持续多久，我就能预测它的未来——只要我知道它所在的世界是三种"形状"中的哪一种。
+Story Hook (Layer 1): 告诉我某事已持续多久，我就能预测它的未来——只要我知道它所在的世界是三种"形状"中的哪一
+种。
+Principle Framework (Layer 2): 好预测更依赖对的先验/分布、而非数据量；形状（幂律/正态/埃尔朗）定规则（乘法/平
+均/加法），单个数据点就能给出真实预测。
 Supporting Case: 古尔德的癌症；德国坦克问题；柏林墙前的哥白尼原理。
 Potential Conflict or Surprise: 看更多新闻反能让你的预测更差。
+Character Perspective: Nova：策略家（Strategist）
 Psychology Angle: 人类作为直觉贝叶斯者；被腐蚀的先验。
 Math Angle: 幂律/正态/埃尔朗；乘法/平均/加法规则。
 Sports Angle: 均值回归；分布重于平均。
+Business Angle: 从一个"年龄"读数估计一家初创的跑道或一个趋势的寿命。
+Investing Angle: 重尾回报——为何基于均值的直觉会错估尾部风险。
+History Angle: 德国坦克问题作为胜过间谍估计的战时统计。
 AI Angle: 先验、贝叶斯 ML、单次预测。
+Transferability: 高（High）
 ```
 
 ```
 Title Idea: 没有超级计算机能解的座位表
+Application Domain: 日常生活（Everyday Life）
+Hidden Principle: 优化（Optimization）
 Core Question: 当一个问题真的无法被完美求解时，你怎么办？
-Concept: 难解性与松弛
-Hook: 一位新娘用蛋白质折叠软件安排婚宴座位——因为它的排列比你愿意去数的原子还多。
+Story Hook (Layer 1): 一位新娘用蛋白质折叠软件安排婚宴座位——因为它的排列比你愿意去数的原子还多。
+Principle Framework (Layer 2): 有些问题是难解的（排列呈阶乘爆炸），故要松弛它——求解一个更容易的版本以得一个
+界限与一个快速的"够好"答案，你甚至能知道自己离最优有多近。
 Supporting Case: 贝洛斯的婚宴；旅行商问题；三种松弛。
 Potential Conflict or Surprise: 理性之举是"作弊"——有意识地弯折规则。
+Character Perspective: Sigma：架构师（Architect）
 Psychology Angle: 完美主义对"至善是至好之敌"。
 Math Angle: NP 难；下界；拉格朗日松弛。
 Sports Angle: 联赛赛程编排（特里克）。
+Business Angle: 物流、排班与路由，正式地无法被完美求解。
+Investing Angle: 简化成一个可解模型以得下界，再为摩擦做调整。
+History Angle: 旅行商问题数十年来对精确解的抵抗。
 AI Angle: 近似算法；约束求解器。
+Transferability: 中（Medium）
 ```
 
 ```
 Title Idea: 连最优策略也大多时候失败（这没关系）
+Application Domain: 日常生活（Everyday Life）
+Hidden Principle: 决策（Decision Making）
 Core Question: 你该如何评判一个结果糟糕的决策？
-Concept: 过程重于结果——计算式斯多葛主义
-Hook: 寻找伴侣的最优法有 63% 的时候失败——这意味着坏运气不是你的错。
+Story Hook (Layer 1): 寻找伴侣的最优法有 63% 的时候失败——这意味着坏运气不是你的错。
+Principle Framework (Layer 2): 评判过程、而非结果（"计算式斯多葛主义"）：连最优算法也常失败，故遵循可得的最优
+过程就是你所能做的全部——盼望幸运，力求明智。
 Supporting Case: 37% 法则的失败率；罗素的"最智之举"；LRU/UCB 从不保证成功。
 Potential Conflict or Surprise: "够好"是理性的定义，而非让步。
+Character Perspective: Nova：策略家（Strategist）
 Psychology Angle: 结果偏误；自我关怀。
 Math Angle: 期望值对已实现结果。
 Sports Angle: 评判 +EV 决策，而非记分牌。
+Business Angle: 奖励失手的好决策，而非得手的走运赌注。
+Investing Angle: 基于过程的评估胜过单季回报。
+History Angle: 斯多葛的过程聚焦撞上现代"不可避免的失败率"的数学。
 AI Angle: 决策质量对单一结果评估。
+Transferability: 高（High）
 ```
 
 ```
 Title Idea: 如何脱困（龙虾笼的窍门）
+Application Domain: 日常生活（Everyday Life）
+Hidden Principle: 优化（Optimization）
 Core Question: 你为何困在"好但非最优"，又如何逃脱？
-Concept: 局部最大值与模拟退火
-Hook: 龙虾死在笼里，因为逃出得先往更深处走——你的职业与代码有同一个陷阱。
+Story Hook (Layer 1): 龙虾死在笼里，因为逃出得先往更深处走——你的职业与代码有同一个陷阱。
+Principle Framework (Layer 2): 要离开一个局部最大值，你必须先接受一个更差的位置；随机——抖动、重启与模拟退火
+（前置、再冷却）——是你"下山以登更高之山"的办法。进步有时需要刻意的退步。
 Supporting Case: 龙虾笼；十城度假；柯克帕特里克击败 IBM 大师。
 Potential Conflict or Surprise: 要改进你有时必须故意变差。
+Character Perspective: Blaze：执行者（Executor）
 Psychology Angle: 先变差再变好的勇气；逃出窠臼。
 Math Angle: 爬山法；大都会；冷却进度表。
 Sports Angle: 拆掉一套好体系以找到更好的。
+Business Angle: 砍掉一个盈利却停滞的产品，以够到一个更大的峰。
+Investing Angle: 从一个舒适的赢家轮出，以逃离一个局部最优。
+History Angle: 柯克帕特里克把退火发表出来、而非像大师那样藏私。
 AI Angle: SGD、随机重启、温度/探索进度表。
+Transferability: 高（High）
 ```
 
 ## 21. 本书指纹

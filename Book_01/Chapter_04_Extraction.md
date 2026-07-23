@@ -1162,98 +1162,155 @@ into cognitive modeling.
 ## 17. Content Creation Opportunities
 
 ```
-Idea: Your messy desk is mathematically optimal
+Idea Title: Your messy desk is mathematically optimal
 Format: YouTube Long-form
-Core Concept: Self-organizing lists; the pile as LRU.
-Hook: The guilt-inducing pile of papers on your desk is one of the best-designed data structures in
-computer science. You don't need to organize it — you already have.
+Application Domain: Everyday Life
+Hidden Principle: Optimization
+Story Hook (Layer 1): The guilt-inducing pile of papers on your desk is one of the best-designed data
+structures in computer science — you don't need to organize it, you already have.
+Principle Framework (Layer 2): A "just put it on top" pile is a self-organizing list that keeps recent
+items in front; it's provably within a factor of 2 of a clairvoyant's perfect filing, so recency does the
+organizing for you.
 Best Supporting Case: The Noguchi filing system tipped on its side; Sleator & Tarjan's factor-of-2
 guarantee.
+Character Application: Insight: Interpreter
 Psychology Angle: The moralization of tidiness; permission from a theorem.
 Math Angle: Competitive ratio / near-optimality vs. clairvoyance.
 Sports Angle: None core.
+Business Angle: Elaborate filing/taxonomy projects that never repay their cost.
+Investing Angle: Leaving a "good enough" structure alone instead of constantly reorganizing.
+History Angle: Noguchi's "super" filing method as a real-world discovery of LRU.
 AI Angle: KV caches and RAG as the same "keep what's recent at the front" idea.
 ```
 
 ```
-Idea: Your bad memory is a perfectly tuned instrument
+Idea Title: Your bad memory is a perfectly tuned instrument
 Format: YouTube Long-form
-Core Concept: The forgetting curve as optimal tuning to the world.
-Hook: You're not forgetting because your brain is failing. You're forgetting because the world itself
-forgets — on exactly the same curve.
-Best Supporting Case: Ebbinghaus + Anderson & Schooler's NYT-headlines / parent-speech / email analysis.
+Application Domain: Everyday Life
+Hidden Principle: Evolution
+Story Hook (Layer 1): You're not forgetting because your brain is failing — you're forgetting because the
+world itself forgets, on exactly the same curve.
+Principle Framework (Layer 2): Forgetting is ecological rationality: the mind's retention schedule mirrors
+how often information actually recurs in the environment, so "poor" memory is an instrument tuned to a
+world that fades on the Ebbinghaus curve.
+Best Supporting Case: Ebbinghaus plus Anderson & Schooler's analysis of NYT headlines, parental speech,
+and email.
+Character Application: Echo: Observer
 Psychology Angle: Forgetting as adaptive; ecological rationality.
 Math Angle: Decay/hazard curves; matching mind to environment.
-Sports Angle: Skill decay and spaced practice.
+Sports Angle: Skill decay and the logic of spaced practice.
+Business Angle: Why archives prune — retention policies tuned to how often data is actually needed.
+Investing Angle: Discounting stale information the way the market itself does.
+History Angle: Ebbinghaus's 1885 self-experiments as the origin of the forgetting curve.
 AI Angle: Spaced repetition, continual learning, and agent memory decay.
 ```
 
 ```
-Idea: Getting older isn't decline — it's a bigger database
+Idea Title: Getting older isn't decline — it's a bigger database
 Format: YouTube Long-form
-Core Concept: Memory as organization, not storage; the tyranny of experience.
-Hook: When you blank on a name, that's not a failing brain. That's a cache miss — and the lag is a
-measure of how much you know.
-Best Supporting Case: Ramscar's simulations; 200 words at age two vs. 30,000 as an adult; "we're
-becoming archives."
-Psychology Angle: Reframing cognitive aging as accumulation.
+Application Domain: Everyday Life
+Hidden Principle: Optimization
+Story Hook (Layer 1): When you blank on a name, that's not a failing brain — it's a cache miss, and the
+lag is a measure of how much you know.
+Principle Framework (Layer 2): Memory is organization, not storage: search cost rises with the size of
+the store, so an older mind's slower retrieval is the tax of a vastly larger, well-tuned database — not
+decay.
+Best Supporting Case: Ramscar's simulations; 200 words at age two vs. 30,000 as an adult; "we're becoming
+archives."
+Character Application: Insight: Interpreter
+Psychology Angle: Reframing cognitive aging as accumulation, not loss.
 Math Angle: Search cost scaling with store size ("bigger is slower").
 Sports Angle: Veteran "slowness" as reading a larger playbook.
+Business Angle: Senior experts slower to recall but richer in relevant precedent.
+Investing Angle: A long memory of past cycles as an asset that costs a little speed.
+History Angle: Why deep institutional memory trades quickness for wisdom.
 AI Angle: Context-window search cost; why bigger stores need better retrieval.
 ```
 
 ```
-Idea: The cloud is a lie — the internet has a street address
+Idea Title: The cloud is a lie — the internet has a street address
 Format: YouTube Short
-Core Concept: Geographic caching / CDNs.
-Hook: A quarter of all internet traffic runs through one company you've never heard of — and the movie
-you stream tonight is probably cached in your own city.
-Best Supporting Case: Akamai ("distance matters"); the Australian who never reaches London; Netflix's
-region-set films.
-Psychology Angle: How metaphors ("cloud") hide reality.
-Math Angle: Latency and proximity; law of large numbers for regional demand.
-Sports Angle: Pre-positioning gear/logistics near venues.
+Application Domain: Business
+Hidden Principle: Optimization
+Story Hook (Layer 1): A quarter of all internet traffic runs through one company you've never heard of —
+and the movie you stream tonight is probably cached in your own city.
+Principle Framework (Layer 2): Latency is distance, so systems cache popular content close to demand; the
+"cloud" is really a geography of copies placed to minimize how far data has to travel.
+Best Supporting Case: Akamai ("distance matters"); the Australian request that never reaches London;
+Netflix's region-set film libraries.
+Character Application: Sigma: Architect
+Psychology Angle: How metaphors ("the cloud") hide physical reality.
+Math Angle: Latency and proximity; the law of large numbers for regional demand.
+Sports Angle: Pre-positioning gear and logistics near venues.
+Business Angle: Warehouse placement and anticipatory shipping as physical CDNs.
+Investing Angle: Co-locating servers next to exchanges to shave milliseconds.
+History Angle: From central mainframes to distributed edge — the pendulum of where compute lives.
 AI Angle: Edge inference and model caching.
 ```
 
 ```
-Idea: The one closet-cleaning question that actually matters
+Idea Title: The one closet-cleaning question that actually matters
 Format: YouTube Short
-Core Concept: LRU beats FIFO for eviction.
-Hook: Martha Stewart gives you four questions for what to throw out. Computer science says three of
-them are the wrong question.
+Application Domain: Everyday Life
+Hidden Principle: Decision Making
+Story Hook (Layer 1): Martha Stewart gives you four questions for what to throw out — computer science
+says three of them are the wrong question.
+Principle Framework (Layer 2): For eviction, recency beats age: "When did I last use it?" (LRU) is a near-
+clairvoyant predictor of future need, while "How long have I had it?" (FIFO) is almost irrelevant. Ask the
+predictive question, not the sentimental one.
 Best Supporting Case: "How long have I had it?" (FIFO) vs. "When did I last use it?" (LRU); Bélády's
-comparison.
+comparison of eviction policies.
+Character Application: Nova: Strategist
 Psychology Angle: Why "I've had it forever" is a bad reason to keep — or toss.
-Math Angle: FIFO vs. LRU; near-clairvoyance of recency.
+Math Angle: FIFO vs. LRU; the near-clairvoyance of recency.
 Sports Angle: None core.
+Business Angle: Culling inventory or features by last-used, not by age.
+Investing Angle: Pruning a watchlist by recent relevance rather than how long you've held it.
+History Angle: Deaccessioning in libraries and museums — recency vs. tenure debates.
 AI Angle: LRU/LFU in caches; recency vs. frequency eviction.
 ```
 
 ```
-Idea: Change one setting and your computer reads your mind
+Idea Title: Change one setting and your computer reads your mind
 Format: YouTube Short
-Core Concept: LRU / the pile applied to files.
-Hook: There's a single setting that makes what you're looking for appear at the top of the list almost
-every time. Computer scientists have known why for decades.
-Best Supporting Case: The "Last Opened" footnote; Z-order and Alt+Tab as built-in LRU.
-Psychology Angle: Recency as your best predictor.
+Application Domain: Everyday Life
+Hidden Principle: Optimization
+Story Hook (Layer 1): There's a single setting that makes what you're looking for appear at the top of
+the list almost every time — and computer scientists have known why for decades.
+Principle Framework (Layer 2): Sort by "last used," not "name" or "date created": recency-ordering is the
+pile principle applied to files, keeping what you'll likely want next within easy reach for near-optimal
+cost.
+Best Supporting Case: The "Last Opened" sort footnote; Z-order (window stacking) and Alt+Tab as built-in
+LRU.
+Character Application: Blaze: Executor
+Psychology Angle: Recency as your single best predictor of what you'll want next.
 Math Angle: Sleator-Tarjan factor-of-2 near-optimality.
 Sports Angle: None core.
+Business Angle: Surfacing "recently touched" docs/tickets to cut retrieval time across a team.
+Investing Angle: Dashboards ordered by last-accessed to keep active positions in view.
+History Angle: The quiet default (recency sort) that reshaped how we all use computers.
 AI Angle: LRU eviction in real caches; recency vs. frequency.
 ```
 
 ```
-Idea: The map the size of the country
+Idea Title: The map the size of the country
 Format: YouTube Short
-Core Concept: Why you can't cache everything; selective, local caching.
-Hook: A map on the scale of one mile to the mile would blot out the sun. That's why "the cloud" keeps a
-copy of your favorite movie down the street instead.
-Best Supporting Case: Lewis Carroll's fable + Akamai/Netflix geographic caching.
+Application Domain: AI
+Hidden Principle: Information Theory
+Story Hook (Layer 1): A map on the scale of one mile to the mile would blot out the sun — which is why
+"the cloud" keeps a copy of your favourite movie down the street instead.
+Principle Framework (Layer 2): You can't cache everything; a perfect, total copy is as useless as the
+thing itself. Usefulness comes from selective, compressed retention — keep the few things likely to be
+needed, close by.
+Best Supporting Case: Lewis Carroll's map fable plus Akamai/Netflix geographic caching.
+Character Application: Insight: Interpreter
 Psychology Angle: Fidelity vs. usefulness; the cost of remembering everything.
 Math Angle: Compression and selective retention.
-Sports Angle: Pre-positioning logistics.
-AI Angle: Why RAG retrieves a few chunks instead of the whole corpus.
+Sports Angle: Pre-positioning only the logistics you'll actually use.
+Business Angle: Summaries and dashboards over raw data lakes — compress to what's decision-relevant.
+Investing Angle: A concise thesis beats a thousand-page data dump you'll never re-read.
+History Angle: Borges's and Carroll's fables of the useless perfect map.
+AI Angle: Why RAG retrieves a few chunks instead of stuffing the whole corpus into context.
 ```
 
 ## 18. Chapter Knowledge Cards
