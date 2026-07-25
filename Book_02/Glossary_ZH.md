@@ -175,6 +175,45 @@
 | augmented reality / holographic goalkeeper | 增强现实 / 全息门将 | Ch.5 | 用全息门将训练"依赖门将"点球 |
 | sim-to-real / domain randomization | 模拟到现实 / 域随机化 | Ch.5（提取者关联）| 不完美模拟＋随机目标／幌子＝弥合现实差距 |
 | curriculum learning | 课程学习 | Ch.5（提取者关联）| 由易到难递增难度／压力 |
+| managing people, not just players | 管理人，而非只是球员 | Ch.6 | 本章论点；把球员首先当作人 |
+| people-first leadership | 以人为先的领导 | Ch.6 | Scaloni 的信条；关心、接触、情感支持 |
+| leadership under pressure / extreme-context leadership | 压力下的领导 / 极端情境领导 | Ch.6 | 军事／医疗／消防等的领导研究 |
+| pre-decision | 事先决策 | Ch.6 | 赛前定好选人与战术，把最后几分钟留给情感准备 |
+| concise communication / shortest-time-wins | 简洁沟通 / 用时最短者胜 | Ch.6 | 2022 世界杯用时最短的主帅全部获胜 |
+| the one-voice principle | 一个声音原则 | Ch.6 | 关键几分钟只由主帅发声；委派仅限于收集信息 |
+| the case against volunteering | 反对自愿举手 | Ch.6 | 公开征集自愿者是把压力转嫁给球员的糟糕选人法 |
+| autocratic in crisis, democratic in peacetime | 危机时专断、平时民主 | Ch.6 | 依紧迫性切换风格；专断的权威靠平时民主赚得 |
+| trust stock | 信任储备 | Ch.6 | 平时积累、危机时支取；"平时弱领导→战时更弱" |
+| perception of control (projected) | 控制感（自上而下投射） | Ch.6 | 领导投射出的秩序／计划提升球员的控制感 |
+| connection vs. props | 连接 vs. 道具 | Ch.6 | 眼神接触胜过夺走注意力的笔记本／平板 |
+| the "behaviour crisis" | "行为危机" | Ch.6 | 研究只测评估／感知，而非人实际做了什么 |
+| dial down the pressure | 为球员降压 | Ch.6 | 主帅最重要的任务 |
+| risk-taking contagion | 冒险的传染 | Ch.6 | 意愿与规避都会在群体中传染 |
+| plan the end / backward planning | 以终局规划 | Ch.6 | 像想谁首发一样想谁该"收尾"（点球大战）|
+| the four football revolutions | 足球四场革命 | Ch.6 | 战术→体能→数据→（尚未到来的）心理 |
+| the power of vulnerability | 脆弱的力量 | Ch.6 | Scaloni 夺冠时的平静与泪；反"硬汉"领导 |
+| the psychology revolution | 心理革命 | Ch.6 | Wenger 预言的第四场革命，仍未到来 |
+| magnetic notebook | 磁性笔记本 | Ch.6（提取者命名）| 巴西：夺走全队注意力的道具 |
+
+## 人名与机构（第 6 章新增）
+
+| 原文 | 中文注 | 出处 |
+|---|---|---|
+| Lionel Scaloni | 莱昂内尔·斯卡洛尼 | Ch.6，阿根廷主帅；本章核心 |
+| Gonzalo Montiel | 贡萨洛·蒙铁尔 | Ch.6，阿根廷右后卫；手球又罚进制胜点球 |
+| Ángel Di María | 安赫尔·迪马利亚 | Ch.6，称斯卡洛尼"我们的父亲" |
+| Jorge Sampaoli / Pablo Aimar / Walter Samuel / Luis Martín | 豪尔赫·桑保利 / 巴勃罗·艾马尔 / 瓦尔特·萨穆埃尔 / 路易斯·马丁 | Ch.6，阿根廷教练组 |
+| Guy Stéphan | 居伊·斯特凡 | Ch.6，德尚的助教 |
+| Kingsley Coman / Aurélien Tchouaméni / Randal Kolo Muani | 金斯利·科曼 / 奥雷利安·楚阿梅尼 / 兰达尔·科洛·穆阿尼 | Ch.6，法国主罚者 |
+| Louis van Gaal / Frans Hoek / Danny Blind / Frenkie de Jong / Davy Klaassen | 路易斯·范加尔 / 弗兰斯·胡克 / 丹尼·布林德 / 弗兰基·德容 / 达维·克拉森 | Ch.6，荷兰 |
+| Hajime Moriyasu / Takumi Minamino / Kaoru Mitoma / Maya Yoshida | 森保一 / 南野拓实 / 三笘薰 / 吉田麻也 | Ch.6，日本"举手"选人 |
+| Luis Enrique / Sergio Busquets / Aymeric Laporte / Pedri González / Unai Simón | 路易斯·恩里克 / 布斯克茨 / 拉波尔特 / 佩德里 / 乌奈·西蒙 | Ch.6，西班牙 |
+| Hope Powell | 霍普·鲍威尔 | Ch.6，英格兰女足主帅（2011）；"别征集自愿者" |
+| Martin Sjögren / Caroline Graham Hansen | 马丁·舍格伦 / 卡罗琳·格拉汉姆·汉森 | Ch.6，挪威女足（2019）；"我为你们骄傲" |
+| Tite / Cléber Xavier / Matheus Bachi | 蒂特 / 克莱贝尔·哈维尔 / 马特乌斯·巴奇 | Ch.6，巴西；蒂特因创伤不碰点球 |
+| Thiago Silva / Neymar / Marquinhos / Antony | 蒂亚戈·席尔瓦 / 内马尔 / 马尔基尼奥斯 / 安东尼 | Ch.6，巴西球员 |
+| Zlatko Dalić / Walid Regragui | 兹拉特科·达利奇 / 瓦利德·雷格拉吉 | Ch.6，克罗地亚／摩洛哥主帅（获胜方）|
+| Guarani / Campeonato Brasileiro Série A | 瓜拉尼 / 巴西足球甲级联赛 | Ch.6，蒂特 1986 的创伤 |
 
 ## 人名与机构（第 5 章新增）
 
