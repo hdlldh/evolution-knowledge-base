@@ -194,6 +194,30 @@
 | the power of vulnerability | 脆弱的力量 | Ch.6 | Scaloni 夺冠时的平静与泪；反"硬汉"领导 |
 | the psychology revolution | 心理革命 | Ch.6 | Wenger 预言的第四场革命，仍未到来 |
 | magnetic notebook | 磁性笔记本 | Ch.6（提取者命名）| 巴西：夺走全队注意力的道具 |
+| culture of avoidance | 回避文化 | 尾声 | 足球对点球准备的系统性回避 |
+| the problem is the culture | 问题在于文化 | 尾声 | 症结在传统主义文化，而非个别教练／球员 |
+| the mixed blessing of "not a lottery" | "不是彩票"的双刃 | 尾声 | 反彩票共识只对一半——运气确实存在且更大 |
+| skill AND chance | 技术与运气（并存） | 尾声 | 主罚者 100% 自信；准备者须承认运气成分 |
+| the lottery metaphor's protective function | 彩票比喻的保护功能 | 尾声 | 赛后称"彩票"至少替罚失球员卸责 |
+| findings date fast / adaptation | 发现很快过时 / 适应 | 尾声 | 人会适应，故关键发现可能不再可观测 |
+| first-mover advantage | 先动优势 | 尾声 | Palacios-Huerta 2010；先罚 61% → 衰减至 49% |
+| golden goal | 金球制 | 尾声 | FIFA 1993 引入；加时首球即终场；后废止 |
+| ABBA vs. AB (shootout format) | ABBA 对 AB（点球赛制） | 尾声 | 拟以连续成对主罚取代交替，后搁置 |
+| effect-size decay | 效应量衰减 | 尾声（提取者关联）| 先动优势 61%→49% 的衰减 |
+| concept drift / non-stationarity | 概念漂移 / 非平稳 | 尾声（提取者关联）| 环境（对手）适应使旧模型退化 |
+| bias-aware method | 偏见自觉的方法 | 尾声 | 承认并带着自身偏见推理（作者自陈）|
+| designated taker-protector | 指定的主罚者保护者 | 尾声（承 Ch.4）| 顶级球队现列出 2–3 名保护者 |
+| "their pressure is our pressure" | "他们的压力就是我们的压力" | 尾声 | 全书终句；点球大战作为压力的人性镜子 |
+
+## 人名与机构（尾声新增）
+
+| 原文 | 中文注 | 出处 |
+|---|---|---|
+| Sepp Blatter | 塞普·布拉特 | 尾声，FIFA 秘书长(1981–98)／主席(1998–2015)；反点球大战 |
+| Ignacio Palacios-Huerta | 伊格纳西奥·帕拉西奥斯-韦尔塔 | 尾声，西班牙经济学家；"先动优势"研究 |
+| Zico / Michel Platini | 济科 / 米歇尔·普拉蒂尼 | 尾声，1986 世界杯罚失 |
+| Marco van Basten | 马尔科·范巴斯滕 | 尾声，1992 欧洲杯罚失 |
+| Paolo Maldini | 保罗·马尔蒂尼 | 尾声，2000 欧洲杯 |
 
 ## 人名与机构（第 6 章新增）
 
